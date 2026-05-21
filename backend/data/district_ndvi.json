@@ -1,0 +1,503 @@
+{
+  "recorded_at": "2026-05-20T19:27:54.471674+00:00",
+  "corridor_ndvi": 0.436,
+  "corridor_source": "Sentinel-2 L2A \u00b7 Copernicus Data Space",
+  "copernicus_districts_ok": 11,
+  "zones": [
+    {
+      "district": "Purba Bardhaman",
+      "block": "Burdwan",
+      "centroid": {
+        "lat": 23.23,
+        "lng": 87.86
+      },
+      "bbox": [
+        87.48,
+        22.91,
+        88.24,
+        23.55
+      ],
+      "polygon": [
+        [
+          22.91,
+          87.48
+        ],
+        [
+          22.91,
+          88.24
+        ],
+        [
+          23.55,
+          88.24
+        ],
+        [
+          23.55,
+          87.48
+        ]
+      ],
+      "ndvi": 0.4079,
+      "ndvi_band": "stressed",
+      "glut_risk_pct": 38,
+      "risk_level": "medium",
+      "avg_storage_util_pct": 69.5,
+      "storage_count": 79,
+      "facility_seed_count": 78,
+      "ndvi_source": "copernicus",
+      "style": {
+        "fill": "#e8b923",
+        "stroke": "#8a6d12",
+        "fillOpacity": 0.26
+      }
+    },
+    {
+      "district": "Paschim Bardhaman",
+      "block": "Asansol",
+      "centroid": {
+        "lat": 23.67,
+        "lng": 86.95
+      },
+      "bbox": [
+        86.57000000000001,
+        23.35,
+        87.33,
+        23.990000000000002
+      ],
+      "polygon": [
+        [
+          23.35,
+          86.57000000000001
+        ],
+        [
+          23.35,
+          87.33
+        ],
+        [
+          23.990000000000002,
+          87.33
+        ],
+        [
+          23.990000000000002,
+          86.57000000000001
+        ]
+      ],
+      "ndvi": 0.4858,
+      "ndvi_band": "low_vigor",
+      "glut_risk_pct": 41,
+      "risk_level": "low",
+      "avg_storage_util_pct": 67.2,
+      "storage_count": 53,
+      "facility_seed_count": 52,
+      "ndvi_source": "copernicus",
+      "style": {
+        "fill": "#3d8f5f",
+        "stroke": "#1a3d2e",
+        "fillOpacity": 0.22
+      }
+    },
+    {
+      "district": "Hooghly",
+      "block": "Chinsurah",
+      "centroid": {
+        "lat": 22.9,
+        "lng": 88.4
+      },
+      "bbox": [
+        88.02000000000001,
+        22.58,
+        88.78,
+        23.22
+      ],
+      "polygon": [
+        [
+          22.58,
+          88.02000000000001
+        ],
+        [
+          22.58,
+          88.78
+        ],
+        [
+          23.22,
+          88.78
+        ],
+        [
+          23.22,
+          88.02000000000001
+        ]
+      ],
+      "ndvi": 0.4392,
+      "ndvi_band": "stressed",
+      "glut_risk_pct": 39,
+      "risk_level": "medium",
+      "avg_storage_util_pct": 65.8,
+      "storage_count": 49,
+      "facility_seed_count": 48,
+      "ndvi_source": "copernicus",
+      "style": {
+        "fill": "#e8b923",
+        "stroke": "#8a6d12",
+        "fillOpacity": 0.26
+      }
+    },
+    {
+      "district": "Bankura",
+      "block": "Bankura",
+      "centroid": {
+        "lat": 23.23,
+        "lng": 87.07
+      },
+      "bbox": [
+        86.69,
+        22.91,
+        87.44999999999999,
+        23.55
+      ],
+      "polygon": [
+        [
+          22.91,
+          86.69
+        ],
+        [
+          22.91,
+          87.44999999999999
+        ],
+        [
+          23.55,
+          87.44999999999999
+        ],
+        [
+          23.55,
+          86.69
+        ]
+      ],
+      "ndvi": 0.5947,
+      "ndvi_band": "moderate",
+      "glut_risk_pct": 47,
+      "risk_level": "low",
+      "avg_storage_util_pct": 69.6,
+      "storage_count": 43,
+      "facility_seed_count": 42,
+      "ndvi_source": "copernicus",
+      "style": {
+        "fill": "#3d8f5f",
+        "stroke": "#1a3d2e",
+        "fillOpacity": 0.22
+      }
+    },
+    {
+      "district": "Birbhum",
+      "block": "Suri",
+      "centroid": {
+        "lat": 23.9,
+        "lng": 87.52
+      },
+      "bbox": [
+        87.14,
+        23.58,
+        87.89999999999999,
+        24.22
+      ],
+      "polygon": [
+        [
+          23.58,
+          87.14
+        ],
+        [
+          23.58,
+          87.89999999999999
+        ],
+        [
+          24.22,
+          87.89999999999999
+        ],
+        [
+          24.22,
+          87.14
+        ]
+      ],
+      "ndvi": 0.4317,
+      "ndvi_band": "stressed",
+      "glut_risk_pct": 39,
+      "risk_level": "medium",
+      "avg_storage_util_pct": 65.2,
+      "storage_count": 39,
+      "facility_seed_count": 38,
+      "ndvi_source": "copernicus",
+      "style": {
+        "fill": "#e8b923",
+        "stroke": "#8a6d12",
+        "fillOpacity": 0.26
+      }
+    },
+    {
+      "district": "Murshidabad",
+      "block": "Berhampore",
+      "centroid": {
+        "lat": 24.18,
+        "lng": 88.27
+      },
+      "bbox": [
+        87.89,
+        23.86,
+        88.64999999999999,
+        24.5
+      ],
+      "polygon": [
+        [
+          23.86,
+          87.89
+        ],
+        [
+          23.86,
+          88.64999999999999
+        ],
+        [
+          24.5,
+          88.64999999999999
+        ],
+        [
+          24.5,
+          87.89
+        ]
+      ],
+      "ndvi": 0.3909,
+      "ndvi_band": "stressed",
+      "glut_risk_pct": 38,
+      "risk_level": "medium",
+      "avg_storage_util_pct": 68.7,
+      "storage_count": 56,
+      "facility_seed_count": 55,
+      "ndvi_source": "copernicus",
+      "style": {
+        "fill": "#e8b923",
+        "stroke": "#8a6d12",
+        "fillOpacity": 0.26
+      }
+    },
+    {
+      "district": "Malda",
+      "block": "English Bazar",
+      "centroid": {
+        "lat": 25.01,
+        "lng": 88.14
+      },
+      "bbox": [
+        87.76,
+        24.69,
+        88.52,
+        25.330000000000002
+      ],
+      "polygon": [
+        [
+          24.69,
+          87.76
+        ],
+        [
+          24.69,
+          88.52
+        ],
+        [
+          25.330000000000002,
+          88.52
+        ],
+        [
+          25.330000000000002,
+          87.76
+        ]
+      ],
+      "ndvi": 0.3591,
+      "ndvi_band": "stressed",
+      "glut_risk_pct": 36,
+      "risk_level": "medium",
+      "avg_storage_util_pct": 66.0,
+      "storage_count": 45,
+      "facility_seed_count": 44,
+      "ndvi_source": "copernicus",
+      "style": {
+        "fill": "#e8b923",
+        "stroke": "#8a6d12",
+        "fillOpacity": 0.26
+      }
+    },
+    {
+      "district": "Nadia",
+      "block": "Krishnanagar",
+      "centroid": {
+        "lat": 23.41,
+        "lng": 88.49
+      },
+      "bbox": [
+        88.11,
+        23.09,
+        88.86999999999999,
+        23.73
+      ],
+      "polygon": [
+        [
+          23.09,
+          88.11
+        ],
+        [
+          23.09,
+          88.86999999999999
+        ],
+        [
+          23.73,
+          88.86999999999999
+        ],
+        [
+          23.73,
+          88.11
+        ]
+      ],
+      "ndvi": 0.4819,
+      "ndvi_band": "low_vigor",
+      "glut_risk_pct": 40,
+      "risk_level": "low",
+      "avg_storage_util_pct": 61.9,
+      "storage_count": 47,
+      "facility_seed_count": 46,
+      "ndvi_source": "copernicus",
+      "style": {
+        "fill": "#3d8f5f",
+        "stroke": "#1a3d2e",
+        "fillOpacity": 0.22
+      }
+    },
+    {
+      "district": "North 24 Parganas",
+      "block": "Barasat",
+      "centroid": {
+        "lat": 22.75,
+        "lng": 88.65
+      },
+      "bbox": [
+        88.27000000000001,
+        22.43,
+        89.03,
+        23.07
+      ],
+      "polygon": [
+        [
+          22.43,
+          88.27000000000001
+        ],
+        [
+          22.43,
+          89.03
+        ],
+        [
+          23.07,
+          89.03
+        ],
+        [
+          23.07,
+          88.27000000000001
+        ]
+      ],
+      "ndvi": 0.3997,
+      "ndvi_band": "stressed",
+      "glut_risk_pct": 37,
+      "risk_level": "medium",
+      "avg_storage_util_pct": 63.9,
+      "storage_count": 35,
+      "facility_seed_count": 35,
+      "ndvi_source": "copernicus",
+      "style": {
+        "fill": "#e8b923",
+        "stroke": "#8a6d12",
+        "fillOpacity": 0.26
+      }
+    },
+    {
+      "district": "South 24 Parganas",
+      "block": "Alipore",
+      "centroid": {
+        "lat": 22.35,
+        "lng": 88.45
+      },
+      "bbox": [
+        88.07000000000001,
+        22.03,
+        88.83,
+        22.67
+      ],
+      "polygon": [
+        [
+          22.03,
+          88.07000000000001
+        ],
+        [
+          22.03,
+          88.83
+        ],
+        [
+          22.67,
+          88.83
+        ],
+        [
+          22.67,
+          88.07000000000001
+        ]
+      ],
+      "ndvi": 0.3172,
+      "ndvi_band": "stressed",
+      "glut_risk_pct": 36,
+      "risk_level": "medium",
+      "avg_storage_util_pct": 69.9,
+      "storage_count": 32,
+      "facility_seed_count": 32,
+      "ndvi_source": "copernicus",
+      "style": {
+        "fill": "#e8b923",
+        "stroke": "#8a6d12",
+        "fillOpacity": 0.26
+      }
+    },
+    {
+      "district": "Jalpaiguri",
+      "block": "Jalpaiguri",
+      "centroid": {
+        "lat": 26.52,
+        "lng": 88.72
+      },
+      "bbox": [
+        88.34,
+        26.2,
+        89.1,
+        26.84
+      ],
+      "polygon": [
+        [
+          26.2,
+          88.34
+        ],
+        [
+          26.2,
+          89.1
+        ],
+        [
+          26.84,
+          89.1
+        ],
+        [
+          26.84,
+          88.34
+        ]
+      ],
+      "ndvi": 0.2781,
+      "ndvi_band": "stressed",
+      "glut_risk_pct": 36,
+      "risk_level": "medium",
+      "avg_storage_util_pct": 66.3,
+      "storage_count": 18,
+      "facility_seed_count": 28,
+      "ndvi_source": "copernicus",
+      "style": {
+        "fill": "#e8b923",
+        "stroke": "#8a6d12",
+        "fillOpacity": 0.26
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {"id": "CS-001", "name": "Burdwan CS #14", "district": "Purba Bardhaman", "lat": 23.2324, "lng": 87.8615, "capacity_quintals": 12000, "available_quintals": 3400, "utilization_pct": 72},
+  {"id": "CS-002", "name": "Hooghly CS #7", "district": "Hooghly", "lat": 22.8960, "lng": 88.3980, "capacity_quintals": 8500, "available_quintals": 2100, "utilization_pct": 75},
+  {"id": "CS-003", "name": "Bankura CS #3", "district": "Bankura", "lat": 23.2324, "lng": 87.0710, "capacity_quintals": 6000, "available_quintals": 1800, "utilization_pct": 70},
+  {"id": "CS-004", "name": "Asansol CS #9", "district": "Paschim Bardhaman", "lat": 23.6739, "lng": 86.9524, "capacity_quintals": 10000, "available_quintals": 4200, "utilization_pct": 58},
+  {"id": "CS-005", "name": "Malda CS #2", "district": "Malda", "lat": 25.0108, "lng": 88.1400, "capacity_quintals": 7500, "available_quintals": 900, "utilization_pct": 88},
+  {"id": "CS-006", "name": "Nadia CS #11", "district": "Nadia", "lat": 23.4050, "lng": 88.4900, "capacity_quintals": 9200, "available_quintals": 3100, "utilization_pct": 66},
+  {"id": "CS-007", "name": "Murshidabad CS #5", "district": "Murshidabad", "lat": 24.1800, "lng": 88.2700, "capacity_quintals": 11000, "available_quintals": 1500, "utilization_pct": 86},
+  {"id": "CS-008", "name": "Birbhum CS #6", "district": "Birbhum", "lat": 23.9000, "lng": 87.5200, "capacity_quintals": 5500, "available_quintals": 2200, "utilization_pct": 60}
+]

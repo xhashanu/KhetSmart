@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.venv/
+khetsmart.db
+backend/khetsmart.db
+__pycache__/
+*.pyc
+.env
+.DS_Store
+*.log
+frontend/tsconfig.tsbuildinfo

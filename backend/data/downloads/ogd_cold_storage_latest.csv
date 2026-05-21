@@ -1,0 +1,36 @@
+sl_no,state_ut,number_of_cold_storages,capacity_mt
+1,Andaman and Nicobar Islands,4,2210
+2,Andhra Pradesh and Telangana,480,1996340
+3,Arunachal Pradesh,2,6000
+4,Assam,43,206742
+5,Bihar,316,1490200
+6,Chandigarh,7,12462
+7,Chhattisgarh,130,577663
+8,Delhi,97,129857
+9,Goa,29,7705
+10,Gujarat,1023,4042770
+11,Haryana,386,870703
+12,Himachal Pradesh,89,181318
+13,Jammu and Kashmir,92,151833
+14,Jharkhand,59,242655
+15,Karnataka,268,912417
+16,Kerala,202,96655
+17,Lakshadweep,1,15
+18,Madhya Pradesh,320,1381827
+19,Maharashtra,665,1219851
+20,Manipur,2,4500
+21,Meghalaya,4,8200
+22,Mizoram,3,4071
+23,Nagaland,5,8150
+24,Odisha,182,579321
+25,Pondicherry,4,185
+26,Punjab,770,2604206
+27,Rajasthan,190,648908
+28,Sikkim,2,2100
+29,Tamil Nadu,188,399690
+30,Telangana,116,617131
+31,Tripura,14,46354
+32,Uttar Pradesh,2488,15096476
+33,Uttrakhand,62,206848
+34,West Bengal,517,5952997
+Total,Total,8760,39708361

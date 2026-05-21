@@ -1,0 +1,84 @@
+{
+  "recorded_at": "2026-05-20T21:41:31.212315+00:00",
+  "vegetation": {
+    "ndvi": 0.436,
+    "savi": 0.2995,
+    "gndvi": 0.399,
+    "composite_index": 0.3594,
+    "detail": "NDVI 0.436 \u00b7 SAVI 0.299 (soil-adjusted early canopy) \u00b7 GNDVI 0.399 (chlorophyll / N proxy)"
+  },
+  "weather": {
+    "ok": true,
+    "period_days": 91,
+    "temp_max_c_30d": 33.8,
+    "temp_min_c_30d": 24.0,
+    "temp_mean_c_30d": 28.4,
+    "precip_mm_14d": 55.6,
+    "precip_mm_7d": 21.0,
+    "solar_radiation_mj_m2_30d": 20.16,
+    "heat_stress_days_30d": 18,
+    "drought_risk": false,
+    "waterlogging_risk": false,
+    "radiation_ok": true,
+    "yield_factor": 0.91,
+    "glut_adjust": 4,
+    "stresses": [
+      "Heat stress: 18 days \u226532.0\u00b0C (30d)"
+    ],
+    "detail": "Heat stress: 18 days \u226532.0\u00b0C (30d)",
+    "source": "Open-Meteo \u00b7 corridor centroid",
+    "message": "OK"
+  },
+  "moisture": {
+    "ok": true,
+    "surface_moisture_m3_m3": 0.161,
+    "rootzone_moisture_m3_m3": 0.17,
+    "rootzone_moisture_7d_avg": 0.172,
+    "rootzone_moisture_30d_avg": 0.253,
+    "depth_surface_cm": "0\u20137",
+    "depth_rootzone_cm": "7\u201328",
+    "status": "dry",
+    "detail": "Root-zone 0.17 m\u00b3/m\u00b3 below optimal (0.20\u20130.34) \u2014 irrigation risk.",
+    "yield_factor": 0.93,
+    "glut_adjust": 2,
+    "drought_stress": true,
+    "waterlogging_risk": false,
+    "source": "ERA5-Land \u00b7 Open-Meteo (hourly)",
+    "message": "OK"
+  },
+  "soil": {
+    "ok": true,
+    "sand_pct": 42.0,
+    "silt_pct": 38.0,
+    "clay_pct": 20.0,
+    "texture_class": "sandy loam",
+    "ph": 6.3,
+    "organic_carbon_pct": 0.85,
+    "drainage": "well_drained",
+    "potato_suitability": "good",
+    "yield_factor": 1.0,
+    "detail": "Alluvial sandy loam \u2014 well-drained, suitable for potato tuber expansion.",
+    "source": "WB Damodar corridor baseline",
+    "message": "SoilGrids unavailable \u2014 corridor baseline"
+  },
+  "nitrogen": {
+    "ok": true,
+    "level": "moderate",
+    "priority": "medium",
+    "headline": "Moderate N deficiency (GNDVI)",
+    "recommendation": "GNDVI 0.399 in 0.38\u20130.43 band \u2014 consider side-dress 15\u201325 kg N/ha and verify with petiole nitrate if possible.",
+    "suggested_n_kg_per_ha": "15\u201325",
+    "gndvi": 0.399,
+    "gndvi_band": "moderate",
+    "thresholds": {
+      "critical_below": 0.38,
+      "low_below": 0.43,
+      "adequate_below": 0.5,
+      "high_above": 0.56
+    },
+    "source": "GNDVI chlorophyll thresholds (potato corridor)"
+  },
+  "satellite_source": "Sentinel-2 L2A \u00b7 Copernicus Data Space (NDVI+SAVI+GNDVI)",
+  "glut_risk_pct": 52,
+  "predicted_yield_million_quintals": 3.73
+}

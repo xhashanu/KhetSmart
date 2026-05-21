@@ -1,0 +1,7 @@
+[
+  {"id": "MKT-001", "name": "Burdwan Mandi", "district": "Purba Bardhaman", "price_per_quintal": 1850, "lat": 23.2400, "lng": 87.8700},
+  {"id": "MKT-002", "name": "Kolkata Wholesale", "district": "Kolkata", "price_per_quintal": 2100, "lat": 22.5726, "lng": 88.3639},
+  {"id": "MKT-003", "name": "Siliguri Hub", "district": "Darjeeling", "price_per_quintal": 1950, "lat": 26.7271, "lng": 88.3953},
+  {"id": "MKT-004", "name": "Malda APMC", "district": "Malda", "price_per_quintal": 1720, "lat": 25.0050, "lng": 88.1450},
+  {"id": "MKT-005", "name": "Asansol Mandi", "district": "Paschim Bardhaman", "price_per_quintal": 1780, "lat": 23.6800, "lng": 86.9600}
+]

@@ -1,0 +1,3 @@
+id,name,district,block,lat,lng,capacity_quintals,utilization_pct,operator_phone,registry_source,verified
+CS-001,Burdwan CS #14,Purba Bardhaman,Burdwan,23.2324,87.8615,12000,72,,KhetSmart verified,yes
+CS-EXAMPLE,Example Cold Storage Ltd,Malda,English Bazar,25.0108,88.1400,8000,65,98XXXXXXXX,WB FCI / operator registry,no

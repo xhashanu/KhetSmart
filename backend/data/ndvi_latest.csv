@@ -1,0 +1,2 @@
+recorded_at,ndvi,glut_risk_pct,predicted_yield_million_quintals,lulc_potato_acres,source,weeks_to_harvest
+2026-05-20T21:41:25.998481+00:00,0.436,52,3.73,134760,Sentinel-2 L2A · Copernicus Data Space (NDVI+SAVI+GNDVI),6

@@ -1,0 +1,497 @@
+id,name,district,block,lat,lng,capacity_quintals,utilization_pct,operator_phone,registry_source,verified
+CS-001,Burdwan CS #14,Purba Bardhaman,Purba,23.2324,87.8615,12000,72,,KhetSmart verified (8-facility seed),yes
+CS-002,Hooghly CS #7,Hooghly,Hooghly,22.896,88.398,8500,75,,KhetSmart verified (8-facility seed),yes
+CS-003,Bankura CS #3,Bankura,Bankura,23.2324,87.071,6000,70,,KhetSmart verified (8-facility seed),yes
+CS-004,Asansol CS #9,Paschim Bardhaman,Paschim,23.6739,86.9524,10000,58,,KhetSmart verified (8-facility seed),yes
+CS-005,Malda CS #2,Malda,Malda,25.0108,88.14,7500,88,,KhetSmart verified (8-facility seed),yes
+CS-006,Nadia CS #11,Nadia,Nadia,23.405,88.49,9200,66,,KhetSmart verified (8-facility seed),yes
+CS-007,Murshidabad CS #5,Murshidabad,Murshidabad,24.18,88.27,11000,86,,KhetSmart verified (8-facility seed),yes
+CS-008,Birbhum CS #6,Birbhum,Birbhum,23.9,87.52,5500,60,,KhetSmart verified (8-facility seed),yes
+CS-009,Burdwan Cold Storage #1,Purba Bardhaman,Burdwan,23.2831,87.8847,121769,75,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-010,Burdwan Cold Storage #2,Purba Bardhaman,Burdwan,23.249,87.8581,121496,75,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-011,Burdwan Cold Storage #3,Purba Bardhaman,Burdwan,23.2284,87.8342,122331,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-012,Burdwan Cold Storage #4,Purba Bardhaman,Burdwan,23.1676,87.8505,121845,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-013,Burdwan Cold Storage #5,Purba Bardhaman,Burdwan,23.2022,87.9086,122122,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-014,Burdwan Cold Storage #6,Purba Bardhaman,Burdwan,23.2802,87.8113,121746,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-015,Burdwan Cold Storage #7,Purba Bardhaman,Burdwan,23.2806,87.8979,121749,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-016,Burdwan Cold Storage #8,Purba Bardhaman,Burdwan,23.2044,87.838,121139,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-017,Burdwan Cold Storage #9,Purba Bardhaman,Burdwan,23.2831,87.895,121769,69,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-018,Burdwan Cold Storage #10,Purba Bardhaman,Burdwan,23.1842,87.8439,120978,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-019,Burdwan Cold Storage #11,Purba Bardhaman,Burdwan,23.2309,87.8761,121351,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-020,Burdwan Cold Storage #12,Purba Bardhaman,Burdwan,23.2306,87.8641,121349,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-021,Burdwan Cold Storage #13,Purba Bardhaman,Burdwan,23.28,87.9064,121744,74,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-022,Burdwan Cold Storage #14,Purba Bardhaman,Burdwan,23.1681,87.8718,121849,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-023,Burdwan Cold Storage #15,Purba Bardhaman,Burdwan,23.2389,87.8296,122415,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-024,Burdwan Cold Storage #16,Purba Bardhaman,Burdwan,23.1756,87.878,120909,87,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-025,Burdwan Cold Storage #17,Purba Bardhaman,Burdwan,23.1891,87.8045,121017,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-026,Burdwan Cold Storage #18,Purba Bardhaman,Burdwan,23.2771,87.8319,122721,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-027,Burdwan Cold Storage #19,Purba Bardhaman,Burdwan,23.1855,87.8459,121988,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-028,Burdwan Cold Storage #20,Purba Bardhaman,Burdwan,23.204,87.9142,122136,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-029,Burdwan Cold Storage #21,Purba Bardhaman,Burdwan,23.1943,87.851,122058,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-030,Burdwan Cold Storage #22,Purba Bardhaman,Burdwan,23.2384,87.8324,121411,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-031,Burdwan Cold Storage #23,Purba Bardhaman,Burdwan,23.1761,87.8696,121913,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-032,Burdwan Cold Storage #24,Purba Bardhaman,Burdwan,23.1841,87.8997,120977,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-033,Burdwan Cold Storage #25,Purba Bardhaman,Burdwan,23.1771,87.8225,121921,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-034,Burdwan Cold Storage #26,Purba Bardhaman,Burdwan,23.2372,87.8085,121402,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-035,Burdwan Cold Storage #27,Purba Bardhaman,Burdwan,23.2791,87.7975,121737,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-036,Burdwan Cold Storage #28,Purba Bardhaman,Burdwan,23.235,87.861,121384,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-037,Burdwan Cold Storage #29,Purba Bardhaman,Burdwan,23.1844,87.8353,120979,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-038,Burdwan Cold Storage #30,Purba Bardhaman,Burdwan,23.1746,87.843,121901,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-039,Burdwan Cold Storage #31,Purba Bardhaman,Burdwan,23.2815,87.823,122756,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-040,Burdwan Cold Storage #32,Purba Bardhaman,Burdwan,23.1935,87.8159,122052,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-041,Burdwan Cold Storage #33,Purba Bardhaman,Burdwan,23.2315,87.8749,121356,85,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-042,Burdwan Cold Storage #34,Purba Bardhaman,Burdwan,23.234,87.8804,122376,69,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-043,Burdwan Cold Storage #35,Purba Bardhaman,Burdwan,23.2756,87.9149,122709,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-044,Burdwan Cold Storage #36,Purba Bardhaman,Burdwan,23.2784,87.8376,121731,73,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-045,Burdwan Cold Storage #37,Purba Bardhaman,Burdwan,23.2791,87.8247,122737,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-046,Burdwan Cold Storage #38,Purba Bardhaman,Burdwan,23.1769,87.9144,120919,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-047,Burdwan Cold Storage #39,Purba Bardhaman,Burdwan,23.2563,87.9084,121554,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-048,Burdwan Cold Storage #40,Purba Bardhaman,Burdwan,23.1992,87.842,122098,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-049,Burdwan Cold Storage #41,Purba Bardhaman,Burdwan,23.1884,87.9124,122011,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-050,Burdwan Cold Storage #42,Purba Bardhaman,Burdwan,23.2676,87.9123,121645,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-051,Burdwan Cold Storage #43,Purba Bardhaman,Burdwan,23.1925,87.8494,122044,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-052,Burdwan Cold Storage #44,Purba Bardhaman,Burdwan,23.195,87.812,122064,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-053,Burdwan Cold Storage #45,Purba Bardhaman,Burdwan,23.259,87.8033,122576,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-054,Burdwan Cold Storage #46,Purba Bardhaman,Burdwan,23.2819,87.8045,122759,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-055,Burdwan Cold Storage #47,Purba Bardhaman,Burdwan,23.2641,87.893,121617,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-056,Burdwan Cold Storage #48,Purba Bardhaman,Burdwan,23.2156,87.8219,121229,73,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-057,Burdwan Cold Storage #49,Purba Bardhaman,Burdwan,23.224,87.9038,121296,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-058,Burdwan Cold Storage #50,Purba Bardhaman,Burdwan,23.194,87.8692,121056,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-059,Burdwan Cold Storage #51,Purba Bardhaman,Burdwan,23.2348,87.8829,122382,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-060,Burdwan Cold Storage #52,Purba Bardhaman,Burdwan,23.291,87.8962,121832,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-061,Burdwan Cold Storage #53,Purba Bardhaman,Burdwan,23.2175,87.8694,122244,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-062,Burdwan Cold Storage #54,Purba Bardhaman,Burdwan,23.2482,87.7984,122490,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-063,Burdwan Cold Storage #55,Purba Bardhaman,Burdwan,23.2643,87.8044,121618,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-064,Burdwan Cold Storage #56,Purba Bardhaman,Burdwan,23.1715,87.8337,121876,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-065,Burdwan Cold Storage #57,Purba Bardhaman,Burdwan,23.2799,87.8641,122743,85,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-066,Burdwan Cold Storage #58,Purba Bardhaman,Burdwan,23.2868,87.8146,121798,63,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-067,Burdwan Cold Storage #59,Purba Bardhaman,Burdwan,23.1879,87.8295,122007,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-068,Burdwan Cold Storage #60,Purba Bardhaman,Burdwan,23.1961,87.8911,122073,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-069,Burdwan Cold Storage #61,Purba Bardhaman,Burdwan,23.1693,87.8826,120858,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-070,Burdwan Cold Storage #62,Purba Bardhaman,Burdwan,23.2118,87.8588,121198,75,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-071,Burdwan Cold Storage #63,Purba Bardhaman,Burdwan,23.2766,87.9101,121717,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-072,Burdwan Cold Storage #64,Purba Bardhaman,Burdwan,23.2119,87.8495,121199,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-073,Burdwan Cold Storage #65,Purba Bardhaman,Burdwan,23.2856,87.8312,121789,52,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-074,Burdwan Cold Storage #66,Purba Bardhaman,Burdwan,23.2443,87.8334,121458,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-075,Burdwan Cold Storage #67,Purba Bardhaman,Burdwan,23.1986,87.8842,122093,63,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-076,Burdwan Cold Storage #68,Purba Bardhaman,Burdwan,23.2196,87.8881,121261,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-077,Burdwan Cold Storage #69,Purba Bardhaman,Burdwan,23.2,87.8197,122104,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-078,Burdwan Cold Storage #70,Purba Bardhaman,Burdwan,23.2794,87.8564,121739,87,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-079,Burdwan Cold Storage #71,Purba Bardhaman,Burdwan,23.2638,87.879,122614,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-080,Burdwan Cold Storage #72,Purba Bardhaman,Burdwan,23.2043,87.8295,121138,49,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-081,Burdwan Cold Storage #73,Purba Bardhaman,Burdwan,23.2474,87.8404,122483,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-082,Burdwan Cold Storage #74,Purba Bardhaman,Burdwan,23.2384,87.8732,122411,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-083,Burdwan Cold Storage #75,Purba Bardhaman,Burdwan,23.266,87.8528,121632,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-084,Burdwan Cold Storage #76,Purba Bardhaman,Burdwan,23.175,87.8801,121904,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-085,Burdwan Cold Storage #77,Purba Bardhaman,Burdwan,23.2243,87.8749,121298,65,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-086,Burdwan Cold Storage #78,Purba Bardhaman,Burdwan,23.2029,87.822,122127,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-087,Asansol Cold Storage #79,Paschim Bardhaman,Asansol,23.6951,86.945,122545,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-088,Asansol Cold Storage #80,Paschim Bardhaman,Asansol,23.6808,86.9161,121430,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-089,Asansol Cold Storage #81,Paschim Bardhaman,Asansol,23.6214,86.9874,121955,90,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-090,Asansol Cold Storage #82,Paschim Bardhaman,Asansol,23.7035,87.012,121612,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-091,Asansol Cold Storage #83,Paschim Bardhaman,Asansol,23.6721,86.9357,122361,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-092,Asansol Cold Storage #84,Paschim Bardhaman,Asansol,23.6486,86.9664,121173,85,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-093,Asansol Cold Storage #85,Paschim Bardhaman,Asansol,23.657,86.9125,122240,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-094,Asansol Cold Storage #86,Paschim Bardhaman,Asansol,23.6189,86.9649,120935,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-095,Asansol Cold Storage #87,Paschim Bardhaman,Asansol,23.6313,86.9686,122034,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-096,Asansol Cold Storage #88,Paschim Bardhaman,Asansol,23.6296,86.9819,122021,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-097,Asansol Cold Storage #89,Paschim Bardhaman,Asansol,23.6876,86.9216,122485,63,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-098,Asansol Cold Storage #90,Paschim Bardhaman,Asansol,23.6811,86.9442,122433,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-099,Asansol Cold Storage #91,Paschim Bardhaman,Asansol,23.7216,86.9889,121757,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-100,Asansol Cold Storage #92,Paschim Bardhaman,Asansol,23.7039,86.9785,122615,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-101,Asansol Cold Storage #93,Paschim Bardhaman,Asansol,23.706,86.9734,122632,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-102,Asansol Cold Storage #94,Paschim Bardhaman,Asansol,23.6369,86.9271,122079,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-103,Asansol Cold Storage #95,Paschim Bardhaman,Asansol,23.6933,86.9895,122530,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-104,Asansol Cold Storage #96,Paschim Bardhaman,Asansol,23.6735,87.0109,122372,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-105,Asansol Cold Storage #97,Paschim Bardhaman,Asansol,23.7264,86.9532,121795,78,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-106,Asansol Cold Storage #98,Paschim Bardhaman,Asansol,23.7134,86.9124,122691,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-107,Asansol Cold Storage #99,Paschim Bardhaman,Asansol,23.7019,86.9345,122599,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-108,Asansol Cold Storage #100,Paschim Bardhaman,Asansol,23.7024,86.9053,122603,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-109,Asansol Cold Storage #101,Paschim Bardhaman,Asansol,23.7126,86.8966,121685,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-110,Asansol Cold Storage #102,Paschim Bardhaman,Asansol,23.688,86.9543,122488,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-111,Asansol Cold Storage #103,Paschim Bardhaman,Asansol,23.6273,86.9231,121002,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-112,Asansol Cold Storage #104,Paschim Bardhaman,Asansol,23.7094,86.9764,121659,65,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-113,Asansol Cold Storage #105,Paschim Bardhaman,Asansol,23.6233,86.9239,120970,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-114,Asansol Cold Storage #106,Paschim Bardhaman,Asansol,23.7258,86.8935,122790,52,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-115,Asansol Cold Storage #107,Paschim Bardhaman,Asansol,23.637,86.953,122080,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-116,Asansol Cold Storage #108,Paschim Bardhaman,Asansol,23.6836,86.9668,122453,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-117,Asansol Cold Storage #109,Paschim Bardhaman,Asansol,23.6164,86.9796,121915,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-118,Asansol Cold Storage #110,Paschim Bardhaman,Asansol,23.7214,86.9368,122755,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-119,Asansol Cold Storage #111,Paschim Bardhaman,Asansol,23.6944,86.9273,122539,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-120,Asansol Cold Storage #112,Paschim Bardhaman,Asansol,23.636,86.9749,121072,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-121,Asansol Cold Storage #113,Paschim Bardhaman,Asansol,23.6556,86.9062,121229,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-122,Asansol Cold Storage #114,Paschim Bardhaman,Asansol,23.6123,86.9352,120882,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-123,Asansol Cold Storage #115,Paschim Bardhaman,Asansol,23.6591,86.9139,121257,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-124,Asansol Cold Storage #116,Paschim Bardhaman,Asansol,23.6819,86.965,122439,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-125,Asansol Cold Storage #117,Paschim Bardhaman,Asansol,23.7189,86.9258,122735,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-126,Asansol Cold Storage #118,Paschim Bardhaman,Asansol,23.6954,86.9865,122547,69,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-127,Asansol Cold Storage #119,Paschim Bardhaman,Asansol,23.653,86.9887,121208,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-128,Asansol Cold Storage #120,Paschim Bardhaman,Asansol,23.6468,86.984,122158,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-129,Asansol Cold Storage #121,Paschim Bardhaman,Asansol,23.7,86.9999,121584,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-130,Asansol Cold Storage #122,Paschim Bardhaman,Asansol,23.6369,86.9595,121079,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-131,Asansol Cold Storage #123,Paschim Bardhaman,Asansol,23.6193,86.9746,120938,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-132,Asansol Cold Storage #124,Paschim Bardhaman,Asansol,23.7175,86.9663,122724,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-133,Asansol Cold Storage #125,Paschim Bardhaman,Asansol,23.6954,86.9944,122547,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-134,Asansol Cold Storage #126,Paschim Bardhaman,Asansol,23.6894,86.9931,122499,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-135,Asansol Cold Storage #127,Paschim Bardhaman,Asansol,23.6381,86.9679,122089,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-136,Asansol Cold Storage #128,Paschim Bardhaman,Asansol,23.649,86.9895,121176,75,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-137,Asansol Cold Storage #129,Paschim Bardhaman,Asansol,23.7249,86.9239,121783,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-138,Asansol Cold Storage #130,Paschim Bardhaman,Asansol,23.6341,86.9412,122057,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-139,Chinsurah Cold Storage #131,Hooghly,Chinsurah,22.9416,88.4535,121677,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-140,Chinsurah Cold Storage #132,Hooghly,Chinsurah,22.9402,88.4326,122666,75,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-141,Chinsurah Cold Storage #133,Hooghly,Chinsurah,22.8984,88.443,121331,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-142,Chinsurah Cold Storage #134,Hooghly,Chinsurah,22.8556,88.3884,121989,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-143,Chinsurah Cold Storage #135,Hooghly,Chinsurah,22.893,88.3983,121288,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-144,Chinsurah Cold Storage #136,Hooghly,Chinsurah,22.8599,88.4169,122023,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-145,Chinsurah Cold Storage #137,Hooghly,Chinsurah,22.9605,88.4073,122828,65,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-146,Chinsurah Cold Storage #138,Hooghly,Chinsurah,22.8509,88.3523,121951,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-147,Chinsurah Cold Storage #139,Hooghly,Chinsurah,22.8879,88.3548,122247,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-148,Chinsurah Cold Storage #140,Hooghly,Chinsurah,22.901,88.3796,122352,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-149,Chinsurah Cold Storage #141,Hooghly,Chinsurah,22.9277,88.3515,121566,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-150,Chinsurah Cold Storage #142,Hooghly,Chinsurah,22.8464,88.4066,121915,78,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-151,Chinsurah Cold Storage #143,Hooghly,Chinsurah,22.8919,88.3453,121279,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-152,Chinsurah Cold Storage #144,Hooghly,Chinsurah,22.8615,88.3589,122036,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-153,Chinsurah Cold Storage #145,Hooghly,Chinsurah,22.884,88.4615,121216,47,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-154,Chinsurah Cold Storage #146,Hooghly,Chinsurah,22.8969,88.449,122319,65,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-155,Chinsurah Cold Storage #147,Hooghly,Chinsurah,22.9138,88.4503,121454,52,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-156,Chinsurah Cold Storage #148,Hooghly,Chinsurah,22.9501,88.4501,121745,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-157,Chinsurah Cold Storage #149,Hooghly,Chinsurah,22.8954,88.3884,122307,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-158,Chinsurah Cold Storage #150,Hooghly,Chinsurah,22.9134,88.3604,122451,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-159,Chinsurah Cold Storage #151,Hooghly,Chinsurah,22.9141,88.37,121457,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-160,Chinsurah Cold Storage #152,Hooghly,Chinsurah,22.928,88.3493,121568,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-161,Chinsurah Cold Storage #153,Hooghly,Chinsurah,22.9329,88.3533,122607,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-162,Chinsurah Cold Storage #154,Hooghly,Chinsurah,22.9274,88.3446,121563,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-163,Chinsurah Cold Storage #155,Hooghly,Chinsurah,22.9222,88.4466,121522,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-164,Chinsurah Cold Storage #156,Hooghly,Chinsurah,22.9392,88.3792,121658,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-165,Chinsurah Cold Storage #157,Hooghly,Chinsurah,22.9157,88.3588,121470,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-166,Chinsurah Cold Storage #158,Hooghly,Chinsurah,22.9354,88.4179,121627,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-167,Chinsurah Cold Storage #159,Hooghly,Chinsurah,22.9174,88.3861,121483,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-168,Chinsurah Cold Storage #160,Hooghly,Chinsurah,22.8939,88.377,121295,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-169,Chinsurah Cold Storage #161,Hooghly,Chinsurah,22.8551,88.409,120985,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-170,Chinsurah Cold Storage #162,Hooghly,Chinsurah,22.8559,88.3998,120991,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-171,Chinsurah Cold Storage #163,Hooghly,Chinsurah,22.9364,88.352,121635,65,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-172,Chinsurah Cold Storage #164,Hooghly,Chinsurah,22.8921,88.4444,121281,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-173,Chinsurah Cold Storage #165,Hooghly,Chinsurah,22.936,88.3566,121632,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-174,Chinsurah Cold Storage #166,Hooghly,Chinsurah,22.871,88.4283,121112,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-175,Chinsurah Cold Storage #167,Hooghly,Chinsurah,22.8513,88.3593,121954,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-176,Chinsurah Cold Storage #168,Hooghly,Chinsurah,22.867,88.396,122080,73,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-177,Chinsurah Cold Storage #169,Hooghly,Chinsurah,22.859,88.4263,122016,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-178,Chinsurah Cold Storage #170,Hooghly,Chinsurah,22.9356,88.4323,121629,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-179,Chinsurah Cold Storage #171,Hooghly,Chinsurah,22.8935,88.4285,121292,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-180,Chinsurah Cold Storage #172,Hooghly,Chinsurah,22.8462,88.427,120914,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-181,Chinsurah Cold Storage #173,Hooghly,Chinsurah,22.8621,88.4271,122041,90,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-182,Chinsurah Cold Storage #174,Hooghly,Chinsurah,22.8919,88.432,121279,52,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-183,Chinsurah Cold Storage #175,Hooghly,Chinsurah,22.9551,88.3971,121785,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-184,Chinsurah Cold Storage #176,Hooghly,Chinsurah,22.8702,88.4378,121106,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-185,Chinsurah Cold Storage #177,Hooghly,Chinsurah,22.8637,88.4204,122054,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-186,Chinsurah Cold Storage #178,Hooghly,Chinsurah,22.9215,88.4571,121516,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-187,Bankura Cold Storage #179,Bankura,Bankura,23.1798,87.0162,120942,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-188,Bankura Cold Storage #180,Bankura,Bankura,23.2654,87.0887,122627,49,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-189,Bankura Cold Storage #181,Bankura,Bankura,23.2454,87.0724,122467,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-190,Bankura Cold Storage #182,Bankura,Bankura,23.1836,87.0725,121973,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-191,Bankura Cold Storage #183,Bankura,Bankura,23.2761,87.0911,122713,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-192,Bankura Cold Storage #184,Bankura,Bankura,23.2556,87.1131,122549,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-193,Bankura Cold Storage #185,Bankura,Bankura,23.1751,87.0525,121905,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-194,Bankura Cold Storage #186,Bankura,Bankura,23.2199,87.113,121263,87,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-195,Bankura Cold Storage #187,Bankura,Bankura,23.2778,87.0106,122726,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-196,Bankura Cold Storage #188,Bankura,Bankura,23.2601,87.0546,121585,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-197,Bankura Cold Storage #189,Bankura,Bankura,23.2183,87.1117,121250,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-198,Bankura Cold Storage #190,Bankura,Bankura,23.2131,87.0081,122209,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-199,Bankura Cold Storage #191,Bankura,Bankura,23.2525,87.1161,121524,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-200,Bankura Cold Storage #192,Bankura,Bankura,23.1696,87.009,121861,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-201,Bankura Cold Storage #193,Bankura,Bankura,23.2374,87.0139,121403,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-202,Bankura Cold Storage #194,Bankura,Bankura,23.208,87.0866,121168,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-203,Bankura Cold Storage #195,Bankura,Bankura,23.1959,87.0727,122071,87,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-204,Bankura Cold Storage #196,Bankura,Bankura,23.2043,87.1191,122138,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-205,Bankura Cold Storage #197,Bankura,Bankura,23.2342,87.0786,122378,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-206,Bankura Cold Storage #198,Bankura,Bankura,23.2439,87.0749,121455,69,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-207,Bankura Cold Storage #199,Bankura,Bankura,23.195,87.1089,122064,49,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-208,Bankura Cold Storage #200,Bankura,Bankura,23.1831,87.1057,121969,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-209,Bankura Cold Storage #201,Bankura,Bankura,23.2653,87.0136,121626,47,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-210,Bankura Cold Storage #202,Bankura,Bankura,23.1846,87.0099,120981,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-211,Bankura Cold Storage #203,Bankura,Bankura,23.2234,87.09,121291,85,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-212,Bankura Cold Storage #204,Bankura,Bankura,23.2428,87.1161,121446,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-213,Bankura Cold Storage #205,Bankura,Bankura,23.176,87.0134,121912,74,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-214,Bankura Cold Storage #206,Bankura,Bankura,23.2713,87.0261,121674,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-215,Bankura Cold Storage #207,Bankura,Bankura,23.2266,87.0084,122317,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-216,Bankura Cold Storage #208,Bankura,Bankura,23.1844,87.0346,121979,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-217,Bankura Cold Storage #209,Bankura,Bankura,23.2366,87.0202,121397,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-218,Bankura Cold Storage #210,Bankura,Bankura,23.1917,87.0166,122038,90,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-219,Bankura Cold Storage #211,Bankura,Bankura,23.2335,87.1312,121372,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-220,Bankura Cold Storage #212,Bankura,Bankura,23.168,87.0314,120848,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-221,Bankura Cold Storage #213,Bankura,Bankura,23.1889,87.1124,122015,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-222,Bankura Cold Storage #214,Bankura,Bankura,23.2316,87.0132,122357,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-223,Bankura Cold Storage #215,Bankura,Bankura,23.2432,87.0146,121450,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-224,Bankura Cold Storage #216,Bankura,Bankura,23.2676,87.0992,122645,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-225,Bankura Cold Storage #217,Bankura,Bankura,23.2207,87.0159,122270,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-226,Bankura Cold Storage #218,Bankura,Bankura,23.2826,87.0986,121765,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-227,Bankura Cold Storage #219,Bankura,Bankura,23.2802,87.0102,121746,78,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-228,Bankura Cold Storage #220,Bankura,Bankura,23.261,87.0472,122592,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-229,Suri Cold Storage #221,Birbhum,Suri,23.8459,87.4817,121911,78,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-230,Suri Cold Storage #222,Birbhum,Suri,23.9466,87.5327,121717,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-231,Suri Cold Storage #223,Birbhum,Suri,23.9521,87.5485,122761,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-232,Suri Cold Storage #224,Birbhum,Suri,23.927,87.4805,121560,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-233,Suri Cold Storage #225,Birbhum,Suri,23.93,87.5657,122584,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-234,Suri Cold Storage #226,Birbhum,Suri,23.8957,87.5149,121310,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-235,Suri Cold Storage #227,Birbhum,Suri,23.8696,87.5651,121101,73,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-236,Suri Cold Storage #228,Birbhum,Suri,23.9217,87.5691,121518,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-237,Suri Cold Storage #229,Birbhum,Suri,23.8725,87.5409,122124,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-238,Suri Cold Storage #230,Birbhum,Suri,23.8459,87.5671,121911,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-239,Suri Cold Storage #231,Birbhum,Suri,23.9452,87.4988,121706,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-240,Suri Cold Storage #232,Birbhum,Suri,23.9064,87.5095,121395,87,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-241,Suri Cold Storage #233,Birbhum,Suri,23.8749,87.4961,122143,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-242,Suri Cold Storage #234,Birbhum,Suri,23.9471,87.4824,122721,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-243,Suri Cold Storage #235,Birbhum,Suri,23.9224,87.5016,122523,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-244,Suri Cold Storage #236,Birbhum,Suri,23.9604,87.4646,121827,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-245,Suri Cold Storage #237,Birbhum,Suri,23.8847,87.5517,121222,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-246,Suri Cold Storage #238,Birbhum,Suri,23.8626,87.5396,122045,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-247,Suri Cold Storage #239,Birbhum,Suri,23.841,87.5292,120872,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-248,Suri Cold Storage #240,Birbhum,Suri,23.894,87.4974,122296,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-249,Suri Cold Storage #241,Birbhum,Suri,23.883,87.5012,122208,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-250,Suri Cold Storage #242,Birbhum,Suri,23.865,87.529,121064,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-251,Suri Cold Storage #243,Birbhum,Suri,23.8464,87.5345,121915,52,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-252,Suri Cold Storage #244,Birbhum,Suri,23.8739,87.5455,122135,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-253,Suri Cold Storage #245,Birbhum,Suri,23.8504,87.5556,120947,90,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-254,Suri Cold Storage #246,Birbhum,Suri,23.8945,87.4849,121300,75,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-255,Suri Cold Storage #247,Birbhum,Suri,23.8702,87.5632,122106,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-256,Suri Cold Storage #248,Birbhum,Suri,23.9106,87.5335,122429,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-257,Suri Cold Storage #249,Birbhum,Suri,23.9219,87.5455,122519,78,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-258,Suri Cold Storage #250,Birbhum,Suri,23.9317,87.5026,122598,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-259,Suri Cold Storage #251,Birbhum,Suri,23.8785,87.4772,121172,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-260,Suri Cold Storage #252,Birbhum,Suri,23.9169,87.4813,121479,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-261,Suri Cold Storage #253,Birbhum,Suri,23.8906,87.5082,121269,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-262,Suri Cold Storage #254,Birbhum,Suri,23.8805,87.5805,121188,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-263,Suri Cold Storage #255,Birbhum,Suri,23.9066,87.4656,122397,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-264,Suri Cold Storage #256,Birbhum,Suri,23.8601,87.5537,122025,65,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-265,Suri Cold Storage #257,Birbhum,Suri,23.8759,87.5779,121151,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-266,Suri Cold Storage #258,Birbhum,Suri,23.8788,87.5594,122174,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-267,Berhampore Cold Storage #259,Murshidabad,Berhampore,24.1604,88.209,121187,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-268,Berhampore Cold Storage #260,Murshidabad,Berhampore,24.133,88.2576,121968,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-269,Berhampore Cold Storage #261,Murshidabad,Berhampore,24.2174,88.3263,122643,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-270,Berhampore Cold Storage #262,Murshidabad,Berhampore,24.2129,88.2437,122607,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-271,Berhampore Cold Storage #263,Murshidabad,Berhampore,24.1698,88.244,122262,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-272,Berhampore Cold Storage #264,Murshidabad,Berhampore,24.2194,88.2561,121659,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-273,Berhampore Cold Storage #265,Murshidabad,Berhampore,24.2138,88.2345,122614,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-274,Berhampore Cold Storage #266,Murshidabad,Berhampore,24.2192,88.2597,121658,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-275,Berhampore Cold Storage #267,Murshidabad,Berhampore,24.1283,88.3271,120930,73,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-276,Berhampore Cold Storage #268,Murshidabad,Berhampore,24.1324,88.294,121963,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-277,Berhampore Cold Storage #269,Murshidabad,Berhampore,24.1611,88.2446,121193,75,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-278,Berhampore Cold Storage #270,Murshidabad,Berhampore,24.238,88.2566,121808,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-279,Berhampore Cold Storage #271,Murshidabad,Berhampore,24.1549,88.3039,121143,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-280,Berhampore Cold Storage #272,Murshidabad,Berhampore,24.22,88.2482,121664,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-281,Berhampore Cold Storage #273,Murshidabad,Berhampore,24.1321,88.2133,121961,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-282,Berhampore Cold Storage #274,Murshidabad,Berhampore,24.129,88.3107,120936,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-283,Berhampore Cold Storage #275,Murshidabad,Berhampore,24.1232,88.3229,120890,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-284,Berhampore Cold Storage #276,Murshidabad,Berhampore,24.1411,88.3324,122033,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-285,Berhampore Cold Storage #277,Murshidabad,Berhampore,24.1895,88.2965,122420,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-286,Berhampore Cold Storage #278,Murshidabad,Berhampore,24.1934,88.2687,121451,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-287,Berhampore Cold Storage #279,Murshidabad,Berhampore,24.233,88.3294,121768,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-288,Berhampore Cold Storage #280,Murshidabad,Berhampore,24.2414,88.2561,121835,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-289,Berhampore Cold Storage #281,Murshidabad,Berhampore,24.1796,88.2749,121341,73,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-290,Berhampore Cold Storage #282,Murshidabad,Berhampore,24.1226,88.2319,120885,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-291,Berhampore Cold Storage #283,Murshidabad,Berhampore,24.179,88.22,121336,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-292,Berhampore Cold Storage #284,Murshidabad,Berhampore,24.2097,88.3306,121582,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-293,Berhampore Cold Storage #285,Murshidabad,Berhampore,24.1241,88.2894,121897,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-294,Berhampore Cold Storage #286,Murshidabad,Berhampore,24.1307,88.3302,120950,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-295,Berhampore Cold Storage #287,Murshidabad,Berhampore,24.2075,88.3044,122564,49,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-296,Berhampore Cold Storage #288,Murshidabad,Berhampore,24.164,88.2924,122216,47,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-297,Berhampore Cold Storage #289,Murshidabad,Berhampore,24.1679,88.2275,121247,87,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-298,Berhampore Cold Storage #290,Murshidabad,Berhampore,24.204,88.3205,121536,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-299,Berhampore Cold Storage #291,Murshidabad,Berhampore,24.1304,88.2581,121947,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-300,Berhampore Cold Storage #292,Murshidabad,Berhampore,24.1468,88.2351,122078,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-301,Berhampore Cold Storage #293,Murshidabad,Berhampore,24.1917,88.2507,121438,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-302,Berhampore Cold Storage #294,Murshidabad,Berhampore,24.2089,88.2652,122575,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-303,Berhampore Cold Storage #295,Murshidabad,Berhampore,24.1399,88.2941,121023,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-304,Berhampore Cold Storage #296,Murshidabad,Berhampore,24.2228,88.2891,121686,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-305,Berhampore Cold Storage #297,Murshidabad,Berhampore,24.216,88.2135,122632,69,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-306,Berhampore Cold Storage #298,Murshidabad,Berhampore,24.1426,88.2609,121045,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-307,Berhampore Cold Storage #299,Murshidabad,Berhampore,24.1491,88.3229,122097,85,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-308,Berhampore Cold Storage #300,Murshidabad,Berhampore,24.1909,88.2314,121431,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-309,Berhampore Cold Storage #301,Murshidabad,Berhampore,24.2191,88.269,122657,65,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-310,Berhampore Cold Storage #302,Murshidabad,Berhampore,24.1656,88.324,121229,65,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-311,Berhampore Cold Storage #303,Murshidabad,Berhampore,24.2376,88.284,121805,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-312,Berhampore Cold Storage #304,Murshidabad,Berhampore,24.2094,88.2141,121579,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-313,Berhampore Cold Storage #305,Murshidabad,Berhampore,24.2411,88.2947,121833,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-314,Berhampore Cold Storage #306,Murshidabad,Berhampore,24.1898,88.2466,121422,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-315,Berhampore Cold Storage #307,Murshidabad,Berhampore,24.1914,88.3026,122435,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-316,Berhampore Cold Storage #308,Murshidabad,Berhampore,24.2074,88.2767,122563,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-317,Berhampore Cold Storage #309,Murshidabad,Berhampore,24.1915,88.2445,122436,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-318,Berhampore Cold Storage #310,Murshidabad,Berhampore,24.2392,88.2266,121818,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-319,Berhampore Cold Storage #311,Murshidabad,Berhampore,24.23,88.2135,122744,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-320,Berhampore Cold Storage #312,Murshidabad,Berhampore,24.2082,88.2221,121570,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-321,Berhampore Cold Storage #313,Murshidabad,Berhampore,24.1331,88.2645,121969,49,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-322,English Bazar Cold Storage #314,Malda,English Bazar,24.9595,88.1211,120940,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-323,English Bazar Cold Storage #315,Malda,English Bazar,24.969,88.1261,122016,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-324,English Bazar Cold Storage #316,Malda,English Bazar,25.0366,88.1911,122557,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-325,English Bazar Cold Storage #317,Malda,English Bazar,25.0409,88.1218,121591,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-326,English Bazar Cold Storage #318,Malda,English Bazar,24.9704,88.0894,121027,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-327,English Bazar Cold Storage #319,Malda,English Bazar,24.9671,88.1069,122001,87,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-328,English Bazar Cold Storage #320,Malda,English Bazar,24.9506,88.1155,120869,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-329,English Bazar Cold Storage #321,Malda,English Bazar,24.9585,88.1472,120932,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-330,English Bazar Cold Storage #322,Malda,English Bazar,25.0065,88.1792,121316,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-331,English Bazar Cold Storage #323,Malda,English Bazar,25.0059,88.0829,121311,74,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-332,English Bazar Cold Storage #324,Malda,English Bazar,25.061,88.1959,122752,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-333,English Bazar Cold Storage #325,Malda,English Bazar,24.9564,88.103,121915,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-334,English Bazar Cold Storage #326,Malda,English Bazar,25.0589,88.1479,121735,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-335,English Bazar Cold Storage #327,Malda,English Bazar,24.9863,88.0904,121154,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-336,English Bazar Cold Storage #328,Malda,English Bazar,25.0383,88.111,121570,74,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-337,English Bazar Cold Storage #329,Malda,English Bazar,24.987,88.1428,122160,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-338,English Bazar Cold Storage #330,Malda,English Bazar,25.0155,88.0781,122388,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-339,English Bazar Cold Storage #331,Malda,English Bazar,25.0613,88.1854,122754,47,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-340,English Bazar Cold Storage #332,Malda,English Bazar,25.0128,88.1654,121366,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-341,English Bazar Cold Storage #333,Malda,English Bazar,25.0194,88.08,121419,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-342,English Bazar Cold Storage #334,Malda,English Bazar,25.0219,88.0911,121439,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-343,English Bazar Cold Storage #335,Malda,English Bazar,25.061,88.1974,121752,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-344,English Bazar Cold Storage #336,Malda,English Bazar,25.0274,88.1658,122483,49,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-345,English Bazar Cold Storage #337,Malda,English Bazar,25.0098,88.1265,122342,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-346,English Bazar Cold Storage #338,Malda,English Bazar,24.9634,88.0877,120971,73,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-347,English Bazar Cold Storage #339,Malda,English Bazar,25.0119,88.1314,122359,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-348,English Bazar Cold Storage #340,Malda,English Bazar,24.9949,88.1619,122223,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-349,English Bazar Cold Storage #341,Malda,English Bazar,25.0139,88.098,121375,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-350,English Bazar Cold Storage #342,Malda,English Bazar,24.9598,88.1449,120942,63,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-351,English Bazar Cold Storage #343,Malda,English Bazar,25.0098,88.0807,122342,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-352,English Bazar Cold Storage #344,Malda,English Bazar,25.0371,88.1911,122561,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-353,English Bazar Cold Storage #345,Malda,English Bazar,25.0104,88.0821,121347,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-354,English Bazar Cold Storage #346,Malda,English Bazar,24.9536,88.1865,121893,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-355,English Bazar Cold Storage #347,Malda,English Bazar,25.0694,88.1241,121819,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-356,English Bazar Cold Storage #348,Malda,English Bazar,25.0428,88.1685,122606,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-357,English Bazar Cold Storage #349,Malda,English Bazar,25.0046,88.116,122301,49,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-358,English Bazar Cold Storage #350,Malda,English Bazar,25.0326,88.1065,122525,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-359,English Bazar Cold Storage #351,Malda,English Bazar,24.9634,88.1145,121971,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-360,English Bazar Cold Storage #352,Malda,English Bazar,25.0403,88.099,121586,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-361,English Bazar Cold Storage #353,Malda,English Bazar,24.9665,88.0819,120996,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-362,English Bazar Cold Storage #354,Malda,English Bazar,25.0484,88.1737,121651,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-363,English Bazar Cold Storage #355,Malda,English Bazar,25.0709,88.1285,122831,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-364,English Bazar Cold Storage #356,Malda,English Bazar,25.0083,88.192,121330,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-365,English Bazar Cold Storage #357,Malda,English Bazar,24.9921,88.1994,122201,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-366,Krishnanagar Cold Storage #358,Nadia,Krishnanagar,23.3968,88.4629,121238,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-367,Krishnanagar Cold Storage #359,Nadia,Krishnanagar,23.3561,88.552,120913,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-368,Krishnanagar Cold Storage #360,Nadia,Krishnanagar,23.3919,88.4749,121199,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-369,Krishnanagar Cold Storage #361,Nadia,Krishnanagar,23.4369,88.4515,121559,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-370,Krishnanagar Cold Storage #362,Nadia,Krishnanagar,23.4561,88.481,121713,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-371,Krishnanagar Cold Storage #363,Nadia,Krishnanagar,23.461,88.5316,122752,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-372,Krishnanagar Cold Storage #364,Nadia,Krishnanagar,23.4564,88.4925,121715,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-373,Krishnanagar Cold Storage #365,Nadia,Krishnanagar,23.3773,88.4341,122082,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-374,Krishnanagar Cold Storage #366,Nadia,Krishnanagar,23.3957,88.5474,121230,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-375,Krishnanagar Cold Storage #367,Nadia,Krishnanagar,23.4366,88.5022,121557,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-376,Krishnanagar Cold Storage #368,Nadia,Krishnanagar,23.4234,88.4586,122451,47,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-377,Krishnanagar Cold Storage #369,Nadia,Krishnanagar,23.3755,88.4475,121068,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-378,Krishnanagar Cold Storage #370,Nadia,Krishnanagar,23.3605,88.4345,120948,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-379,Krishnanagar Cold Storage #371,Nadia,Krishnanagar,23.42,88.4656,121424,52,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-380,Krishnanagar Cold Storage #372,Nadia,Krishnanagar,23.361,88.5104,121952,63,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-381,Krishnanagar Cold Storage #373,Nadia,Krishnanagar,23.4475,88.5345,121644,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-382,Krishnanagar Cold Storage #374,Nadia,Krishnanagar,23.366,88.486,120992,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-383,Krishnanagar Cold Storage #375,Nadia,Krishnanagar,23.4584,88.4575,122731,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-384,Krishnanagar Cold Storage #376,Nadia,Krishnanagar,23.3681,88.5343,122009,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-385,Krishnanagar Cold Storage #377,Nadia,Krishnanagar,23.445,88.4969,121624,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-386,Krishnanagar Cold Storage #378,Nadia,Krishnanagar,23.4131,88.467,121369,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-387,Krishnanagar Cold Storage #379,Nadia,Krishnanagar,23.3893,88.5121,122178,85,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-388,Krishnanagar Cold Storage #380,Nadia,Krishnanagar,23.3939,88.5362,122215,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-389,Krishnanagar Cold Storage #381,Nadia,Krishnanagar,23.3953,88.5497,121226,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-390,Krishnanagar Cold Storage #382,Nadia,Krishnanagar,23.3924,88.4325,122203,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-391,Krishnanagar Cold Storage #383,Nadia,Krishnanagar,23.4567,88.5141,122718,47,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-392,Krishnanagar Cold Storage #384,Nadia,Krishnanagar,23.413,88.4937,122368,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-393,Krishnanagar Cold Storage #385,Nadia,Krishnanagar,23.4378,88.4549,121566,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-394,Krishnanagar Cold Storage #386,Nadia,Krishnanagar,23.4202,88.4277,121426,49,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-395,Krishnanagar Cold Storage #387,Nadia,Krishnanagar,23.3649,88.5147,121983,74,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-396,Krishnanagar Cold Storage #388,Nadia,Krishnanagar,23.351,88.4874,121872,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-397,Krishnanagar Cold Storage #389,Nadia,Krishnanagar,23.3735,88.4886,122052,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-398,Krishnanagar Cold Storage #390,Nadia,Krishnanagar,23.4209,88.4567,121431,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-399,Krishnanagar Cold Storage #391,Nadia,Krishnanagar,23.395,88.5419,122224,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-400,Krishnanagar Cold Storage #392,Nadia,Krishnanagar,23.4346,88.4787,121541,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-401,Krishnanagar Cold Storage #393,Nadia,Krishnanagar,23.3969,88.4586,122239,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-402,Krishnanagar Cold Storage #394,Nadia,Krishnanagar,23.4231,88.4594,122449,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-403,Krishnanagar Cold Storage #395,Nadia,Krishnanagar,23.3545,88.4706,120900,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-404,Krishnanagar Cold Storage #396,Nadia,Krishnanagar,23.4202,88.4399,122426,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-405,Krishnanagar Cold Storage #397,Nadia,Krishnanagar,23.4136,88.48,121373,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-406,Krishnanagar Cold Storage #398,Nadia,Krishnanagar,23.3525,88.5112,121884,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-407,Krishnanagar Cold Storage #399,Nadia,Krishnanagar,23.4329,88.4324,121527,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-408,Krishnanagar Cold Storage #400,Nadia,Krishnanagar,23.3891,88.4839,121177,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-409,Krishnanagar Cold Storage #401,Nadia,Krishnanagar,23.4626,88.4935,121765,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-410,Krishnanagar Cold Storage #402,Nadia,Krishnanagar,23.3884,88.518,121171,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-411,Krishnanagar Cold Storage #403,Nadia,Krishnanagar,23.4316,88.4315,122517,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-412,Barasat Cold Storage #404,North 24 Parganas,Barasat,22.7939,88.6096,122695,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-413,Barasat Cold Storage #405,North 24 Parganas,Barasat,22.7926,88.6472,122685,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-414,Barasat Cold Storage #406,North 24 Parganas,Barasat,22.714,88.7055,122056,47,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-415,Barasat Cold Storage #407,North 24 Parganas,Barasat,22.7593,88.6946,121418,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-416,Barasat Cold Storage #408,North 24 Parganas,Barasat,22.8032,88.6827,121770,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-417,Barasat Cold Storage #409,North 24 Parganas,Barasat,22.7499,88.663,121343,63,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-418,Barasat Cold Storage #410,North 24 Parganas,Barasat,22.7134,88.5984,122051,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-419,Barasat Cold Storage #411,North 24 Parganas,Barasat,22.7105,88.5975,121028,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-420,Barasat Cold Storage #412,North 24 Parganas,Barasat,22.7655,88.6988,122468,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-421,Barasat Cold Storage #413,North 24 Parganas,Barasat,22.8122,88.6131,122842,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-422,Barasat Cold Storage #414,North 24 Parganas,Barasat,22.7974,88.6303,121723,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-423,Barasat Cold Storage #415,North 24 Parganas,Barasat,22.708,88.6953,122008,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-424,Barasat Cold Storage #416,North 24 Parganas,Barasat,22.7138,88.6693,121054,69,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-425,Barasat Cold Storage #417,North 24 Parganas,Barasat,22.7075,88.6201,121004,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-426,Barasat Cold Storage #418,North 24 Parganas,Barasat,22.7549,88.6358,122383,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-427,Barasat Cold Storage #419,North 24 Parganas,Barasat,22.7536,88.664,122373,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-428,Barasat Cold Storage #420,North 24 Parganas,Barasat,22.7391,88.6038,122257,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-429,Barasat Cold Storage #421,North 24 Parganas,Barasat,22.8012,88.6909,121754,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-430,Barasat Cold Storage #422,North 24 Parganas,Barasat,22.6894,88.6515,121859,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-431,Barasat Cold Storage #423,North 24 Parganas,Barasat,22.7065,88.6844,120996,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-432,Barasat Cold Storage #424,North 24 Parganas,Barasat,22.784,88.6919,122616,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-433,Barasat Cold Storage #425,North 24 Parganas,Barasat,22.7104,88.6049,122027,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-434,Barasat Cold Storage #426,North 24 Parganas,Barasat,22.7399,88.6773,122263,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-435,Barasat Cold Storage #427,North 24 Parganas,Barasat,22.6989,88.6178,120935,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-436,Barasat Cold Storage #428,North 24 Parganas,Barasat,22.7042,88.6519,120978,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-437,Barasat Cold Storage #429,North 24 Parganas,Barasat,22.766,88.7118,121472,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-438,Barasat Cold Storage #430,North 24 Parganas,Barasat,22.6976,88.6261,121925,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-439,Barasat Cold Storage #431,North 24 Parganas,Barasat,22.7151,88.7009,122065,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-440,Barasat Cold Storage #432,North 24 Parganas,Barasat,22.6887,88.6996,121854,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-441,Barasat Cold Storage #433,North 24 Parganas,Barasat,22.7909,88.612,121671,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-442,Barasat Cold Storage #434,North 24 Parganas,Barasat,22.8077,88.6325,121806,78,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-443,Barasat Cold Storage #435,North 24 Parganas,Barasat,22.8046,88.6166,121781,74,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-444,Barasat Cold Storage #436,North 24 Parganas,Barasat,22.7868,88.5948,122638,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-445,Barasat Cold Storage #437,North 24 Parganas,Barasat,22.7722,88.6109,122522,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-446,Barasat Cold Storage #438,North 24 Parganas,Barasat,22.6946,88.6805,120901,63,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-447,Alipore Cold Storage #439,South 24 Parganas,Alipore,22.347,88.4329,121320,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-448,Alipore Cold Storage #440,South 24 Parganas,Alipore,22.3236,88.4958,122133,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-449,Alipore Cold Storage #441,South 24 Parganas,Alipore,22.384,88.3898,121616,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-450,Alipore Cold Storage #442,South 24 Parganas,Alipore,22.3771,88.4723,121561,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-451,Alipore Cold Storage #443,South 24 Parganas,Alipore,22.3805,88.3964,121588,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-452,Alipore Cold Storage #444,South 24 Parganas,Alipore,22.305,88.444,121984,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-453,Alipore Cold Storage #445,South 24 Parganas,Alipore,22.4115,88.4916,122836,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-454,Alipore Cold Storage #446,South 24 Parganas,Alipore,22.2891,88.4078,120857,63,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-455,Alipore Cold Storage #447,South 24 Parganas,Alipore,22.2918,88.3896,120878,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-456,Alipore Cold Storage #448,South 24 Parganas,Alipore,22.3916,88.3989,122677,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-457,Alipore Cold Storage #449,South 24 Parganas,Alipore,22.3465,88.4094,122316,78,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-458,Alipore Cold Storage #450,South 24 Parganas,Alipore,22.3189,88.4565,122095,85,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-459,Alipore Cold Storage #451,South 24 Parganas,Alipore,22.3593,88.4304,122418,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-460,Alipore Cold Storage #452,South 24 Parganas,Alipore,22.3451,88.4836,122305,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-461,Alipore Cold Storage #453,South 24 Parganas,Alipore,22.387,88.4474,121640,52,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-462,Alipore Cold Storage #454,South 24 Parganas,Alipore,22.3481,88.4735,122329,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-463,Alipore Cold Storage #455,South 24 Parganas,Alipore,22.3823,88.4255,122602,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-464,Alipore Cold Storage #456,South 24 Parganas,Alipore,22.3991,88.4248,122737,69,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-465,Alipore Cold Storage #457,South 24 Parganas,Alipore,22.3518,88.463,122358,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-466,Alipore Cold Storage #458,South 24 Parganas,Alipore,22.3466,88.4575,122317,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-467,Alipore Cold Storage #459,South 24 Parganas,Alipore,22.333,88.465,122208,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-468,Alipore Cold Storage #460,South 24 Parganas,Alipore,22.2943,88.4271,121898,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-469,Alipore Cold Storage #461,South 24 Parganas,Alipore,22.3051,88.4412,121985,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-470,Alipore Cold Storage #462,South 24 Parganas,Alipore,22.3905,88.3876,122668,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-471,Alipore Cold Storage #463,South 24 Parganas,Alipore,22.3659,88.4015,122471,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-472,Alipore Cold Storage #464,South 24 Parganas,Alipore,22.3425,88.4939,122284,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-473,Alipore Cold Storage #465,South 24 Parganas,Alipore,22.3559,88.4463,122391,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-474,Alipore Cold Storage #466,South 24 Parganas,Alipore,22.3978,88.4975,122726,69,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-475,Alipore Cold Storage #467,South 24 Parganas,Alipore,22.3243,88.3896,121138,90,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-476,Alipore Cold Storage #468,South 24 Parganas,Alipore,22.3008,88.5079,121950,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-477,Alipore Cold Storage #469,South 24 Parganas,Alipore,22.3125,88.4958,122044,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-478,Alipore Cold Storage #470,South 24 Parganas,Alipore,22.4076,88.4985,122805,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-479,Jalpaiguri Cold Storage #471,Jalpaiguri,Jalpaiguri,26.4962,88.737,122154,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-480,Jalpaiguri Cold Storage #472,Jalpaiguri,Jalpaiguri,26.5089,88.6991,122255,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-481,Jalpaiguri Cold Storage #473,Jalpaiguri,Jalpaiguri,26.5602,88.7029,122666,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-482,Jalpaiguri Cold Storage #474,Jalpaiguri,Jalpaiguri,26.4651,88.7049,121905,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-483,Jalpaiguri Cold Storage #475,Jalpaiguri,Jalpaiguri,26.5635,88.7134,122692,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-484,Jalpaiguri Cold Storage #476,Jalpaiguri,Jalpaiguri,26.5433,88.6658,122530,47,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-485,Jalpaiguri Cold Storage #477,Jalpaiguri,Jalpaiguri,26.5371,88.7164,121481,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-486,Jalpaiguri Cold Storage #478,Jalpaiguri,Jalpaiguri,26.5016,88.6669,122197,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-487,Jalpaiguri Cold Storage #479,Jalpaiguri,Jalpaiguri,26.5335,88.7595,122452,73,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-488,Jalpaiguri Cold Storage #480,Jalpaiguri,Jalpaiguri,26.582,88.6806,122840,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-489,Jalpaiguri Cold Storage #481,Jalpaiguri,Jalpaiguri,26.5047,88.6856,122222,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-490,Jalpaiguri Cold Storage #482,Jalpaiguri,Jalpaiguri,26.5373,88.7101,122482,75,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-491,Jalpaiguri Cold Storage #483,Jalpaiguri,Jalpaiguri,26.556,88.7318,121632,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-492,Jalpaiguri Cold Storage #484,Jalpaiguri,Jalpaiguri,26.5626,88.6843,122685,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-493,Jalpaiguri Cold Storage #485,Jalpaiguri,Jalpaiguri,26.551,88.7316,122592,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-494,Jalpaiguri Cold Storage #486,Jalpaiguri,Jalpaiguri,26.5241,88.7799,121377,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-495,Jalpaiguri Cold Storage #487,Jalpaiguri,Jalpaiguri,26.5555,88.7654,122628,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-496,Jalpaiguri Cold Storage #488,Jalpaiguri,Jalpaiguri,26.4966,88.6767,121157,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
