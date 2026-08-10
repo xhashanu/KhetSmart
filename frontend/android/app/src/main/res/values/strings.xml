@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">KhetSmart</string>
+    <string name="title_activity_main">KhetSmart</string>
+    <string name="package_name">online.jobalert.kethsmart</string>
+    <string name="custom_url_scheme">online.jobalert.kethsmart</string>
+</resources>
