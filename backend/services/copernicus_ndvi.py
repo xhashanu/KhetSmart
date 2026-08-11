@@ -14,12 +14,15 @@ Legacy: COPERNICUS_API_KEY alone is treated as client_secret if CLIENT_ID is set
 """
 from __future__ import annotations
 
+import logging
 import os
 import time
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 
-import httpx
+from services.external_api import fetch_json
+
+logger = logging.getLogger(__name__)
 
 from config import COPERNICUS_API_KEY, COPERNICUS_CLIENT_ID, COPERNICUS_CLIENT_SECRET
 
@@ -101,26 +104,27 @@ def get_access_token() -> str | None:
         return _token_cache[0]
 
     client_id, client_secret = creds
-    try:
-        with httpx.Client(timeout=30.0) as client:
-            r = client.post(
-                CDSE_TOKEN_URL,
-                data={
-                    "grant_type": "client_credentials",
-                    "client_id": client_id,
-                    "client_secret": client_secret,
-                },
-                headers={"Content-Type": "application/x-www-form-urlencoded"},
-            )
-        if r.status_code != 200:
-            return None
-        token = r.json().get("access_token")
-        expires_in = int(r.json().get("expires_in", 3600))
-        if token:
-            _token_cache = (token, time.time() + expires_in)
-            return token
-    except Exception:
+    status, payload, err = fetch_json(
+        "copernicus_token",
+        "POST",
+        CDSE_TOKEN_URL,
+        data={
+            "grant_type": "client_credentials",
+            "client_id": client_id,
+            "client_secret": client_secret,
+        },
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
+        timeout=25.0,
+        max_attempts=2,
+    )
+    if status != 200 or payload is None:
+        logger.warning("Copernicus auth failed: %s", err)
         return None
+    token = payload.get("access_token")
+    expires_in = int(payload.get("expires_in", 3600))
+    if token:
+        _token_cache = (token, time.time() + expires_in)
+        return token
     return None
 
 
@@ -232,35 +236,24 @@ def fetch_corridor_ndvi(days_back: int = 84) -> CopernicusNdviResult | None:
         "Accept": "application/json",
     }
 
-    try:
-        with httpx.Client(timeout=120.0) as client:
-            r = client.post(CDSE_STATS_URL, json=body, headers=headers)
-        if r.status_code != 200:
-            snippet = (r.text or "")[:300]
-            return CopernicusNdviResult(
-                ndvi=0.0,
-                history=[],
-                source="copernicus_api_error",
-                intervals=0,
-                ok=False,
-                message=f"HTTP {r.status_code}: {snippet}",
-            )
-        return _parse_ndvi_response(r.json())
-    except httpx.TimeoutException:
+    status, payload, err = fetch_json(
+        "copernicus_stats",
+        "POST",
+        CDSE_STATS_URL,
+        json=body,
+        headers=headers,
+        timeout=120.0,
+        max_attempts=2,
+    )
+    if status != 200 or payload is None:
+        message = f"Copernicus API unavailable — {err}"
+        logger.warning("Copernicus stats fetch failed: %s", err)
         return CopernicusNdviResult(
             ndvi=0.0,
             history=[],
-            source="copernicus_timeout",
+            source="copernicus_api_error",
             intervals=0,
             ok=False,
-            message="CDSE Statistical API timeout (try again)",
+            message=message,
         )
-    except Exception as e:
-        return CopernicusNdviResult(
-            ndvi=0.0,
-            history=[],
-            source="copernicus_error",
-            intervals=0,
-            ok=False,
-            message=str(e),
-        )
+    return _parse_ndvi_response(payload)

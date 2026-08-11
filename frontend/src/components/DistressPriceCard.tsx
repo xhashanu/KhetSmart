@@ -1,3 +1,6 @@
+import type { AppLanguage } from "../hooks/useAppSettings";
+import { tFarmer } from "../i18n/farmerSimple";
+
 type Props = {
   distressPerQ: number;
   livePerQ: number;
@@ -9,6 +12,8 @@ type Props = {
   headline: string;
   detail: string;
   inDistressZone: boolean;
+  simple?: boolean;
+  language?: AppLanguage;
 };
 
 function formatInr(n: number) {
@@ -30,7 +35,25 @@ export function DistressPriceCard({
   headline,
   detail,
   inDistressZone,
+  simple = false,
+  language = "bn",
 }: Props) {
+  const t = tFarmer(language);
+
+  if (simple) {
+    return (
+      <article
+        className={`distress-card-simple ${inDistressZone ? "distress-card-simple--alert" : ""}`}
+      >
+        <p className="distress-card-simple__title">{t.betterPrice}</p>
+        <p className="distress-card-simple__amount">+{formatInr(uplift)}</p>
+        <p className="distress-card-simple__sub">
+          {quantityQ} q · {t.notDistressSell}
+        </p>
+      </article>
+    );
+  }
+
   const maxRev = Math.max(revenueLive, revenueDistress, 1);
   const livePct = (revenueLive / maxRev) * 100;
   const distressPct = (revenueDistress / maxRev) * 100;

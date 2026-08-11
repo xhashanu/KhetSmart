@@ -1,3 +1,5 @@
+import type { AppLanguage } from "../hooks/useAppSettings";
+import { tFarmer } from "../i18n/farmerSimple";
 import { IconFarm, IconTruck, IconWarehouse } from "./icons";
 
 type Props = {
@@ -7,6 +9,8 @@ type Props = {
   distanceSource?: string;
   costInr: number;
   profitInr: number;
+  language?: AppLanguage;
+  simple?: boolean;
 };
 
 function formatInr(n: number) {
@@ -21,13 +25,18 @@ export function RouteFlow({
   storageName,
   storageNameFull,
   distanceKm,
-  distanceSource,
   costInr,
   profitInr,
+  language = "bn",
+  simple = false,
 }: Props) {
-  const distSuffix = distanceSource === "osrm" ? "km road (OSRM)" : "km";
+  const t = tFarmer(language);
+  const distLabel = simple
+    ? `${Math.round(distanceKm)} ${t.km}`
+    : `${distanceKm} km`;
+
   return (
-    <div className="route-flow">
+    <div className="route-flow route-flow--simple">
       <div className="route-flow__track">
         <span className="route-flow__dot route-flow__dot--a" />
         <span className="route-flow__line" />
@@ -42,30 +51,27 @@ export function RouteFlow({
           <span className="route-flow__bubble route-flow__bubble--farm">
             <IconFarm />
           </span>
-          <span className="route-flow__node-label">Your farm</span>
+          <span className="route-flow__node-label">{t.farm}</span>
         </div>
         <div className="route-flow__node route-flow__node--mid">
-          <span className="route-flow__km">
-            {distanceKm} {distSuffix}
-          </span>
+          <span className="route-flow__km">{distLabel}</span>
           <span className="route-flow__cost">{formatInr(costInr)}</span>
         </div>
         <div className="route-flow__node">
           <span className="route-flow__bubble route-flow__bubble--storage">
             <IconWarehouse />
           </span>
-          <span
-            className="route-flow__node-label"
-            title={storageNameFull ?? storageName}
-          >
+          <span className="route-flow__node-label" title={storageNameFull ?? storageName}>
             {storageName}
           </span>
         </div>
       </div>
-      <div className="route-flow__profit">
-        <span>Est. profit</span>
-        <strong>{formatInr(profitInr)}</strong>
-      </div>
+      {!simple && (
+        <div className="route-flow__profit">
+          <span>Est. profit</span>
+          <strong>{formatInr(profitInr)}</strong>
+        </div>
+      )}
     </div>
   );
 }

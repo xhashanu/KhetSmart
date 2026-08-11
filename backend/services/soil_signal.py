@@ -1,9 +1,12 @@
 """Soil baseline for Damodar corridor — SoilGrids API with alluvial fallback."""
 from __future__ import annotations
 
+import logging
 import time
 
-import httpx
+from services.external_api import fetch_json
+
+logger = logging.getLogger(__name__)
 
 CORRIDOR_LAT = 24.05
 CORRIDOR_LON = 87.70
@@ -41,8 +44,8 @@ def fetch_corridor_soil() -> dict:
         if result.get("ok"):
             _cache = (result, time.time() + _CACHE_TTL_SEC)
             return result
-    except Exception:
-        pass
+    except Exception as exc:
+        logger.warning("SoilGrids request error: %s", exc)
 
     fb = dict(CORRIDOR_SOIL_FALLBACK)
     fb["message"] = "SoilGrids unavailable — corridor baseline"
@@ -58,12 +61,18 @@ def _fetch_soilgrids() -> dict:
         "depth": "0-30cm",
         "value": "mean",
     }
-    with httpx.Client(timeout=30.0) as client:
-        r = client.get(SOILGRIDS_URL, params=params)
-    if r.status_code != 200:
-        return {"ok": False, "message": f"SoilGrids HTTP {r.status_code}"}
+    status, payload, err = fetch_json(
+        "soilgrids",
+        "GET",
+        SOILGRIDS_URL,
+        params=params,
+        timeout=25.0,
+        max_attempts=3,
+    )
+    if status != 200 or payload is None:
+        return {"ok": False, "message": f"SoilGrids unavailable — {err}"}
 
-    props = r.json().get("properties") or {}
+    props = payload.get("properties") or {}
     clay = _extract_pct(props, "clay")
     sand = _extract_pct(props, "sand")
     silt = _extract_pct(props, "silt")

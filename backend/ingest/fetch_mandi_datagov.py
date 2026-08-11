@@ -8,14 +8,16 @@ Catalog: Current daily price of various commodities (Mandi)
   python -m ingest.diagnose_datagov   # test API connectivity
 """
 import csv
+import logging
 import os
 import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-import httpx
-
+from services.external_api import fetch_json
 from config import DATA_DIR, DATA_GOV_API_KEY
+
+logger = logging.getLogger(__name__)
 
 # Correct OGD resource ID (Agmarknet daily mandi prices)
 # Old/wrong ID in early builds: ...98afe0991c5f
@@ -102,19 +104,18 @@ def _api_get(params: dict, timeout: float = 25.0) -> tuple[int, dict | None, str
     """Returns (status_code, json_payload|None, error_message)."""
     url = f"https://api.data.gov.in/resource/{DATAGOV_RESOURCE}"
     headers = {"Accept": "application/json", "User-Agent": "KhetSmart/1.0"}
-    try:
-        with httpx.Client(timeout=timeout, follow_redirects=True) as client:
-            r = client.get(url, params={**params, "api-key": DATA_GOV_API_KEY}, headers=headers)
-        if r.status_code != 200:
-            snippet = (r.text or "")[:200].strip()
-            return r.status_code, None, snippet or f"HTTP {r.status_code}"
-        return 200, r.json(), ""
-    except httpx.TimeoutException:
-        return 0, None, "timeout"
-    except httpx.ConnectError as e:
-        return 0, None, f"connection failed: {e}"
-    except Exception as e:
-        return 0, None, str(e)
+    status, payload, err = fetch_json(
+        "data_gov_mandi",
+        "GET",
+        url,
+        params={**params, "api-key": DATA_GOV_API_KEY},
+        headers=headers,
+        timeout=timeout,
+        max_attempts=3,
+    )
+    if status != 200:
+        logger.warning("data.gov.in mandi fetch failed: %s", err)
+    return status, payload, err
 
 
 def _fetch_records_paginated(

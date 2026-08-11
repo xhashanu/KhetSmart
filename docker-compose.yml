@@ -1,0 +1,22 @@
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "127.0.0.1:3003:80"
+    restart: unless-stopped
+    depends_on:
+      - backend
+    networks:
+      - ashanul_shared_net
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    environment:
+      - DEMO_MODE=true
+    networks:
+      - ashanul_shared_net
+
+networks:
+  ashanul_shared_net:
+    external: true

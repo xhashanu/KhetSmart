@@ -1,7 +1,11 @@
+import type { AppLanguage } from "../hooks/useAppSettings";
+import { tFarmer } from "../i18n/farmerSimple";
+
 type Props = {
   open: boolean;
   status: "prompt" | "requesting" | "denied" | "unavailable";
   error: string | null;
+  language: AppLanguage;
   onAllow: () => void;
   onDismiss?: () => void;
 };
@@ -10,9 +14,11 @@ export function LocationPermissionModal({
   open,
   status,
   error,
+  language,
   onAllow,
   onDismiss,
 }: Props) {
+  const t = tFarmer(language);
   if (!open) return null;
 
   const busy = status === "requesting";
@@ -24,13 +30,8 @@ export function LocationPermissionModal({
         <span className="location-modal__pin" aria-hidden>
           📍
         </span>
-        <h2 id="location-modal-title">Allow your farm location</h2>
-        <p className="location-modal__bn">আপনার খামারের লোকেশন অনুমতি দিন</p>
-        <p className="location-modal__text">
-          KhetSmart needs your live GPS to show where you are on the map and route
-          harvest to the nearest cold storage from <strong>your field</strong>, not a
-          generic point.
-        </p>
+        <h2 id="location-modal-title">{t.locationTitle}</h2>
+        <p className="location-modal__text">{t.locationSub}</p>
         {error && <p className="location-modal__error">{error}</p>}
         <button
           type="button"
@@ -38,11 +39,11 @@ export function LocationPermissionModal({
           onClick={onAllow}
           disabled={busy}
         >
-          {busy ? "Getting location…" : "Allow location"}
+          {busy ? t.locationBusy : t.locationAllow}
         </button>
         {onDismiss && status !== "requesting" && (
           <button type="button" className="location-modal__skip" onClick={onDismiss}>
-            Not now (use corridor default)
+            {t.locationSkip}
           </button>
         )}
       </div>

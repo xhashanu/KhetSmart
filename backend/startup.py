@@ -1,5 +1,6 @@
 from database import SessionLocal, engine
 from models import Base
+from schema_patches import apply_schema_patches
 from ingest.import_registry import import_registry, REGISTRY_PATH
 from ingest.ingest_mandi import ingest_mandi_prices
 from ingest.ingest_ndvi import ingest_ndvi
@@ -8,6 +9,7 @@ from models import MandiPrice, YieldSnapshot
 
 
 def init_database():
+    apply_schema_patches()
     Base.metadata.create_all(bind=engine)
     db = SessionLocal()
     try:

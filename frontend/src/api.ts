@@ -66,10 +66,57 @@ export interface ConsultResponse {
     approved: boolean;
     amount_inr: number;
     interest_rate_pa: number;
+    tenure_days?: number;
     bank_partner: string;
     grn_id: string;
     trigger_reason: string;
   };
+}
+
+export interface InsurancePlan {
+  id: string;
+  name_en: string;
+  name_bn: string;
+  name_hi?: string;
+  type: string;
+  premium_inr: number;
+  coverage_inr: number;
+  provider: string;
+  phone: string;
+  highlights_bn: string[];
+  highlights_en: string[];
+  highlights_hi?: string[];
+  quantity_quintals: number;
+  recommended: boolean;
+}
+
+export interface InsuranceOffersResponse {
+  plans: InsurancePlan[];
+  quantity_quintals: number;
+  crop: string;
+  recommended_plan_id: string | null;
+}
+
+export interface MandiAuction {
+  id: string;
+  mandi_name: string;
+  district: string;
+  crop: string;
+  quantity_quintals: number;
+  grade: string;
+  start_price_per_quintal: number;
+  current_bid_per_quintal: number;
+  bidders: number;
+  ends_in_hours: number;
+  status: "live" | "upcoming" | string;
+}
+
+export interface AuctionsResponse {
+  auctions: MandiAuction[];
+  live_count: number;
+  crop: string;
+  best_match_id: string | null;
+  farmer_quantity_quintals: number | null;
 }
 
 export interface YieldForecast {
@@ -105,15 +152,49 @@ export interface YieldForecast {
       detail?: string;
     };
     weather?: {
+      ok?: boolean;
+      is_live_openweather?: boolean;
+      fetched_at?: string;
+      location_name?: string;
+      current_temp_c?: number;
+      feels_like_c?: number;
+      temp_range?: string;
+      humidity_pct?: number;
+      wind_kph?: number;
+      wind_speed_ms?: number;
+      weather_main?: string;
+      weather_description?: string;
+      weather_icon?: string;
+      weather_icon_url?: string;
       temp_max_c_30d?: number;
       temp_min_c_30d?: number;
+      temp_mean_c_30d?: number;
       precip_mm_14d?: number;
       precip_mm_7d?: number;
+      precipitation_mm?: number | string;
+      precip_mm_next_24h?: number;
+      pop_max_48h_pct?: number;
+      location_accuracy?: string;
+      updated_label?: string;
+      is_stale?: boolean;
+      wet_dry_anomaly?: string;
       solar_radiation_mj_m2_30d?: number;
       heat_stress_days_30d?: number;
+      frost_risk_days_30d?: number;
       drought_risk?: boolean;
       waterlogging_risk?: boolean;
       yield_factor?: number;
+      stresses?: string[];
+      forecast_days?: Array<{
+        date?: string;
+        label?: string;
+        temp_min_c?: number;
+        temp_max_c?: number;
+        pop_max_pct?: number;
+        rain_mm?: number;
+        icon?: string;
+        description?: string;
+      }>;
       detail?: string;
       source?: string;
     };
@@ -199,6 +280,38 @@ export interface ColdStorage {
   utilization_pct: number;
 }
 
+export interface LogisticsVehicle {
+  type: string;
+  capacity_quintals: number;
+  available: number;
+  plate: string;
+}
+
+export interface LogisticsVendor {
+  id: string;
+  name: string;
+  district: string;
+  phone: string;
+  rating: number;
+  services: string[];
+  vehicles: LogisticsVehicle[];
+  pickup_distance_km: number;
+  route_distance_km: number;
+  estimated_quote_inr: number;
+  vehicles_available: number;
+  max_capacity_quintals: number;
+  can_carry_load: boolean;
+  destination_name?: string | null;
+}
+
+export interface LogisticsVendorsResponse {
+  vendors: LogisticsVendor[];
+  recommended_vendor_id: string | null;
+  quantity_quintals: number;
+  destination_name: string | null;
+  route_distance_km: number;
+}
+
 export async function parseFarmerText(text: string): Promise<FarmerParseResult> {
   const res = await fetch("/api/nlp/parse", {
     method: "POST",
@@ -211,6 +324,102 @@ export async function parseFarmerText(text: string): Promise<FarmerParseResult> 
   }
   return res.json();
 }
+
+export interface VoiceConversationState {
+  phase?: string;
+  conversation_language?: string;
+  pending_harvest?: {
+    quantity_quintals: number;
+    crop: string;
+    district?: string | null;
+    transcript?: string;
+  } | null;
+  partial_crop?: string | null;
+  last_consult?: boolean;
+}
+
+export interface VoiceDiagnosticsPayload {
+  microphone?: string;
+  audio_captured?: boolean;
+  audio_bytes?: number;
+  audio_mime?: string | null;
+  stt_provider?: string | null;
+  stt_status?: string;
+  stt_engine?: string;
+  transcript?: string | null;
+  detected_language?: string | null;
+  intent?: string | null;
+  entities?: Record<string, unknown> | null;
+  backend_api?: string | null;
+  tts_status?: string;
+}
+
+export interface VoiceConverseResponse {
+  ok: boolean;
+  phase?: string;
+  transcribed_text?: string;
+  detected_language: string;
+  conversation_language?: string;
+  response_text: string;
+  response_ssml: string | null;
+  response_audio_base64?: string | null;
+  intent: string;
+  entities: {
+    crop?: string | null;
+    quantity_quintals?: number | null;
+    district?: string | null;
+    timing?: string | null;
+    confirmation?: string | null;
+    unit?: string | null;
+  };
+  needs_confirmation: boolean;
+  confirmation_text: string | null;
+  suggested_actions: string[];
+  consult_result?: ConsultResponse | null;
+  conversation_state?: VoiceConversationState;
+  diagnostics?: VoiceDiagnosticsPayload;
+  stt_provider?: string | null;
+  is_live_gemini: boolean;
+}
+
+export async function converseFarmer(opts: {
+  text?: string | null;
+  context?: Record<string, unknown> | null;
+  conversationState?: VoiceConversationState | null;
+  audioBase64?: string | null;
+  audioMime?: string | null;
+  farmerLat?: number | null;
+  farmerLng?: number | null;
+}): Promise<VoiceConverseResponse> {
+  const body: Record<string, unknown> = {
+    text: opts.text ? opts.text.trim() : null,
+    context: opts.context ?? null,
+    conversation_state: opts.conversationState ?? null,
+  };
+
+  const loc = opts.context?.location as { lat?: number; lng?: number } | undefined;
+  const lat = opts.farmerLat ?? loc?.lat;
+  const lng = opts.farmerLng ?? loc?.lng;
+  if (lat != null) body.farmer_lat = lat;
+  if (lng != null) body.farmer_lng = lng;
+
+  if (opts.audioBase64) {
+    body.audio_base64 = opts.audioBase64;
+    body.audio_mime = opts.audioMime || "audio/webm";
+  }
+
+  const res = await fetch("/api/voice/converse", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error((err as { detail?: string }).detail || "Voice conversation failed");
+  }
+  return res.json();
+}
+
 
 export async function consultFarmer(
   text: string,
@@ -248,9 +457,39 @@ export async function consultFarmer(
   return res.json();
 }
 
-export async function fetchYield(): Promise<YieldForecast> {
-  const res = await fetch("/api/yield/forecast");
+export async function fetchYield(location?: { lat: number; lng: number } | null): Promise<YieldForecast> {
+  const qs = new URLSearchParams();
+  if (location?.lat != null && location?.lng != null) {
+    qs.set("lat", String(location.lat));
+    qs.set("lng", String(location.lng));
+  }
+  const url = qs.toString() ? `/api/yield/forecast?${qs.toString()}` : "/api/yield/forecast";
+  const res = await fetch(url);
   if (!res.ok) throw new Error("Yield fetch failed");
+  return res.json();
+}
+
+export interface AiPredictionResponse {
+  ok: boolean;
+  is_live_gemini: boolean;
+  report: string;
+  api_key_configured: boolean;
+  weather_live?: boolean;
+  weather_source?: string;
+}
+
+export async function fetchAiPrediction(
+  lang = "bn",
+  location?: { lat: number; lng: number } | null
+): Promise<AiPredictionResponse> {
+  const qs = new URLSearchParams();
+  qs.set("lang", lang);
+  if (location?.lat != null && location?.lng != null) {
+    qs.set("lat", String(location.lat));
+    qs.set("lng", String(location.lng));
+  }
+  const res = await fetch(`/api/yield/ai-prediction?${qs.toString()}`);
+  if (!res.ok) throw new Error("AI Prediction fetch failed");
   return res.json();
 }
 
@@ -260,10 +499,215 @@ export async function fetchStorages(forMap = false): Promise<ColdStorage[]> {
   return res.json();
 }
 
+export async function fetchLogisticsVendors(params: {
+  quantity_quintals: number;
+  farmer_lat?: number;
+  farmer_lng?: number;
+  destination_lat?: number;
+  destination_lng?: number;
+  destination_name?: string;
+}): Promise<LogisticsVendorsResponse> {
+  const q = new URLSearchParams();
+  q.set("quantity_quintals", String(params.quantity_quintals));
+  if (params.farmer_lat != null) q.set("farmer_lat", String(params.farmer_lat));
+  if (params.farmer_lng != null) q.set("farmer_lng", String(params.farmer_lng));
+  if (params.destination_lat != null) {
+    q.set("destination_lat", String(params.destination_lat));
+  }
+  if (params.destination_lng != null) {
+    q.set("destination_lng", String(params.destination_lng));
+  }
+  if (params.destination_name) q.set("destination_name", params.destination_name);
+  const res = await fetch(`/api/logistics/vendors?${q}`);
+  if (!res.ok) throw new Error("Logistics vendors fetch failed");
+  return res.json();
+}
+
+export async function fetchInsuranceOffers(params: {
+  quantity_quintals: number;
+  glut_risk_pct: number;
+  crop?: string;
+}): Promise<InsuranceOffersResponse> {
+  const q = new URLSearchParams();
+  q.set("quantity_quintals", String(params.quantity_quintals));
+  q.set("glut_risk_pct", String(params.glut_risk_pct));
+  if (params.crop) q.set("crop", params.crop);
+  const res = await fetch(`/api/finance/insurance?${q}`);
+  if (!res.ok) throw new Error("Insurance fetch failed");
+  return res.json();
+}
+
+export async function fetchAuctions(params?: {
+  crop?: string;
+  district?: string;
+  quantity_quintals?: number;
+}): Promise<AuctionsResponse> {
+  const q = new URLSearchParams();
+  if (params?.crop) q.set("crop", params.crop);
+  if (params?.district) q.set("district", params.district);
+  if (params?.quantity_quintals != null) {
+    q.set("quantity_quintals", String(params.quantity_quintals));
+  }
+  const res = await fetch(`/api/finance/auctions?${q}`);
+  if (!res.ok) throw new Error("Auctions fetch failed");
+  return res.json();
+}
+
 export async function fetchHealth(): Promise<HealthInfo> {
   const res = await fetch("/api/health");
   if (!res.ok) throw new Error("Health fetch failed");
   return res.json();
+}
+
+export interface FarmerProfile {
+  id: string;
+  phone: string;
+  name: string;
+  district: string | null;
+  has_pin?: boolean;
+  created_at: string | null;
+}
+
+export interface OtpSendResponse {
+  ok: boolean;
+  phone: string;
+  expires_in_seconds: number;
+  resend_after_seconds: number;
+  dev_otp?: string;
+}
+
+export interface OtpVerifyResponse {
+  status: "logged_in" | "needs_profile";
+  token?: string;
+  farmer?: FarmerProfile;
+  has_pin?: boolean;
+  signup_token?: string;
+  phone?: string;
+}
+
+export interface FarmerAuthResponse {
+  token: string;
+  farmer: FarmerProfile;
+}
+
+function authHeaders(token: string): HeadersInit {
+  return {
+    "Content-Type": "application/json",
+    Authorization: `Bearer ${token}`,
+  };
+}
+
+async function parseAuthError(res: Response): Promise<string> {
+  try {
+    const data = (await res.json()) as { detail?: string };
+    return data.detail ?? "request_failed";
+  } catch {
+    return "request_failed";
+  }
+}
+
+export async function sendFarmerOtp(phone: string): Promise<OtpSendResponse> {
+  const res = await fetch("/api/auth/otp/send", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ phone }),
+  });
+  if (!res.ok) throw new Error(await parseAuthError(res));
+  return res.json();
+}
+
+export async function verifyFarmerOtp(
+  phone: string,
+  otp: string
+): Promise<OtpVerifyResponse> {
+  const res = await fetch("/api/auth/otp/verify", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ phone, otp }),
+  });
+  if (!res.ok) throw new Error(await parseAuthError(res));
+  return res.json();
+}
+
+export async function completeFarmerOtpSignup(body: {
+  signup_token: string;
+  name: string;
+  district?: string | null;
+}): Promise<FarmerAuthResponse> {
+  const res = await fetch("/api/auth/otp/complete-signup", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) throw new Error(await parseAuthError(res));
+  const data = await res.json();
+  return { token: data.token, farmer: data.farmer };
+}
+
+export async function setFarmerPin(
+  token: string,
+  pin: string,
+  pin_confirm: string
+): Promise<{ farmer: FarmerProfile }> {
+  const res = await fetch("/api/auth/pin/set", {
+    method: "POST",
+    headers: authHeaders(token),
+    body: JSON.stringify({ pin, pin_confirm }),
+  });
+  if (!res.ok) throw new Error(await parseAuthError(res));
+  return res.json();
+}
+
+export async function farmerSignup(body: {
+  phone: string;
+  name: string;
+  pin: string;
+  district?: string | null;
+}): Promise<FarmerAuthResponse> {
+  const res = await fetch("/api/auth/signup", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) {
+    if (res.status === 409) throw new Error("phone_already_registered");
+    if (res.status === 400) throw new Error("invalid_signup");
+    throw new Error("Signup failed");
+  }
+  return res.json();
+}
+
+export async function farmerLogin(body: {
+  phone: string;
+  pin: string;
+}): Promise<FarmerAuthResponse> {
+  const res = await fetch("/api/auth/login", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) {
+    const detail = await parseAuthError(res);
+    if (detail === "pin_not_set") throw new Error("pin_not_set");
+    if (res.status === 401) throw new Error("invalid_credentials");
+    throw new Error("Login failed");
+  }
+  return res.json();
+}
+
+export async function fetchFarmerMe(token: string): Promise<{ farmer: FarmerProfile }> {
+  const res = await fetch("/api/auth/me", {
+    headers: authHeaders(token),
+  });
+  if (!res.ok) throw new Error("not_authenticated");
+  return res.json();
+}
+
+export async function farmerLogout(token: string): Promise<void> {
+  await fetch("/api/auth/logout", {
+    method: "POST",
+    headers: authHeaders(token),
+  });
 }
 
 const ADMIN_KEY_STORAGE = "khetsmart_admin_key";
@@ -387,5 +831,90 @@ export async function importRegistry(): Promise<Record<string, unknown>> {
     headers: adminHeaders(),
   });
   if (!res.ok) throw new Error("Registry import failed");
+  return res.json();
+}
+
+export interface PaymentConfigResponse {
+  razorpay_enabled: boolean;
+  key_id: string | null;
+}
+
+export async function fetchVoiceConfig(): Promise<{
+  gemini_stt: boolean;
+  stt_mode?: string;
+  web_speech_disabled?: boolean;
+}> {
+  const res = await fetch("/api/voice/config");
+  if (!res.ok) return { gemini_stt: false };
+  return res.json();
+}
+
+export async function transcribeVoiceAudio(
+  blob: Blob,
+  languageHint: "en" | "bn" | "hi"
+): Promise<{ text: string; engine?: string }> {
+  const form = new FormData();
+  form.append("audio", blob, "farmer-voice.webm");
+  form.append("language_hint", languageHint);
+  const res = await fetch("/api/voice/transcribe", {
+    method: "POST",
+    body: form,
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error((err as { detail?: string }).detail || "transcribe_failed");
+  }
+  return res.json();
+}
+
+export async function fetchPaymentConfig(): Promise<PaymentConfigResponse> {
+  const res = await fetch("/api/payments/config");
+  if (!res.ok) return { razorpay_enabled: false, key_id: null };
+  return res.json();
+}
+
+export interface PaymentOrderResponse {
+  order_id: string;
+  amount: number;
+  amount_inr: number;
+  currency: string;
+  receipt: string;
+  key_id: string;
+}
+
+export async function createPaymentOrder(
+  amount_inr: number,
+  receipt_ref?: string
+): Promise<PaymentOrderResponse> {
+  const res = await fetch("/api/payments/create-order", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ amount_inr, receipt_ref }),
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(
+      (err as { detail?: string }).detail || "payment_order_failed"
+    );
+  }
+  return res.json();
+}
+
+export async function verifyRazorpayPayment(payload: {
+  razorpay_order_id: string;
+  razorpay_payment_id: string;
+  razorpay_signature: string;
+}): Promise<{ verified: boolean; payment_id: string; order_id: string }> {
+  const res = await fetch("/api/payments/verify", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(
+      (err as { detail?: string }).detail || "payment_verify_failed"
+    );
+  }
   return res.json();
 }

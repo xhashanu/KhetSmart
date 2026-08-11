@@ -1,13 +1,14 @@
 import { AdminPanel } from "./AdminPanel";
+import type { AppLanguage } from "../hooks/useAppSettings";
 
 type Props = {
   open: boolean;
   onClose: () => void;
-  language: "en" | "bn";
+  language: AppLanguage;
 };
 
-const TITLE = { en: "Ops", bn: "অপারেশন" } as const;
-const BACK = { en: "Back", bn: "ফিরে যান" } as const;
+const TITLE = { en: "Ops", bn: "অপারেশন", hi: "ऑपरेशन" } as const;
+const BACK = { en: "Back", bn: "ফিরে যান", hi: "वापस" } as const;
 
 export function OpsOverlay({ open, onClose, language }: Props) {
   if (!open) return null;

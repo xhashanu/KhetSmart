@@ -15,3 +15,15 @@ recorded_at,ndvi,glut_risk_pct,predicted_yield_million_quintals,lulc_potato_acre
 2026-05-20T20:08:12.784885+00:00,0.437,50,3.99,134760,Sentinel-2 L2A · Copernicus Data Space (NDVI+SAVI+GNDVI),6
 2026-05-20T21:41:10.014962+00:00,0.436,52,3.73,134760,Sentinel-2 L2A · Copernicus Data Space (NDVI+SAVI+GNDVI),6
 2026-05-20T21:41:25.998481+00:00,0.436,52,3.73,134760,Sentinel-2 L2A · Copernicus Data Space (NDVI+SAVI+GNDVI),6
+2026-02-26T00:00:00Z,0.4406,,,,Copernicus interval import
+2026-03-12T00:00:00Z,0.4534,,,,Copernicus interval import
+2026-03-26T00:00:00Z,0.4864,,,,Copernicus interval import
+2026-04-09T00:00:00Z,0.492,,,,Copernicus interval import
+2026-04-23T00:00:00Z,0.4328,,,,Copernicus interval import
+2026-05-07T00:00:00Z,0.436,,,,Copernicus interval import
+2026-05-21T12:00:29.810782+00:00,0.436,52,3.73,134760,Sentinel-2 L2A · Copernicus Data Space (NDVI+SAVI+GNDVI),6
+2026-05-21T14:31:17.344937+00:00,0.562,55,3.86,134760,Storage + weather + soil (no satellite credentials),6
+2026-05-21T14:38:10.092960+00:00,0.612,56,3.88,134760,Storage + weather + soil (no satellite credentials),6
+2026-05-21T14:47:19.654983+00:00,0.632,56,3.89,134760,Storage + weather + soil (no satellite credentials),6
+2026-05-21T15:10:50.968872+00:00,0.685,45,4.25,128400,Storage + weather + soil (no satellite credentials),5
+2026-05-21T15:13:16.485280+00:00,0.707,45,4.26,128400,Storage + weather + soil (no satellite credentials),5

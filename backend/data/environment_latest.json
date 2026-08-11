@@ -1,48 +1,267 @@
 {
-  "recorded_at": "2026-05-20T21:41:31.212315+00:00",
+  "recorded_at": "2026-08-10T12:56:08.121178+00:00",
   "vegetation": {
-    "ndvi": 0.436,
-    "savi": 0.2995,
-    "gndvi": 0.399,
-    "composite_index": 0.3594,
-    "detail": "NDVI 0.436 \u00b7 SAVI 0.299 (soil-adjusted early canopy) \u00b7 GNDVI 0.399 (chlorophyll / N proxy)"
+    "ndvi": 0.295,
+    "savi": 0.1256,
+    "gndvi": 0.1443,
+    "composite_index": 0.1685,
+    "detail": "NDVI 0.295 \u00b7 SAVI 0.126 (soil-adjusted early canopy) \u00b7 GNDVI 0.144 (chlorophyll / N proxy)"
   },
   "weather": {
     "ok": true,
     "period_days": 91,
-    "temp_max_c_30d": 33.8,
-    "temp_min_c_30d": 24.0,
-    "temp_mean_c_30d": 28.4,
-    "precip_mm_14d": 55.6,
-    "precip_mm_7d": 21.0,
-    "solar_radiation_mj_m2_30d": 20.16,
-    "heat_stress_days_30d": 18,
+    "temp_max_c_30d": 32.0,
+    "temp_min_c_30d": 26.2,
+    "temp_mean_c_30d": 28.6,
+    "precip_mm_14d": 149.1,
+    "precip_mm_7d": 80.4,
+    "solar_radiation_mj_m2_30d": 18.57,
+    "heat_stress_days_30d": 14,
+    "frost_risk_days_30d": 0,
     "drought_risk": false,
     "waterlogging_risk": false,
     "radiation_ok": true,
-    "yield_factor": 0.91,
+    "yield_factor": 0.88,
     "glut_adjust": 4,
     "stresses": [
-      "Heat stress: 18 days \u226532.0\u00b0C (30d)"
+      "Now: Overcast Clouds \u00b7 31.7\u00b0C",
+      "Heat stress: 14 days \u226532.0\u00b0C (30d)"
     ],
-    "detail": "Heat stress: 18 days \u226532.0\u00b0C (30d)",
-    "source": "Open-Meteo \u00b7 corridor centroid",
-    "message": "OK"
+    "detail": "Now: Overcast Clouds \u00b7 31.7\u00b0C; Heat stress: 14 days \u226532.0\u00b0C (30d)",
+    "source": "OpenWeatherMap \u00b7 live + Open-Meteo \u00b7 30d",
+    "message": "OK",
+    "location_name": "Sainthia",
+    "current_temp_c": 31.7,
+    "feels_like_c": 37.2,
+    "temp_min_c_now": 31.7,
+    "temp_max_c_now": 31.7,
+    "temp_range": "32\u00b0C \u2013 32\u00b0C",
+    "humidity_pct": 63,
+    "pressure_hpa": 1000,
+    "wind_speed_ms": 3.2,
+    "wind_kph": 11.6,
+    "visibility_m": 10000,
+    "cloud_pct": 100,
+    "weather_main": "Clouds",
+    "weather_description": "Overcast Clouds",
+    "weather_icon": "04n",
+    "weather_icon_url": "https://openweathermap.org/img/wn/04n@2x.png",
+    "precipitation_mm": 32.7,
+    "precip_mm_next_24h": 2.1,
+    "pop_max_48h_pct": 100,
+    "wet_dry_anomaly": "wet",
+    "forecast_days": [
+      {
+        "date": "2026-08-10",
+        "label": "Mon 10 Aug",
+        "temp_min_c": 28.9,
+        "temp_max_c": 31.8,
+        "pop_max_pct": 100,
+        "rain_mm": 1.8,
+        "icon": "04n",
+        "description": "Overcast Clouds",
+        "slots": [
+          {
+            "time": "15:00",
+            "temp_c": 31.8,
+            "pop_pct": 0,
+            "description": "Overcast Clouds",
+            "icon": "04n"
+          },
+          {
+            "time": "18:00",
+            "temp_c": 30.9,
+            "pop_pct": 20,
+            "description": "Light Rain",
+            "icon": "10n"
+          },
+          {
+            "time": "21:00",
+            "temp_c": 28.9,
+            "pop_pct": 100,
+            "description": "Light Rain",
+            "icon": "10n"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-11",
+        "label": "Tue 11 Aug",
+        "temp_min_c": 28.0,
+        "temp_max_c": 34.8,
+        "pop_max_pct": 98,
+        "rain_mm": 0.9,
+        "icon": "10d",
+        "description": "Light Rain",
+        "slots": [
+          {
+            "time": "00:00",
+            "temp_c": 28.0,
+            "pop_pct": 98,
+            "description": "Light Rain",
+            "icon": "10d"
+          },
+          {
+            "time": "03:00",
+            "temp_c": 31.5,
+            "pop_pct": 0,
+            "description": "Broken Clouds",
+            "icon": "04d"
+          },
+          {
+            "time": "06:00",
+            "temp_c": 34.8,
+            "pop_pct": 0,
+            "description": "Broken Clouds",
+            "icon": "04d"
+          },
+          {
+            "time": "09:00",
+            "temp_c": 34.2,
+            "pop_pct": 20,
+            "description": "Light Rain",
+            "icon": "10d"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-12",
+        "label": "Wed 12 Aug",
+        "temp_min_c": 28.9,
+        "temp_max_c": 35.5,
+        "pop_max_pct": 99,
+        "rain_mm": 1.9,
+        "icon": "04d",
+        "description": "Overcast Clouds",
+        "slots": [
+          {
+            "time": "00:00",
+            "temp_c": 28.9,
+            "pop_pct": 20,
+            "description": "Overcast Clouds",
+            "icon": "04d"
+          },
+          {
+            "time": "03:00",
+            "temp_c": 32.2,
+            "pop_pct": 0,
+            "description": "Overcast Clouds",
+            "icon": "04d"
+          },
+          {
+            "time": "06:00",
+            "temp_c": 35.5,
+            "pop_pct": 3,
+            "description": "Broken Clouds",
+            "icon": "04d"
+          },
+          {
+            "time": "09:00",
+            "temp_c": 35.0,
+            "pop_pct": 31,
+            "description": "Light Rain",
+            "icon": "10d"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-13",
+        "label": "Thu 13 Aug",
+        "temp_min_c": 27.6,
+        "temp_max_c": 35.5,
+        "pop_max_pct": 100,
+        "rain_mm": 16.1,
+        "icon": "04d",
+        "description": "Overcast Clouds",
+        "slots": [
+          {
+            "time": "00:00",
+            "temp_c": 29.6,
+            "pop_pct": 81,
+            "description": "Overcast Clouds",
+            "icon": "04d"
+          },
+          {
+            "time": "03:00",
+            "temp_c": 32.6,
+            "pop_pct": 73,
+            "description": "Light Rain",
+            "icon": "10d"
+          },
+          {
+            "time": "06:00",
+            "temp_c": 35.5,
+            "pop_pct": 92,
+            "description": "Light Rain",
+            "icon": "10d"
+          },
+          {
+            "time": "09:00",
+            "temp_c": 34.5,
+            "pop_pct": 94,
+            "description": "Light Rain",
+            "icon": "10d"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-14",
+        "label": "Fri 14 Aug",
+        "temp_min_c": 28.1,
+        "temp_max_c": 32.3,
+        "pop_max_pct": 100,
+        "rain_mm": 12.0,
+        "icon": "10d",
+        "description": "Moderate Rain",
+        "slots": [
+          {
+            "time": "00:00",
+            "temp_c": 28.4,
+            "pop_pct": 100,
+            "description": "Moderate Rain",
+            "icon": "10d"
+          },
+          {
+            "time": "03:00",
+            "temp_c": 31.6,
+            "pop_pct": 13,
+            "description": "Overcast Clouds",
+            "icon": "04d"
+          },
+          {
+            "time": "06:00",
+            "temp_c": 32.3,
+            "pop_pct": 93,
+            "description": "Light Rain",
+            "icon": "10d"
+          },
+          {
+            "time": "09:00",
+            "temp_c": 30.9,
+            "pop_pct": 81,
+            "description": "Light Rain",
+            "icon": "10d"
+          }
+        ]
+      }
+    ],
+    "is_live_openweather": true,
+    "fetched_at": "2026-08-10T12:55:03.349120+00:00"
   },
   "moisture": {
     "ok": true,
-    "surface_moisture_m3_m3": 0.161,
-    "rootzone_moisture_m3_m3": 0.17,
-    "rootzone_moisture_7d_avg": 0.172,
-    "rootzone_moisture_30d_avg": 0.253,
+    "surface_moisture_m3_m3": 0.4,
+    "rootzone_moisture_m3_m3": 0.394,
+    "rootzone_moisture_7d_avg": 0.414,
+    "rootzone_moisture_30d_avg": 0.405,
     "depth_surface_cm": "0\u20137",
     "depth_rootzone_cm": "7\u201328",
-    "status": "dry",
-    "detail": "Root-zone 0.17 m\u00b3/m\u00b3 below optimal (0.20\u20130.34) \u2014 irrigation risk.",
-    "yield_factor": 0.93,
-    "glut_adjust": 2,
-    "drought_stress": true,
-    "waterlogging_risk": false,
+    "status": "wet",
+    "detail": "Root-zone 0.39 m\u00b3/m\u00b3 \u2014 adequate water; monitor saturation if rains continue.",
+    "yield_factor": 0.97,
+    "glut_adjust": 0,
+    "drought_stress": false,
+    "waterlogging_risk": true,
     "source": "ERA5-Land \u00b7 Open-Meteo (hourly)",
     "message": "OK"
   },
@@ -63,13 +282,13 @@
   },
   "nitrogen": {
     "ok": true,
-    "level": "moderate",
-    "priority": "medium",
-    "headline": "Moderate N deficiency (GNDVI)",
-    "recommendation": "GNDVI 0.399 in 0.38\u20130.43 band \u2014 consider side-dress 15\u201325 kg N/ha and verify with petiole nitrate if possible.",
-    "suggested_n_kg_per_ha": "15\u201325",
-    "gndvi": 0.399,
-    "gndvi_band": "moderate",
+    "level": "critical",
+    "priority": "high",
+    "headline": "Critical N stress (GNDVI)",
+    "recommendation": "GNDVI 0.144 below 0.38 \u2014 chlorophyll/N deficiency likely. Urgent side-dress 40\u201360 kg N/ha (urea split) within 3\u20135 days if before final tuber swell; else focus on irrigation.",
+    "suggested_n_kg_per_ha": "40\u201360",
+    "gndvi": 0.1443,
+    "gndvi_band": "critical",
     "thresholds": {
       "critical_below": 0.38,
       "low_below": 0.43,
@@ -79,6 +298,6 @@
     "source": "GNDVI chlorophyll thresholds (potato corridor)"
   },
   "satellite_source": "Sentinel-2 L2A \u00b7 Copernicus Data Space (NDVI+SAVI+GNDVI)",
-  "glut_risk_pct": 52,
-  "predicted_yield_million_quintals": 3.73
+  "glut_risk_pct": 43,
+  "predicted_yield_million_quintals": 3.85
 }

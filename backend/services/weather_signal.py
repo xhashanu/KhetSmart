@@ -1,10 +1,13 @@
 """Corridor weather via Open-Meteo (no API key) — temperature, rain, solar radiation."""
 from __future__ import annotations
 
+import logging
 import time
 from datetime import datetime, timedelta, timezone
 
-import httpx
+from services.external_api import fetch_json
+
+logger = logging.getLogger(__name__)
 
 # Damodar potato corridor centroid
 CORRIDOR_LAT = 24.05
@@ -22,18 +25,48 @@ _cache: tuple[dict, float] | None = None
 _CACHE_TTL_SEC = 3600
 
 
-def fetch_corridor_weather(past_days: int = 90) -> dict:
-    """Daily weather summary + stress flags for yield/glut model."""
-    global _cache
-    if _cache and _cache[1] > time.time():
-        return _cache[0]
+def _merge_openweather(base: dict, live: dict) -> dict:
+    """Overlay OpenWeather live readings onto Open-Meteo corridor stats."""
+    merged = {**base, **live}
+    merged["ok"] = base.get("ok", False) or live.get("ok", False)
+    merged["is_live_openweather"] = True
 
+    tmin = live.get("temp_min_c_now") or base.get("temp_min_c_30d")
+    tmax = live.get("temp_max_c_now") or base.get("temp_max_c_30d")
+    if tmin is not None and tmax is not None:
+        merged["temp_range"] = f"{float(tmin):.0f}°C – {float(tmax):.0f}°C"
+
+    if live.get("precipitation_mm") is not None:
+        merged["precipitation_mm"] = live["precipitation_mm"]
+    elif base.get("precip_mm_14d") is not None:
+        merged["precipitation_mm"] = f"{base['precip_mm_14d']} mm (14d)"
+
+    if live.get("wet_dry_anomaly"):
+        merged["wet_dry_anomaly"] = live["wet_dry_anomaly"]
+    elif base.get("drought_risk"):
+        merged["wet_dry_anomaly"] = "dry"
+    elif base.get("waterlogging_risk"):
+        merged["wet_dry_anomaly"] = "wet"
+    else:
+        merged["wet_dry_anomaly"] = merged.get("wet_dry_anomaly", "normal")
+
+    merged["source"] = "OpenWeatherMap · live + Open-Meteo · 30d"
+    stresses = list(base.get("stresses") or [])
+    if live.get("weather_description"):
+        stresses.insert(0, f"Now: {live['weather_description']} · {live.get('current_temp_c')}°C")
+    merged["stresses"] = stresses
+    if stresses:
+        merged["detail"] = "; ".join(stresses[:3])
+    return merged
+
+
+def fetch_open_meteo_history(lat: float, lng: float, past_days: int = 30) -> dict:
+    """Historical daily weather at coordinates — real API only."""
     end = datetime.now(timezone.utc).date()
     start = end - timedelta(days=past_days)
-
     params = {
-        "latitude": CORRIDOR_LAT,
-        "longitude": CORRIDOR_LON,
+        "latitude": lat,
+        "longitude": lng,
         "timezone": "Asia/Kolkata",
         "daily": ",".join(
             [
@@ -47,21 +80,36 @@ def fetch_corridor_weather(past_days: int = 90) -> dict:
         "start_date": start.isoformat(),
         "end_date": end.isoformat(),
     }
+    status, payload, err = fetch_json(
+        "open_meteo",
+        "GET",
+        OPEN_METEO_URL,
+        params=params,
+        timeout=20.0,
+        max_attempts=3,
+    )
+    if status != 200 or payload is None:
+        logger.warning("Open-Meteo history failed for %s,%s: %s", lat, lng, err)
+        return {"ok": False, "message": err or "Open-Meteo unavailable"}
+    summary = _summarize_open_meteo(payload)
+    if not summary.get("ok"):
+        return summary
+    if summary.get("drought_risk"):
+        summary["drought_detail"] = (
+            f"Dry signal: {summary.get('precip_mm_14d', 0)} mm rain in last 14 days."
+        )
+    if summary.get("waterlogging_risk"):
+        summary["waterlogging_detail"] = (
+            f"Heavy rain: {summary.get('precip_mm_7d', 0)} mm in last 7 days."
+        )
+    return summary
 
-    fallback = _fallback_weather()
-    try:
-        with httpx.Client(timeout=25.0) as client:
-            r = client.get(OPEN_METEO_URL, params=params)
-        if r.status_code != 200:
-            fallback["message"] = f"Open-Meteo HTTP {r.status_code}"
-            return fallback
-        payload = _summarize_open_meteo(r.json())
-        payload["source"] = "Open-Meteo · corridor centroid"
-        _cache = (payload, time.time() + _CACHE_TTL_SEC)
-        return payload
-    except Exception as e:
-        fallback["message"] = str(e)
-        return fallback
+
+def fetch_corridor_weather(past_days: int = 90) -> dict:
+    """Corridor default — delegates to location-based weather engine."""
+    from services.weather_engine import fetch_farmer_weather
+
+    return fetch_farmer_weather(CORRIDOR_LAT, CORRIDOR_LON)
 
 
 def _summarize_open_meteo(data: dict) -> dict:
@@ -75,14 +123,16 @@ def _summarize_open_meteo(data: dict) -> dict:
 
     n = min(len(dates), len(tmax), len(precip))
     if n < 7:
-        return _fallback_weather()
+        return _weather_data_unavailable("Insufficient Open-Meteo history (< 7 days)")
 
     last30_tmax = [float(x) for x in tmax[-30:] if x is not None]
     last14_precip = sum(float(x or 0) for x in precip[-14:])
     last7_precip = sum(float(x or 0) for x in precip[-7:])
     last30_sw = [float(x or 0) for x in sw[-30:] if x is not None]
 
+    last30_tmin = [float(x) for x in tmin[-30:] if x is not None]
     heat_days = sum(1 for t in last30_tmax if t >= HEAT_STRESS_TMAX_C)
+    frost_days = sum(1 for t in last30_tmin if t <= 2.0)
     avg_tmax = sum(last30_tmax) / len(last30_tmax) if last30_tmax else 30.0
     avg_tmin = sum(float(x or 0) for x in tmin[-30:]) / max(1, len(tmin[-30:]))
     avg_tmean = sum(float(x or 0) for x in tmean[-30:]) / max(1, len(tmean[-30:]))
@@ -130,6 +180,7 @@ def _summarize_open_meteo(data: dict) -> dict:
         "precip_mm_7d": round(last7_precip, 1),
         "solar_radiation_mj_m2_30d": round(avg_sw_mj, 2),
         "heat_stress_days_30d": heat_days,
+        "frost_risk_days_30d": frost_days,
         "drought_risk": drought,
         "waterlogging_risk": waterlog,
         "radiation_ok": radiation_ok,
@@ -142,24 +193,21 @@ def _summarize_open_meteo(data: dict) -> dict:
     }
 
 
-def _fallback_weather() -> dict:
+def _weather_data_unavailable(reason: str) -> dict:
+    """No fabricated weather numbers."""
     return {
         "ok": False,
+        "available": False,
         "period_days": 0,
-        "temp_max_c_30d": 34.0,
-        "temp_min_c_30d": 22.0,
-        "temp_mean_c_30d": 28.0,
-        "precip_mm_14d": 40.0,
-        "precip_mm_7d": 20.0,
-        "solar_radiation_mj_m2_30d": 18.0,
-        "heat_stress_days_30d": 3,
-        "drought_risk": False,
-        "waterlogging_risk": False,
-        "radiation_ok": True,
         "yield_factor": 1.0,
         "glut_adjust": 0,
         "stresses": [],
-        "detail": "Weather API unavailable — using corridor seasonal baseline.",
-        "source": "WB corridor baseline",
-        "message": "fallback",
+        "detail": reason,
+        "source": None,
+        "message": reason,
     }
+
+
+def _fallback_weather() -> dict:
+    """Deprecated alias — returns unavailable, never fake corridor values."""
+    return _weather_data_unavailable("Weather data temporarily unavailable")

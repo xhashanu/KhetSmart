@@ -1,497 +1,497 @@
 id,name,district,block,lat,lng,capacity_quintals,utilization_pct,operator_phone,registry_source,verified
-CS-001,Burdwan CS #14,Purba Bardhaman,Purba,23.2324,87.8615,12000,72,,KhetSmart verified (8-facility seed),yes
-CS-002,Hooghly CS #7,Hooghly,Hooghly,22.896,88.398,8500,75,,KhetSmart verified (8-facility seed),yes
-CS-003,Bankura CS #3,Bankura,Bankura,23.2324,87.071,6000,70,,KhetSmart verified (8-facility seed),yes
-CS-004,Asansol CS #9,Paschim Bardhaman,Paschim,23.6739,86.9524,10000,58,,KhetSmart verified (8-facility seed),yes
-CS-005,Malda CS #2,Malda,Malda,25.0108,88.14,7500,88,,KhetSmart verified (8-facility seed),yes
-CS-006,Nadia CS #11,Nadia,Nadia,23.405,88.49,9200,66,,KhetSmart verified (8-facility seed),yes
-CS-007,Murshidabad CS #5,Murshidabad,Murshidabad,24.18,88.27,11000,86,,KhetSmart verified (8-facility seed),yes
-CS-008,Birbhum CS #6,Birbhum,Birbhum,23.9,87.52,5500,60,,KhetSmart verified (8-facility seed),yes
-CS-009,Burdwan Cold Storage #1,Purba Bardhaman,Burdwan,23.2831,87.8847,121769,75,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-010,Burdwan Cold Storage #2,Purba Bardhaman,Burdwan,23.249,87.8581,121496,75,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-011,Burdwan Cold Storage #3,Purba Bardhaman,Burdwan,23.2284,87.8342,122331,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-012,Burdwan Cold Storage #4,Purba Bardhaman,Burdwan,23.1676,87.8505,121845,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-013,Burdwan Cold Storage #5,Purba Bardhaman,Burdwan,23.2022,87.9086,122122,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-014,Burdwan Cold Storage #6,Purba Bardhaman,Burdwan,23.2802,87.8113,121746,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-015,Burdwan Cold Storage #7,Purba Bardhaman,Burdwan,23.2806,87.8979,121749,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-016,Burdwan Cold Storage #8,Purba Bardhaman,Burdwan,23.2044,87.838,121139,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-017,Burdwan Cold Storage #9,Purba Bardhaman,Burdwan,23.2831,87.895,121769,69,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-018,Burdwan Cold Storage #10,Purba Bardhaman,Burdwan,23.1842,87.8439,120978,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-019,Burdwan Cold Storage #11,Purba Bardhaman,Burdwan,23.2309,87.8761,121351,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-020,Burdwan Cold Storage #12,Purba Bardhaman,Burdwan,23.2306,87.8641,121349,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-021,Burdwan Cold Storage #13,Purba Bardhaman,Burdwan,23.28,87.9064,121744,74,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-022,Burdwan Cold Storage #14,Purba Bardhaman,Burdwan,23.1681,87.8718,121849,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-023,Burdwan Cold Storage #15,Purba Bardhaman,Burdwan,23.2389,87.8296,122415,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-024,Burdwan Cold Storage #16,Purba Bardhaman,Burdwan,23.1756,87.878,120909,87,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-025,Burdwan Cold Storage #17,Purba Bardhaman,Burdwan,23.1891,87.8045,121017,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-026,Burdwan Cold Storage #18,Purba Bardhaman,Burdwan,23.2771,87.8319,122721,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-027,Burdwan Cold Storage #19,Purba Bardhaman,Burdwan,23.1855,87.8459,121988,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-028,Burdwan Cold Storage #20,Purba Bardhaman,Burdwan,23.204,87.9142,122136,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-029,Burdwan Cold Storage #21,Purba Bardhaman,Burdwan,23.1943,87.851,122058,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-030,Burdwan Cold Storage #22,Purba Bardhaman,Burdwan,23.2384,87.8324,121411,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-031,Burdwan Cold Storage #23,Purba Bardhaman,Burdwan,23.1761,87.8696,121913,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-032,Burdwan Cold Storage #24,Purba Bardhaman,Burdwan,23.1841,87.8997,120977,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-033,Burdwan Cold Storage #25,Purba Bardhaman,Burdwan,23.1771,87.8225,121921,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-034,Burdwan Cold Storage #26,Purba Bardhaman,Burdwan,23.2372,87.8085,121402,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-035,Burdwan Cold Storage #27,Purba Bardhaman,Burdwan,23.2791,87.7975,121737,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-036,Burdwan Cold Storage #28,Purba Bardhaman,Burdwan,23.235,87.861,121384,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-037,Burdwan Cold Storage #29,Purba Bardhaman,Burdwan,23.1844,87.8353,120979,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-038,Burdwan Cold Storage #30,Purba Bardhaman,Burdwan,23.1746,87.843,121901,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-039,Burdwan Cold Storage #31,Purba Bardhaman,Burdwan,23.2815,87.823,122756,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-040,Burdwan Cold Storage #32,Purba Bardhaman,Burdwan,23.1935,87.8159,122052,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-041,Burdwan Cold Storage #33,Purba Bardhaman,Burdwan,23.2315,87.8749,121356,85,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-042,Burdwan Cold Storage #34,Purba Bardhaman,Burdwan,23.234,87.8804,122376,69,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-043,Burdwan Cold Storage #35,Purba Bardhaman,Burdwan,23.2756,87.9149,122709,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-044,Burdwan Cold Storage #36,Purba Bardhaman,Burdwan,23.2784,87.8376,121731,73,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-045,Burdwan Cold Storage #37,Purba Bardhaman,Burdwan,23.2791,87.8247,122737,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-046,Burdwan Cold Storage #38,Purba Bardhaman,Burdwan,23.1769,87.9144,120919,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-047,Burdwan Cold Storage #39,Purba Bardhaman,Burdwan,23.2563,87.9084,121554,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-048,Burdwan Cold Storage #40,Purba Bardhaman,Burdwan,23.1992,87.842,122098,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-049,Burdwan Cold Storage #41,Purba Bardhaman,Burdwan,23.1884,87.9124,122011,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-050,Burdwan Cold Storage #42,Purba Bardhaman,Burdwan,23.2676,87.9123,121645,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-051,Burdwan Cold Storage #43,Purba Bardhaman,Burdwan,23.1925,87.8494,122044,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-052,Burdwan Cold Storage #44,Purba Bardhaman,Burdwan,23.195,87.812,122064,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-053,Burdwan Cold Storage #45,Purba Bardhaman,Burdwan,23.259,87.8033,122576,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-054,Burdwan Cold Storage #46,Purba Bardhaman,Burdwan,23.2819,87.8045,122759,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-055,Burdwan Cold Storage #47,Purba Bardhaman,Burdwan,23.2641,87.893,121617,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-056,Burdwan Cold Storage #48,Purba Bardhaman,Burdwan,23.2156,87.8219,121229,73,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-057,Burdwan Cold Storage #49,Purba Bardhaman,Burdwan,23.224,87.9038,121296,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-058,Burdwan Cold Storage #50,Purba Bardhaman,Burdwan,23.194,87.8692,121056,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-059,Burdwan Cold Storage #51,Purba Bardhaman,Burdwan,23.2348,87.8829,122382,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-060,Burdwan Cold Storage #52,Purba Bardhaman,Burdwan,23.291,87.8962,121832,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-061,Burdwan Cold Storage #53,Purba Bardhaman,Burdwan,23.2175,87.8694,122244,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-062,Burdwan Cold Storage #54,Purba Bardhaman,Burdwan,23.2482,87.7984,122490,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-063,Burdwan Cold Storage #55,Purba Bardhaman,Burdwan,23.2643,87.8044,121618,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-064,Burdwan Cold Storage #56,Purba Bardhaman,Burdwan,23.1715,87.8337,121876,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-065,Burdwan Cold Storage #57,Purba Bardhaman,Burdwan,23.2799,87.8641,122743,85,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-066,Burdwan Cold Storage #58,Purba Bardhaman,Burdwan,23.2868,87.8146,121798,63,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-067,Burdwan Cold Storage #59,Purba Bardhaman,Burdwan,23.1879,87.8295,122007,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-068,Burdwan Cold Storage #60,Purba Bardhaman,Burdwan,23.1961,87.8911,122073,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-069,Burdwan Cold Storage #61,Purba Bardhaman,Burdwan,23.1693,87.8826,120858,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-070,Burdwan Cold Storage #62,Purba Bardhaman,Burdwan,23.2118,87.8588,121198,75,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-071,Burdwan Cold Storage #63,Purba Bardhaman,Burdwan,23.2766,87.9101,121717,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-072,Burdwan Cold Storage #64,Purba Bardhaman,Burdwan,23.2119,87.8495,121199,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-073,Burdwan Cold Storage #65,Purba Bardhaman,Burdwan,23.2856,87.8312,121789,52,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-074,Burdwan Cold Storage #66,Purba Bardhaman,Burdwan,23.2443,87.8334,121458,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-075,Burdwan Cold Storage #67,Purba Bardhaman,Burdwan,23.1986,87.8842,122093,63,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-076,Burdwan Cold Storage #68,Purba Bardhaman,Burdwan,23.2196,87.8881,121261,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-077,Burdwan Cold Storage #69,Purba Bardhaman,Burdwan,23.2,87.8197,122104,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-078,Burdwan Cold Storage #70,Purba Bardhaman,Burdwan,23.2794,87.8564,121739,87,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-079,Burdwan Cold Storage #71,Purba Bardhaman,Burdwan,23.2638,87.879,122614,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-080,Burdwan Cold Storage #72,Purba Bardhaman,Burdwan,23.2043,87.8295,121138,49,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-081,Burdwan Cold Storage #73,Purba Bardhaman,Burdwan,23.2474,87.8404,122483,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-082,Burdwan Cold Storage #74,Purba Bardhaman,Burdwan,23.2384,87.8732,122411,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-083,Burdwan Cold Storage #75,Purba Bardhaman,Burdwan,23.266,87.8528,121632,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-084,Burdwan Cold Storage #76,Purba Bardhaman,Burdwan,23.175,87.8801,121904,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-085,Burdwan Cold Storage #77,Purba Bardhaman,Burdwan,23.2243,87.8749,121298,65,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-086,Burdwan Cold Storage #78,Purba Bardhaman,Burdwan,23.2029,87.822,122127,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-087,Asansol Cold Storage #79,Paschim Bardhaman,Asansol,23.6951,86.945,122545,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-088,Asansol Cold Storage #80,Paschim Bardhaman,Asansol,23.6808,86.9161,121430,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-089,Asansol Cold Storage #81,Paschim Bardhaman,Asansol,23.6214,86.9874,121955,90,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-090,Asansol Cold Storage #82,Paschim Bardhaman,Asansol,23.7035,87.012,121612,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-091,Asansol Cold Storage #83,Paschim Bardhaman,Asansol,23.6721,86.9357,122361,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-092,Asansol Cold Storage #84,Paschim Bardhaman,Asansol,23.6486,86.9664,121173,85,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-093,Asansol Cold Storage #85,Paschim Bardhaman,Asansol,23.657,86.9125,122240,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-094,Asansol Cold Storage #86,Paschim Bardhaman,Asansol,23.6189,86.9649,120935,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-095,Asansol Cold Storage #87,Paschim Bardhaman,Asansol,23.6313,86.9686,122034,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-096,Asansol Cold Storage #88,Paschim Bardhaman,Asansol,23.6296,86.9819,122021,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-097,Asansol Cold Storage #89,Paschim Bardhaman,Asansol,23.6876,86.9216,122485,63,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-098,Asansol Cold Storage #90,Paschim Bardhaman,Asansol,23.6811,86.9442,122433,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-099,Asansol Cold Storage #91,Paschim Bardhaman,Asansol,23.7216,86.9889,121757,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-100,Asansol Cold Storage #92,Paschim Bardhaman,Asansol,23.7039,86.9785,122615,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-101,Asansol Cold Storage #93,Paschim Bardhaman,Asansol,23.706,86.9734,122632,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-102,Asansol Cold Storage #94,Paschim Bardhaman,Asansol,23.6369,86.9271,122079,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-103,Asansol Cold Storage #95,Paschim Bardhaman,Asansol,23.6933,86.9895,122530,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-104,Asansol Cold Storage #96,Paschim Bardhaman,Asansol,23.6735,87.0109,122372,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-105,Asansol Cold Storage #97,Paschim Bardhaman,Asansol,23.7264,86.9532,121795,78,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-106,Asansol Cold Storage #98,Paschim Bardhaman,Asansol,23.7134,86.9124,122691,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-107,Asansol Cold Storage #99,Paschim Bardhaman,Asansol,23.7019,86.9345,122599,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-108,Asansol Cold Storage #100,Paschim Bardhaman,Asansol,23.7024,86.9053,122603,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-109,Asansol Cold Storage #101,Paschim Bardhaman,Asansol,23.7126,86.8966,121685,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-110,Asansol Cold Storage #102,Paschim Bardhaman,Asansol,23.688,86.9543,122488,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-111,Asansol Cold Storage #103,Paschim Bardhaman,Asansol,23.6273,86.9231,121002,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-112,Asansol Cold Storage #104,Paschim Bardhaman,Asansol,23.7094,86.9764,121659,65,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-113,Asansol Cold Storage #105,Paschim Bardhaman,Asansol,23.6233,86.9239,120970,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-114,Asansol Cold Storage #106,Paschim Bardhaman,Asansol,23.7258,86.8935,122790,52,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-115,Asansol Cold Storage #107,Paschim Bardhaman,Asansol,23.637,86.953,122080,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-116,Asansol Cold Storage #108,Paschim Bardhaman,Asansol,23.6836,86.9668,122453,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-117,Asansol Cold Storage #109,Paschim Bardhaman,Asansol,23.6164,86.9796,121915,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-118,Asansol Cold Storage #110,Paschim Bardhaman,Asansol,23.7214,86.9368,122755,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-119,Asansol Cold Storage #111,Paschim Bardhaman,Asansol,23.6944,86.9273,122539,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-120,Asansol Cold Storage #112,Paschim Bardhaman,Asansol,23.636,86.9749,121072,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-121,Asansol Cold Storage #113,Paschim Bardhaman,Asansol,23.6556,86.9062,121229,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-122,Asansol Cold Storage #114,Paschim Bardhaman,Asansol,23.6123,86.9352,120882,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-123,Asansol Cold Storage #115,Paschim Bardhaman,Asansol,23.6591,86.9139,121257,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-124,Asansol Cold Storage #116,Paschim Bardhaman,Asansol,23.6819,86.965,122439,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-125,Asansol Cold Storage #117,Paschim Bardhaman,Asansol,23.7189,86.9258,122735,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-126,Asansol Cold Storage #118,Paschim Bardhaman,Asansol,23.6954,86.9865,122547,69,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-127,Asansol Cold Storage #119,Paschim Bardhaman,Asansol,23.653,86.9887,121208,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-128,Asansol Cold Storage #120,Paschim Bardhaman,Asansol,23.6468,86.984,122158,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-129,Asansol Cold Storage #121,Paschim Bardhaman,Asansol,23.7,86.9999,121584,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-130,Asansol Cold Storage #122,Paschim Bardhaman,Asansol,23.6369,86.9595,121079,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-131,Asansol Cold Storage #123,Paschim Bardhaman,Asansol,23.6193,86.9746,120938,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-132,Asansol Cold Storage #124,Paschim Bardhaman,Asansol,23.7175,86.9663,122724,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-133,Asansol Cold Storage #125,Paschim Bardhaman,Asansol,23.6954,86.9944,122547,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-134,Asansol Cold Storage #126,Paschim Bardhaman,Asansol,23.6894,86.9931,122499,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-135,Asansol Cold Storage #127,Paschim Bardhaman,Asansol,23.6381,86.9679,122089,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-136,Asansol Cold Storage #128,Paschim Bardhaman,Asansol,23.649,86.9895,121176,75,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-137,Asansol Cold Storage #129,Paschim Bardhaman,Asansol,23.7249,86.9239,121783,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-138,Asansol Cold Storage #130,Paschim Bardhaman,Asansol,23.6341,86.9412,122057,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-139,Chinsurah Cold Storage #131,Hooghly,Chinsurah,22.9416,88.4535,121677,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-140,Chinsurah Cold Storage #132,Hooghly,Chinsurah,22.9402,88.4326,122666,75,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-141,Chinsurah Cold Storage #133,Hooghly,Chinsurah,22.8984,88.443,121331,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-142,Chinsurah Cold Storage #134,Hooghly,Chinsurah,22.8556,88.3884,121989,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-143,Chinsurah Cold Storage #135,Hooghly,Chinsurah,22.893,88.3983,121288,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-144,Chinsurah Cold Storage #136,Hooghly,Chinsurah,22.8599,88.4169,122023,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-145,Chinsurah Cold Storage #137,Hooghly,Chinsurah,22.9605,88.4073,122828,65,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-146,Chinsurah Cold Storage #138,Hooghly,Chinsurah,22.8509,88.3523,121951,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-147,Chinsurah Cold Storage #139,Hooghly,Chinsurah,22.8879,88.3548,122247,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-148,Chinsurah Cold Storage #140,Hooghly,Chinsurah,22.901,88.3796,122352,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-149,Chinsurah Cold Storage #141,Hooghly,Chinsurah,22.9277,88.3515,121566,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-150,Chinsurah Cold Storage #142,Hooghly,Chinsurah,22.8464,88.4066,121915,78,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-151,Chinsurah Cold Storage #143,Hooghly,Chinsurah,22.8919,88.3453,121279,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-152,Chinsurah Cold Storage #144,Hooghly,Chinsurah,22.8615,88.3589,122036,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-153,Chinsurah Cold Storage #145,Hooghly,Chinsurah,22.884,88.4615,121216,47,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-154,Chinsurah Cold Storage #146,Hooghly,Chinsurah,22.8969,88.449,122319,65,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-155,Chinsurah Cold Storage #147,Hooghly,Chinsurah,22.9138,88.4503,121454,52,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-156,Chinsurah Cold Storage #148,Hooghly,Chinsurah,22.9501,88.4501,121745,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-157,Chinsurah Cold Storage #149,Hooghly,Chinsurah,22.8954,88.3884,122307,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-158,Chinsurah Cold Storage #150,Hooghly,Chinsurah,22.9134,88.3604,122451,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-159,Chinsurah Cold Storage #151,Hooghly,Chinsurah,22.9141,88.37,121457,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-160,Chinsurah Cold Storage #152,Hooghly,Chinsurah,22.928,88.3493,121568,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-161,Chinsurah Cold Storage #153,Hooghly,Chinsurah,22.9329,88.3533,122607,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-162,Chinsurah Cold Storage #154,Hooghly,Chinsurah,22.9274,88.3446,121563,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-163,Chinsurah Cold Storage #155,Hooghly,Chinsurah,22.9222,88.4466,121522,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-164,Chinsurah Cold Storage #156,Hooghly,Chinsurah,22.9392,88.3792,121658,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-165,Chinsurah Cold Storage #157,Hooghly,Chinsurah,22.9157,88.3588,121470,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-166,Chinsurah Cold Storage #158,Hooghly,Chinsurah,22.9354,88.4179,121627,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-167,Chinsurah Cold Storage #159,Hooghly,Chinsurah,22.9174,88.3861,121483,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-168,Chinsurah Cold Storage #160,Hooghly,Chinsurah,22.8939,88.377,121295,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-169,Chinsurah Cold Storage #161,Hooghly,Chinsurah,22.8551,88.409,120985,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-170,Chinsurah Cold Storage #162,Hooghly,Chinsurah,22.8559,88.3998,120991,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-171,Chinsurah Cold Storage #163,Hooghly,Chinsurah,22.9364,88.352,121635,65,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-172,Chinsurah Cold Storage #164,Hooghly,Chinsurah,22.8921,88.4444,121281,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-173,Chinsurah Cold Storage #165,Hooghly,Chinsurah,22.936,88.3566,121632,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-174,Chinsurah Cold Storage #166,Hooghly,Chinsurah,22.871,88.4283,121112,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-175,Chinsurah Cold Storage #167,Hooghly,Chinsurah,22.8513,88.3593,121954,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-176,Chinsurah Cold Storage #168,Hooghly,Chinsurah,22.867,88.396,122080,73,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-177,Chinsurah Cold Storage #169,Hooghly,Chinsurah,22.859,88.4263,122016,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-178,Chinsurah Cold Storage #170,Hooghly,Chinsurah,22.9356,88.4323,121629,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-179,Chinsurah Cold Storage #171,Hooghly,Chinsurah,22.8935,88.4285,121292,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-180,Chinsurah Cold Storage #172,Hooghly,Chinsurah,22.8462,88.427,120914,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-181,Chinsurah Cold Storage #173,Hooghly,Chinsurah,22.8621,88.4271,122041,90,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-182,Chinsurah Cold Storage #174,Hooghly,Chinsurah,22.8919,88.432,121279,52,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-183,Chinsurah Cold Storage #175,Hooghly,Chinsurah,22.9551,88.3971,121785,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-184,Chinsurah Cold Storage #176,Hooghly,Chinsurah,22.8702,88.4378,121106,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-185,Chinsurah Cold Storage #177,Hooghly,Chinsurah,22.8637,88.4204,122054,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-186,Chinsurah Cold Storage #178,Hooghly,Chinsurah,22.9215,88.4571,121516,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-187,Bankura Cold Storage #179,Bankura,Bankura,23.1798,87.0162,120942,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-188,Bankura Cold Storage #180,Bankura,Bankura,23.2654,87.0887,122627,49,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-189,Bankura Cold Storage #181,Bankura,Bankura,23.2454,87.0724,122467,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-190,Bankura Cold Storage #182,Bankura,Bankura,23.1836,87.0725,121973,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-191,Bankura Cold Storage #183,Bankura,Bankura,23.2761,87.0911,122713,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-192,Bankura Cold Storage #184,Bankura,Bankura,23.2556,87.1131,122549,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-193,Bankura Cold Storage #185,Bankura,Bankura,23.1751,87.0525,121905,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-194,Bankura Cold Storage #186,Bankura,Bankura,23.2199,87.113,121263,87,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-195,Bankura Cold Storage #187,Bankura,Bankura,23.2778,87.0106,122726,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-196,Bankura Cold Storage #188,Bankura,Bankura,23.2601,87.0546,121585,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-197,Bankura Cold Storage #189,Bankura,Bankura,23.2183,87.1117,121250,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-198,Bankura Cold Storage #190,Bankura,Bankura,23.2131,87.0081,122209,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-199,Bankura Cold Storage #191,Bankura,Bankura,23.2525,87.1161,121524,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-200,Bankura Cold Storage #192,Bankura,Bankura,23.1696,87.009,121861,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-201,Bankura Cold Storage #193,Bankura,Bankura,23.2374,87.0139,121403,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-202,Bankura Cold Storage #194,Bankura,Bankura,23.208,87.0866,121168,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-203,Bankura Cold Storage #195,Bankura,Bankura,23.1959,87.0727,122071,87,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-204,Bankura Cold Storage #196,Bankura,Bankura,23.2043,87.1191,122138,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-205,Bankura Cold Storage #197,Bankura,Bankura,23.2342,87.0786,122378,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-206,Bankura Cold Storage #198,Bankura,Bankura,23.2439,87.0749,121455,69,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-207,Bankura Cold Storage #199,Bankura,Bankura,23.195,87.1089,122064,49,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-208,Bankura Cold Storage #200,Bankura,Bankura,23.1831,87.1057,121969,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-209,Bankura Cold Storage #201,Bankura,Bankura,23.2653,87.0136,121626,47,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-210,Bankura Cold Storage #202,Bankura,Bankura,23.1846,87.0099,120981,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-211,Bankura Cold Storage #203,Bankura,Bankura,23.2234,87.09,121291,85,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-212,Bankura Cold Storage #204,Bankura,Bankura,23.2428,87.1161,121446,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-213,Bankura Cold Storage #205,Bankura,Bankura,23.176,87.0134,121912,74,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-214,Bankura Cold Storage #206,Bankura,Bankura,23.2713,87.0261,121674,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-215,Bankura Cold Storage #207,Bankura,Bankura,23.2266,87.0084,122317,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-216,Bankura Cold Storage #208,Bankura,Bankura,23.1844,87.0346,121979,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-217,Bankura Cold Storage #209,Bankura,Bankura,23.2366,87.0202,121397,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-218,Bankura Cold Storage #210,Bankura,Bankura,23.1917,87.0166,122038,90,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-219,Bankura Cold Storage #211,Bankura,Bankura,23.2335,87.1312,121372,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-220,Bankura Cold Storage #212,Bankura,Bankura,23.168,87.0314,120848,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-221,Bankura Cold Storage #213,Bankura,Bankura,23.1889,87.1124,122015,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-222,Bankura Cold Storage #214,Bankura,Bankura,23.2316,87.0132,122357,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-223,Bankura Cold Storage #215,Bankura,Bankura,23.2432,87.0146,121450,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-224,Bankura Cold Storage #216,Bankura,Bankura,23.2676,87.0992,122645,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-225,Bankura Cold Storage #217,Bankura,Bankura,23.2207,87.0159,122270,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-226,Bankura Cold Storage #218,Bankura,Bankura,23.2826,87.0986,121765,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-227,Bankura Cold Storage #219,Bankura,Bankura,23.2802,87.0102,121746,78,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-228,Bankura Cold Storage #220,Bankura,Bankura,23.261,87.0472,122592,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-229,Suri Cold Storage #221,Birbhum,Suri,23.8459,87.4817,121911,78,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-230,Suri Cold Storage #222,Birbhum,Suri,23.9466,87.5327,121717,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-231,Suri Cold Storage #223,Birbhum,Suri,23.9521,87.5485,122761,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-232,Suri Cold Storage #224,Birbhum,Suri,23.927,87.4805,121560,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-233,Suri Cold Storage #225,Birbhum,Suri,23.93,87.5657,122584,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-234,Suri Cold Storage #226,Birbhum,Suri,23.8957,87.5149,121310,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-235,Suri Cold Storage #227,Birbhum,Suri,23.8696,87.5651,121101,73,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-236,Suri Cold Storage #228,Birbhum,Suri,23.9217,87.5691,121518,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-237,Suri Cold Storage #229,Birbhum,Suri,23.8725,87.5409,122124,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-238,Suri Cold Storage #230,Birbhum,Suri,23.8459,87.5671,121911,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-239,Suri Cold Storage #231,Birbhum,Suri,23.9452,87.4988,121706,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-240,Suri Cold Storage #232,Birbhum,Suri,23.9064,87.5095,121395,87,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-241,Suri Cold Storage #233,Birbhum,Suri,23.8749,87.4961,122143,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-242,Suri Cold Storage #234,Birbhum,Suri,23.9471,87.4824,122721,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-243,Suri Cold Storage #235,Birbhum,Suri,23.9224,87.5016,122523,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-244,Suri Cold Storage #236,Birbhum,Suri,23.9604,87.4646,121827,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-245,Suri Cold Storage #237,Birbhum,Suri,23.8847,87.5517,121222,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-246,Suri Cold Storage #238,Birbhum,Suri,23.8626,87.5396,122045,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-247,Suri Cold Storage #239,Birbhum,Suri,23.841,87.5292,120872,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-248,Suri Cold Storage #240,Birbhum,Suri,23.894,87.4974,122296,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-249,Suri Cold Storage #241,Birbhum,Suri,23.883,87.5012,122208,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-250,Suri Cold Storage #242,Birbhum,Suri,23.865,87.529,121064,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-251,Suri Cold Storage #243,Birbhum,Suri,23.8464,87.5345,121915,52,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-252,Suri Cold Storage #244,Birbhum,Suri,23.8739,87.5455,122135,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-253,Suri Cold Storage #245,Birbhum,Suri,23.8504,87.5556,120947,90,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-254,Suri Cold Storage #246,Birbhum,Suri,23.8945,87.4849,121300,75,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-255,Suri Cold Storage #247,Birbhum,Suri,23.8702,87.5632,122106,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-256,Suri Cold Storage #248,Birbhum,Suri,23.9106,87.5335,122429,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-257,Suri Cold Storage #249,Birbhum,Suri,23.9219,87.5455,122519,78,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-258,Suri Cold Storage #250,Birbhum,Suri,23.9317,87.5026,122598,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-259,Suri Cold Storage #251,Birbhum,Suri,23.8785,87.4772,121172,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-260,Suri Cold Storage #252,Birbhum,Suri,23.9169,87.4813,121479,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-261,Suri Cold Storage #253,Birbhum,Suri,23.8906,87.5082,121269,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-262,Suri Cold Storage #254,Birbhum,Suri,23.8805,87.5805,121188,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-263,Suri Cold Storage #255,Birbhum,Suri,23.9066,87.4656,122397,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-264,Suri Cold Storage #256,Birbhum,Suri,23.8601,87.5537,122025,65,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-265,Suri Cold Storage #257,Birbhum,Suri,23.8759,87.5779,121151,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-266,Suri Cold Storage #258,Birbhum,Suri,23.8788,87.5594,122174,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-267,Berhampore Cold Storage #259,Murshidabad,Berhampore,24.1604,88.209,121187,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-268,Berhampore Cold Storage #260,Murshidabad,Berhampore,24.133,88.2576,121968,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-269,Berhampore Cold Storage #261,Murshidabad,Berhampore,24.2174,88.3263,122643,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-270,Berhampore Cold Storage #262,Murshidabad,Berhampore,24.2129,88.2437,122607,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-271,Berhampore Cold Storage #263,Murshidabad,Berhampore,24.1698,88.244,122262,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-272,Berhampore Cold Storage #264,Murshidabad,Berhampore,24.2194,88.2561,121659,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-273,Berhampore Cold Storage #265,Murshidabad,Berhampore,24.2138,88.2345,122614,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-274,Berhampore Cold Storage #266,Murshidabad,Berhampore,24.2192,88.2597,121658,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-275,Berhampore Cold Storage #267,Murshidabad,Berhampore,24.1283,88.3271,120930,73,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-276,Berhampore Cold Storage #268,Murshidabad,Berhampore,24.1324,88.294,121963,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-277,Berhampore Cold Storage #269,Murshidabad,Berhampore,24.1611,88.2446,121193,75,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-278,Berhampore Cold Storage #270,Murshidabad,Berhampore,24.238,88.2566,121808,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-279,Berhampore Cold Storage #271,Murshidabad,Berhampore,24.1549,88.3039,121143,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-280,Berhampore Cold Storage #272,Murshidabad,Berhampore,24.22,88.2482,121664,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-281,Berhampore Cold Storage #273,Murshidabad,Berhampore,24.1321,88.2133,121961,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-282,Berhampore Cold Storage #274,Murshidabad,Berhampore,24.129,88.3107,120936,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-283,Berhampore Cold Storage #275,Murshidabad,Berhampore,24.1232,88.3229,120890,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-284,Berhampore Cold Storage #276,Murshidabad,Berhampore,24.1411,88.3324,122033,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-285,Berhampore Cold Storage #277,Murshidabad,Berhampore,24.1895,88.2965,122420,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-286,Berhampore Cold Storage #278,Murshidabad,Berhampore,24.1934,88.2687,121451,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-287,Berhampore Cold Storage #279,Murshidabad,Berhampore,24.233,88.3294,121768,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-288,Berhampore Cold Storage #280,Murshidabad,Berhampore,24.2414,88.2561,121835,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-289,Berhampore Cold Storage #281,Murshidabad,Berhampore,24.1796,88.2749,121341,73,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-290,Berhampore Cold Storage #282,Murshidabad,Berhampore,24.1226,88.2319,120885,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-291,Berhampore Cold Storage #283,Murshidabad,Berhampore,24.179,88.22,121336,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-292,Berhampore Cold Storage #284,Murshidabad,Berhampore,24.2097,88.3306,121582,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-293,Berhampore Cold Storage #285,Murshidabad,Berhampore,24.1241,88.2894,121897,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-294,Berhampore Cold Storage #286,Murshidabad,Berhampore,24.1307,88.3302,120950,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-295,Berhampore Cold Storage #287,Murshidabad,Berhampore,24.2075,88.3044,122564,49,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-296,Berhampore Cold Storage #288,Murshidabad,Berhampore,24.164,88.2924,122216,47,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-297,Berhampore Cold Storage #289,Murshidabad,Berhampore,24.1679,88.2275,121247,87,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-298,Berhampore Cold Storage #290,Murshidabad,Berhampore,24.204,88.3205,121536,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-299,Berhampore Cold Storage #291,Murshidabad,Berhampore,24.1304,88.2581,121947,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-300,Berhampore Cold Storage #292,Murshidabad,Berhampore,24.1468,88.2351,122078,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-301,Berhampore Cold Storage #293,Murshidabad,Berhampore,24.1917,88.2507,121438,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-302,Berhampore Cold Storage #294,Murshidabad,Berhampore,24.2089,88.2652,122575,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-303,Berhampore Cold Storage #295,Murshidabad,Berhampore,24.1399,88.2941,121023,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-304,Berhampore Cold Storage #296,Murshidabad,Berhampore,24.2228,88.2891,121686,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-305,Berhampore Cold Storage #297,Murshidabad,Berhampore,24.216,88.2135,122632,69,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-306,Berhampore Cold Storage #298,Murshidabad,Berhampore,24.1426,88.2609,121045,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-307,Berhampore Cold Storage #299,Murshidabad,Berhampore,24.1491,88.3229,122097,85,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-308,Berhampore Cold Storage #300,Murshidabad,Berhampore,24.1909,88.2314,121431,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-309,Berhampore Cold Storage #301,Murshidabad,Berhampore,24.2191,88.269,122657,65,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-310,Berhampore Cold Storage #302,Murshidabad,Berhampore,24.1656,88.324,121229,65,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-311,Berhampore Cold Storage #303,Murshidabad,Berhampore,24.2376,88.284,121805,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-312,Berhampore Cold Storage #304,Murshidabad,Berhampore,24.2094,88.2141,121579,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-313,Berhampore Cold Storage #305,Murshidabad,Berhampore,24.2411,88.2947,121833,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-314,Berhampore Cold Storage #306,Murshidabad,Berhampore,24.1898,88.2466,121422,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-315,Berhampore Cold Storage #307,Murshidabad,Berhampore,24.1914,88.3026,122435,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-316,Berhampore Cold Storage #308,Murshidabad,Berhampore,24.2074,88.2767,122563,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-317,Berhampore Cold Storage #309,Murshidabad,Berhampore,24.1915,88.2445,122436,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-318,Berhampore Cold Storage #310,Murshidabad,Berhampore,24.2392,88.2266,121818,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-319,Berhampore Cold Storage #311,Murshidabad,Berhampore,24.23,88.2135,122744,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-320,Berhampore Cold Storage #312,Murshidabad,Berhampore,24.2082,88.2221,121570,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-321,Berhampore Cold Storage #313,Murshidabad,Berhampore,24.1331,88.2645,121969,49,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-322,English Bazar Cold Storage #314,Malda,English Bazar,24.9595,88.1211,120940,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-323,English Bazar Cold Storage #315,Malda,English Bazar,24.969,88.1261,122016,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-324,English Bazar Cold Storage #316,Malda,English Bazar,25.0366,88.1911,122557,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-325,English Bazar Cold Storage #317,Malda,English Bazar,25.0409,88.1218,121591,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-326,English Bazar Cold Storage #318,Malda,English Bazar,24.9704,88.0894,121027,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-327,English Bazar Cold Storage #319,Malda,English Bazar,24.9671,88.1069,122001,87,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-328,English Bazar Cold Storage #320,Malda,English Bazar,24.9506,88.1155,120869,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-329,English Bazar Cold Storage #321,Malda,English Bazar,24.9585,88.1472,120932,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-330,English Bazar Cold Storage #322,Malda,English Bazar,25.0065,88.1792,121316,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-331,English Bazar Cold Storage #323,Malda,English Bazar,25.0059,88.0829,121311,74,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-332,English Bazar Cold Storage #324,Malda,English Bazar,25.061,88.1959,122752,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-333,English Bazar Cold Storage #325,Malda,English Bazar,24.9564,88.103,121915,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-334,English Bazar Cold Storage #326,Malda,English Bazar,25.0589,88.1479,121735,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-335,English Bazar Cold Storage #327,Malda,English Bazar,24.9863,88.0904,121154,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-336,English Bazar Cold Storage #328,Malda,English Bazar,25.0383,88.111,121570,74,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-337,English Bazar Cold Storage #329,Malda,English Bazar,24.987,88.1428,122160,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-338,English Bazar Cold Storage #330,Malda,English Bazar,25.0155,88.0781,122388,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-339,English Bazar Cold Storage #331,Malda,English Bazar,25.0613,88.1854,122754,47,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-340,English Bazar Cold Storage #332,Malda,English Bazar,25.0128,88.1654,121366,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-341,English Bazar Cold Storage #333,Malda,English Bazar,25.0194,88.08,121419,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-342,English Bazar Cold Storage #334,Malda,English Bazar,25.0219,88.0911,121439,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-343,English Bazar Cold Storage #335,Malda,English Bazar,25.061,88.1974,121752,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-344,English Bazar Cold Storage #336,Malda,English Bazar,25.0274,88.1658,122483,49,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-345,English Bazar Cold Storage #337,Malda,English Bazar,25.0098,88.1265,122342,81,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-346,English Bazar Cold Storage #338,Malda,English Bazar,24.9634,88.0877,120971,73,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-347,English Bazar Cold Storage #339,Malda,English Bazar,25.0119,88.1314,122359,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-348,English Bazar Cold Storage #340,Malda,English Bazar,24.9949,88.1619,122223,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-349,English Bazar Cold Storage #341,Malda,English Bazar,25.0139,88.098,121375,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-350,English Bazar Cold Storage #342,Malda,English Bazar,24.9598,88.1449,120942,63,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-351,English Bazar Cold Storage #343,Malda,English Bazar,25.0098,88.0807,122342,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-352,English Bazar Cold Storage #344,Malda,English Bazar,25.0371,88.1911,122561,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-353,English Bazar Cold Storage #345,Malda,English Bazar,25.0104,88.0821,121347,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-354,English Bazar Cold Storage #346,Malda,English Bazar,24.9536,88.1865,121893,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-355,English Bazar Cold Storage #347,Malda,English Bazar,25.0694,88.1241,121819,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-356,English Bazar Cold Storage #348,Malda,English Bazar,25.0428,88.1685,122606,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-357,English Bazar Cold Storage #349,Malda,English Bazar,25.0046,88.116,122301,49,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-358,English Bazar Cold Storage #350,Malda,English Bazar,25.0326,88.1065,122525,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-359,English Bazar Cold Storage #351,Malda,English Bazar,24.9634,88.1145,121971,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-360,English Bazar Cold Storage #352,Malda,English Bazar,25.0403,88.099,121586,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-361,English Bazar Cold Storage #353,Malda,English Bazar,24.9665,88.0819,120996,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-362,English Bazar Cold Storage #354,Malda,English Bazar,25.0484,88.1737,121651,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-363,English Bazar Cold Storage #355,Malda,English Bazar,25.0709,88.1285,122831,51,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-364,English Bazar Cold Storage #356,Malda,English Bazar,25.0083,88.192,121330,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-365,English Bazar Cold Storage #357,Malda,English Bazar,24.9921,88.1994,122201,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-366,Krishnanagar Cold Storage #358,Nadia,Krishnanagar,23.3968,88.4629,121238,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-367,Krishnanagar Cold Storage #359,Nadia,Krishnanagar,23.3561,88.552,120913,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-368,Krishnanagar Cold Storage #360,Nadia,Krishnanagar,23.3919,88.4749,121199,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-369,Krishnanagar Cold Storage #361,Nadia,Krishnanagar,23.4369,88.4515,121559,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-370,Krishnanagar Cold Storage #362,Nadia,Krishnanagar,23.4561,88.481,121713,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-371,Krishnanagar Cold Storage #363,Nadia,Krishnanagar,23.461,88.5316,122752,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-372,Krishnanagar Cold Storage #364,Nadia,Krishnanagar,23.4564,88.4925,121715,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-373,Krishnanagar Cold Storage #365,Nadia,Krishnanagar,23.3773,88.4341,122082,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-374,Krishnanagar Cold Storage #366,Nadia,Krishnanagar,23.3957,88.5474,121230,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-375,Krishnanagar Cold Storage #367,Nadia,Krishnanagar,23.4366,88.5022,121557,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-376,Krishnanagar Cold Storage #368,Nadia,Krishnanagar,23.4234,88.4586,122451,47,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-377,Krishnanagar Cold Storage #369,Nadia,Krishnanagar,23.3755,88.4475,121068,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-378,Krishnanagar Cold Storage #370,Nadia,Krishnanagar,23.3605,88.4345,120948,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-379,Krishnanagar Cold Storage #371,Nadia,Krishnanagar,23.42,88.4656,121424,52,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-380,Krishnanagar Cold Storage #372,Nadia,Krishnanagar,23.361,88.5104,121952,63,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-381,Krishnanagar Cold Storage #373,Nadia,Krishnanagar,23.4475,88.5345,121644,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-382,Krishnanagar Cold Storage #374,Nadia,Krishnanagar,23.366,88.486,120992,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-383,Krishnanagar Cold Storage #375,Nadia,Krishnanagar,23.4584,88.4575,122731,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-384,Krishnanagar Cold Storage #376,Nadia,Krishnanagar,23.3681,88.5343,122009,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-385,Krishnanagar Cold Storage #377,Nadia,Krishnanagar,23.445,88.4969,121624,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-386,Krishnanagar Cold Storage #378,Nadia,Krishnanagar,23.4131,88.467,121369,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-387,Krishnanagar Cold Storage #379,Nadia,Krishnanagar,23.3893,88.5121,122178,85,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-388,Krishnanagar Cold Storage #380,Nadia,Krishnanagar,23.3939,88.5362,122215,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-389,Krishnanagar Cold Storage #381,Nadia,Krishnanagar,23.3953,88.5497,121226,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-390,Krishnanagar Cold Storage #382,Nadia,Krishnanagar,23.3924,88.4325,122203,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-391,Krishnanagar Cold Storage #383,Nadia,Krishnanagar,23.4567,88.5141,122718,47,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-392,Krishnanagar Cold Storage #384,Nadia,Krishnanagar,23.413,88.4937,122368,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-393,Krishnanagar Cold Storage #385,Nadia,Krishnanagar,23.4378,88.4549,121566,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-394,Krishnanagar Cold Storage #386,Nadia,Krishnanagar,23.4202,88.4277,121426,49,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-395,Krishnanagar Cold Storage #387,Nadia,Krishnanagar,23.3649,88.5147,121983,74,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-396,Krishnanagar Cold Storage #388,Nadia,Krishnanagar,23.351,88.4874,121872,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-397,Krishnanagar Cold Storage #389,Nadia,Krishnanagar,23.3735,88.4886,122052,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-398,Krishnanagar Cold Storage #390,Nadia,Krishnanagar,23.4209,88.4567,121431,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-399,Krishnanagar Cold Storage #391,Nadia,Krishnanagar,23.395,88.5419,122224,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-400,Krishnanagar Cold Storage #392,Nadia,Krishnanagar,23.4346,88.4787,121541,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-401,Krishnanagar Cold Storage #393,Nadia,Krishnanagar,23.3969,88.4586,122239,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-402,Krishnanagar Cold Storage #394,Nadia,Krishnanagar,23.4231,88.4594,122449,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-403,Krishnanagar Cold Storage #395,Nadia,Krishnanagar,23.3545,88.4706,120900,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-404,Krishnanagar Cold Storage #396,Nadia,Krishnanagar,23.4202,88.4399,122426,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-405,Krishnanagar Cold Storage #397,Nadia,Krishnanagar,23.4136,88.48,121373,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-406,Krishnanagar Cold Storage #398,Nadia,Krishnanagar,23.3525,88.5112,121884,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-407,Krishnanagar Cold Storage #399,Nadia,Krishnanagar,23.4329,88.4324,121527,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-408,Krishnanagar Cold Storage #400,Nadia,Krishnanagar,23.3891,88.4839,121177,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-409,Krishnanagar Cold Storage #401,Nadia,Krishnanagar,23.4626,88.4935,121765,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-410,Krishnanagar Cold Storage #402,Nadia,Krishnanagar,23.3884,88.518,121171,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-411,Krishnanagar Cold Storage #403,Nadia,Krishnanagar,23.4316,88.4315,122517,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-412,Barasat Cold Storage #404,North 24 Parganas,Barasat,22.7939,88.6096,122695,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-413,Barasat Cold Storage #405,North 24 Parganas,Barasat,22.7926,88.6472,122685,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-414,Barasat Cold Storage #406,North 24 Parganas,Barasat,22.714,88.7055,122056,47,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-415,Barasat Cold Storage #407,North 24 Parganas,Barasat,22.7593,88.6946,121418,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-416,Barasat Cold Storage #408,North 24 Parganas,Barasat,22.8032,88.6827,121770,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-417,Barasat Cold Storage #409,North 24 Parganas,Barasat,22.7499,88.663,121343,63,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-418,Barasat Cold Storage #410,North 24 Parganas,Barasat,22.7134,88.5984,122051,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-419,Barasat Cold Storage #411,North 24 Parganas,Barasat,22.7105,88.5975,121028,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-420,Barasat Cold Storage #412,North 24 Parganas,Barasat,22.7655,88.6988,122468,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-421,Barasat Cold Storage #413,North 24 Parganas,Barasat,22.8122,88.6131,122842,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-422,Barasat Cold Storage #414,North 24 Parganas,Barasat,22.7974,88.6303,121723,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-423,Barasat Cold Storage #415,North 24 Parganas,Barasat,22.708,88.6953,122008,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-424,Barasat Cold Storage #416,North 24 Parganas,Barasat,22.7138,88.6693,121054,69,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-425,Barasat Cold Storage #417,North 24 Parganas,Barasat,22.7075,88.6201,121004,54,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-426,Barasat Cold Storage #418,North 24 Parganas,Barasat,22.7549,88.6358,122383,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-427,Barasat Cold Storage #419,North 24 Parganas,Barasat,22.7536,88.664,122373,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-428,Barasat Cold Storage #420,North 24 Parganas,Barasat,22.7391,88.6038,122257,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-429,Barasat Cold Storage #421,North 24 Parganas,Barasat,22.8012,88.6909,121754,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-430,Barasat Cold Storage #422,North 24 Parganas,Barasat,22.6894,88.6515,121859,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-431,Barasat Cold Storage #423,North 24 Parganas,Barasat,22.7065,88.6844,120996,61,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-432,Barasat Cold Storage #424,North 24 Parganas,Barasat,22.784,88.6919,122616,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-433,Barasat Cold Storage #425,North 24 Parganas,Barasat,22.7104,88.6049,122027,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-434,Barasat Cold Storage #426,North 24 Parganas,Barasat,22.7399,88.6773,122263,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-435,Barasat Cold Storage #427,North 24 Parganas,Barasat,22.6989,88.6178,120935,46,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-436,Barasat Cold Storage #428,North 24 Parganas,Barasat,22.7042,88.6519,120978,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-437,Barasat Cold Storage #429,North 24 Parganas,Barasat,22.766,88.7118,121472,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-438,Barasat Cold Storage #430,North 24 Parganas,Barasat,22.6976,88.6261,121925,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-439,Barasat Cold Storage #431,North 24 Parganas,Barasat,22.7151,88.7009,122065,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-440,Barasat Cold Storage #432,North 24 Parganas,Barasat,22.6887,88.6996,121854,62,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-441,Barasat Cold Storage #433,North 24 Parganas,Barasat,22.7909,88.612,121671,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-442,Barasat Cold Storage #434,North 24 Parganas,Barasat,22.8077,88.6325,121806,78,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-443,Barasat Cold Storage #435,North 24 Parganas,Barasat,22.8046,88.6166,121781,74,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-444,Barasat Cold Storage #436,North 24 Parganas,Barasat,22.7868,88.5948,122638,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-445,Barasat Cold Storage #437,North 24 Parganas,Barasat,22.7722,88.6109,122522,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-446,Barasat Cold Storage #438,North 24 Parganas,Barasat,22.6946,88.6805,120901,63,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-447,Alipore Cold Storage #439,South 24 Parganas,Alipore,22.347,88.4329,121320,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-448,Alipore Cold Storage #440,South 24 Parganas,Alipore,22.3236,88.4958,122133,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-449,Alipore Cold Storage #441,South 24 Parganas,Alipore,22.384,88.3898,121616,58,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-450,Alipore Cold Storage #442,South 24 Parganas,Alipore,22.3771,88.4723,121561,70,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-451,Alipore Cold Storage #443,South 24 Parganas,Alipore,22.3805,88.3964,121588,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-452,Alipore Cold Storage #444,South 24 Parganas,Alipore,22.305,88.444,121984,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-453,Alipore Cold Storage #445,South 24 Parganas,Alipore,22.4115,88.4916,122836,60,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-454,Alipore Cold Storage #446,South 24 Parganas,Alipore,22.2891,88.4078,120857,63,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-455,Alipore Cold Storage #447,South 24 Parganas,Alipore,22.2918,88.3896,120878,83,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-456,Alipore Cold Storage #448,South 24 Parganas,Alipore,22.3916,88.3989,122677,57,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-457,Alipore Cold Storage #449,South 24 Parganas,Alipore,22.3465,88.4094,122316,78,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-458,Alipore Cold Storage #450,South 24 Parganas,Alipore,22.3189,88.4565,122095,85,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-459,Alipore Cold Storage #451,South 24 Parganas,Alipore,22.3593,88.4304,122418,82,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-460,Alipore Cold Storage #452,South 24 Parganas,Alipore,22.3451,88.4836,122305,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-461,Alipore Cold Storage #453,South 24 Parganas,Alipore,22.387,88.4474,121640,52,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-462,Alipore Cold Storage #454,South 24 Parganas,Alipore,22.3481,88.4735,122329,68,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-463,Alipore Cold Storage #455,South 24 Parganas,Alipore,22.3823,88.4255,122602,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-464,Alipore Cold Storage #456,South 24 Parganas,Alipore,22.3991,88.4248,122737,69,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-465,Alipore Cold Storage #457,South 24 Parganas,Alipore,22.3518,88.463,122358,88,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-466,Alipore Cold Storage #458,South 24 Parganas,Alipore,22.3466,88.4575,122317,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-467,Alipore Cold Storage #459,South 24 Parganas,Alipore,22.333,88.465,122208,76,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-468,Alipore Cold Storage #460,South 24 Parganas,Alipore,22.2943,88.4271,121898,50,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-469,Alipore Cold Storage #461,South 24 Parganas,Alipore,22.3051,88.4412,121985,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-470,Alipore Cold Storage #462,South 24 Parganas,Alipore,22.3905,88.3876,122668,80,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-471,Alipore Cold Storage #463,South 24 Parganas,Alipore,22.3659,88.4015,122471,56,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-472,Alipore Cold Storage #464,South 24 Parganas,Alipore,22.3425,88.4939,122284,79,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-473,Alipore Cold Storage #465,South 24 Parganas,Alipore,22.3559,88.4463,122391,84,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-474,Alipore Cold Storage #466,South 24 Parganas,Alipore,22.3978,88.4975,122726,69,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-475,Alipore Cold Storage #467,South 24 Parganas,Alipore,22.3243,88.3896,121138,90,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-476,Alipore Cold Storage #468,South 24 Parganas,Alipore,22.3008,88.5079,121950,72,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-477,Alipore Cold Storage #469,South 24 Parganas,Alipore,22.3125,88.4958,122044,48,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-478,Alipore Cold Storage #470,South 24 Parganas,Alipore,22.4076,88.4985,122805,53,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-479,Jalpaiguri Cold Storage #471,Jalpaiguri,Jalpaiguri,26.4962,88.737,122154,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-480,Jalpaiguri Cold Storage #472,Jalpaiguri,Jalpaiguri,26.5089,88.6991,122255,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-481,Jalpaiguri Cold Storage #473,Jalpaiguri,Jalpaiguri,26.5602,88.7029,122666,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-482,Jalpaiguri Cold Storage #474,Jalpaiguri,Jalpaiguri,26.4651,88.7049,121905,86,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-483,Jalpaiguri Cold Storage #475,Jalpaiguri,Jalpaiguri,26.5635,88.7134,122692,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-484,Jalpaiguri Cold Storage #476,Jalpaiguri,Jalpaiguri,26.5433,88.6658,122530,47,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-485,Jalpaiguri Cold Storage #477,Jalpaiguri,Jalpaiguri,26.5371,88.7164,121481,66,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-486,Jalpaiguri Cold Storage #478,Jalpaiguri,Jalpaiguri,26.5016,88.6669,122197,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-487,Jalpaiguri Cold Storage #479,Jalpaiguri,Jalpaiguri,26.5335,88.7595,122452,73,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-488,Jalpaiguri Cold Storage #480,Jalpaiguri,Jalpaiguri,26.582,88.6806,122840,77,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-489,Jalpaiguri Cold Storage #481,Jalpaiguri,Jalpaiguri,26.5047,88.6856,122222,64,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-490,Jalpaiguri Cold Storage #482,Jalpaiguri,Jalpaiguri,26.5373,88.7101,122482,75,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-491,Jalpaiguri Cold Storage #483,Jalpaiguri,Jalpaiguri,26.556,88.7318,121632,71,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-492,Jalpaiguri Cold Storage #484,Jalpaiguri,Jalpaiguri,26.5626,88.6843,122685,59,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-493,Jalpaiguri Cold Storage #485,Jalpaiguri,Jalpaiguri,26.551,88.7316,122592,55,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-494,Jalpaiguri Cold Storage #486,Jalpaiguri,Jalpaiguri,26.5241,88.7799,121377,45,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-495,Jalpaiguri Cold Storage #487,Jalpaiguri,Jalpaiguri,26.5555,88.7654,122628,67,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
-CS-496,Jalpaiguri Cold Storage #488,Jalpaiguri,Jalpaiguri,26.4966,88.6767,121157,89,,data.gov.in - State/UT cold storage distribution (Jan 2025),no
+CS-001,Burdwan Cold Storage #1,Purba Bardhaman,Burdwan,23.2096,87.9017,12337,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-002,Burdwan Cold Storage #2,Purba Bardhaman,Burdwan,23.2205,87.8526,12424,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-003,Burdwan Cold Storage #3,Purba Bardhaman,Burdwan,23.2635,87.8539,9768,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-004,Burdwan Cold Storage #4,Purba Bardhaman,Burdwan,23.2536,87.8675,12689,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-005,Burdwan Cold Storage #5,Purba Bardhaman,Burdwan,23.1686,87.9159,10009,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-006,Burdwan Cold Storage #6,Purba Bardhaman,Burdwan,23.2199,87.8309,5419,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-007,Burdwan Cold Storage #7,Purba Bardhaman,Burdwan,23.202,87.917,9276,40,,OGD/WB corridor model (replace with govt CSV),no
+CS-008,Burdwan Cold Storage #8,Purba Bardhaman,Burdwan,23.2273,87.8316,11478,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-009,Burdwan Cold Storage #9,Purba Bardhaman,Burdwan,23.2831,87.8847,5925,27,,OGD/WB corridor model (replace with govt CSV),no
+CS-010,Burdwan Cold Storage #10,Purba Bardhaman,Burdwan,23.249,87.8581,8652,35,,OGD/WB corridor model (replace with govt CSV),no
+CS-011,Burdwan Cold Storage #11,Purba Bardhaman,Burdwan,23.2284,87.8342,4487,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-012,Burdwan Cold Storage #12,Purba Bardhaman,Burdwan,23.1676,87.8505,4001,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-013,Burdwan Cold Storage #13,Purba Bardhaman,Burdwan,23.2022,87.9086,11278,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-014,Burdwan Cold Storage #14,Purba Bardhaman,Burdwan,23.2802,87.8113,8902,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-015,Burdwan Cold Storage #15,Purba Bardhaman,Burdwan,23.2806,87.8979,10905,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-016,Burdwan Cold Storage #16,Purba Bardhaman,Burdwan,23.2044,87.838,9295,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-017,Burdwan Cold Storage #17,Purba Bardhaman,Burdwan,23.2831,87.895,5925,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-018,Burdwan Cold Storage #18,Purba Bardhaman,Burdwan,23.1842,87.8439,10134,39,,OGD/WB corridor model (replace with govt CSV),no
+CS-019,Burdwan Cold Storage #19,Purba Bardhaman,Burdwan,23.2309,87.8761,12507,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-020,Burdwan Cold Storage #20,Purba Bardhaman,Burdwan,23.2306,87.8641,11505,29,,OGD/WB corridor model (replace with govt CSV),no
+CS-021,Burdwan Cold Storage #21,Purba Bardhaman,Burdwan,23.28,87.9064,6900,32,,OGD/WB corridor model (replace with govt CSV),no
+CS-022,Burdwan Cold Storage #22,Purba Bardhaman,Burdwan,23.1681,87.8718,10005,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-023,Burdwan Cold Storage #23,Purba Bardhaman,Burdwan,23.2389,87.8296,9571,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-024,Burdwan Cold Storage #24,Purba Bardhaman,Burdwan,23.1756,87.878,10065,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-025,Burdwan Cold Storage #25,Purba Bardhaman,Burdwan,23.1891,87.8045,11173,32,,OGD/WB corridor model (replace with govt CSV),no
+CS-026,Burdwan Cold Storage #26,Purba Bardhaman,Burdwan,23.2771,87.8319,6877,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-027,Burdwan Cold Storage #27,Purba Bardhaman,Burdwan,23.1855,87.8459,9144,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-028,Burdwan Cold Storage #28,Purba Bardhaman,Burdwan,23.204,87.9142,7292,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-029,Burdwan Cold Storage #29,Purba Bardhaman,Burdwan,23.1943,87.851,12214,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-030,Burdwan Cold Storage #30,Purba Bardhaman,Burdwan,23.2384,87.8324,11567,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-031,Burdwan Cold Storage #31,Purba Bardhaman,Burdwan,23.1761,87.8696,6069,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-032,Burdwan Cold Storage #32,Purba Bardhaman,Burdwan,23.1841,87.8997,4133,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-033,Burdwan Cold Storage #33,Purba Bardhaman,Burdwan,23.1771,87.8225,8077,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-034,Burdwan Cold Storage #34,Purba Bardhaman,Burdwan,23.2372,87.8085,11558,18,,OGD/WB corridor model (replace with govt CSV),no
+CS-035,Burdwan Cold Storage #35,Purba Bardhaman,Burdwan,23.2791,87.7975,8893,28,,OGD/WB corridor model (replace with govt CSV),no
+CS-036,Burdwan Cold Storage #36,Purba Bardhaman,Burdwan,23.235,87.861,11540,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-037,Burdwan Cold Storage #37,Purba Bardhaman,Burdwan,23.1844,87.8353,4135,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-038,Burdwan Cold Storage #38,Purba Bardhaman,Burdwan,23.1746,87.843,6057,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-039,Burdwan Cold Storage #39,Purba Bardhaman,Burdwan,23.2815,87.823,5912,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-040,Burdwan Cold Storage #40,Purba Bardhaman,Burdwan,23.1935,87.8159,7208,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-041,Burdwan Cold Storage #41,Purba Bardhaman,Burdwan,23.2315,87.8749,8512,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-042,Burdwan Cold Storage #42,Purba Bardhaman,Burdwan,23.234,87.8804,9532,39,,OGD/WB corridor model (replace with govt CSV),no
+CS-043,Burdwan Cold Storage #43,Purba Bardhaman,Burdwan,23.2756,87.9149,8865,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-044,Burdwan Cold Storage #44,Purba Bardhaman,Burdwan,23.2784,87.8376,12887,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-045,Burdwan Cold Storage #45,Purba Bardhaman,Burdwan,23.2791,87.8247,8893,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-046,Burdwan Cold Storage #46,Purba Bardhaman,Burdwan,23.1769,87.9144,10075,27,,OGD/WB corridor model (replace with govt CSV),no
+CS-047,Burdwan Cold Storage #47,Purba Bardhaman,Burdwan,23.2563,87.9084,6710,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-048,Burdwan Cold Storage #48,Purba Bardhaman,Burdwan,23.1992,87.842,8254,21,,OGD/WB corridor model (replace with govt CSV),no
+CS-049,Burdwan Cold Storage #49,Purba Bardhaman,Burdwan,23.1884,87.9124,7167,41,,OGD/WB corridor model (replace with govt CSV),no
+CS-050,Burdwan Cold Storage #50,Purba Bardhaman,Burdwan,23.2676,87.9123,10801,20,,OGD/WB corridor model (replace with govt CSV),no
+CS-051,Burdwan Cold Storage #51,Purba Bardhaman,Burdwan,23.1925,87.8494,8200,15,,OGD/WB corridor model (replace with govt CSV),no
+CS-052,Burdwan Cold Storage #52,Purba Bardhaman,Burdwan,23.195,87.812,10220,40,,OGD/WB corridor model (replace with govt CSV),no
+CS-053,Burdwan Cold Storage #53,Purba Bardhaman,Burdwan,23.259,87.8033,4732,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-054,Burdwan Cold Storage #54,Purba Bardhaman,Burdwan,23.2819,87.8045,6915,21,,OGD/WB corridor model (replace with govt CSV),no
+CS-055,Burdwan Cold Storage #55,Purba Bardhaman,Burdwan,23.2641,87.893,9773,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-056,Burdwan Cold Storage #56,Purba Bardhaman,Burdwan,23.2156,87.8219,6385,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-057,Burdwan Cold Storage #57,Purba Bardhaman,Burdwan,23.224,87.9038,12452,15,,OGD/WB corridor model (replace with govt CSV),no
+CS-058,Burdwan Cold Storage #58,Purba Bardhaman,Burdwan,23.194,87.8692,9212,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-059,Burdwan Cold Storage #59,Purba Bardhaman,Burdwan,23.2348,87.8829,11538,27,,OGD/WB corridor model (replace with govt CSV),no
+CS-060,Burdwan Cold Storage #60,Purba Bardhaman,Burdwan,23.291,87.8962,5988,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-061,Burdwan Cold Storage #61,Purba Bardhaman,Burdwan,23.2175,87.8694,4400,27,,OGD/WB corridor model (replace with govt CSV),no
+CS-062,Burdwan Cold Storage #62,Purba Bardhaman,Burdwan,23.2482,87.7984,6646,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-063,Burdwan Cold Storage #63,Purba Bardhaman,Burdwan,23.2643,87.8044,7774,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-064,Burdwan Cold Storage #64,Purba Bardhaman,Burdwan,23.1715,87.8337,10032,35,,OGD/WB corridor model (replace with govt CSV),no
+CS-065,Burdwan Cold Storage #65,Purba Bardhaman,Burdwan,23.2799,87.8641,5899,37,,OGD/WB corridor model (replace with govt CSV),no
+CS-066,Burdwan Cold Storage #66,Purba Bardhaman,Burdwan,23.2868,87.8146,10954,35,,OGD/WB corridor model (replace with govt CSV),no
+CS-067,Burdwan Cold Storage #67,Purba Bardhaman,Burdwan,23.1879,87.8295,9163,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-068,Burdwan Cold Storage #68,Purba Bardhaman,Burdwan,23.1961,87.8911,4229,21,,OGD/WB corridor model (replace with govt CSV),no
+CS-069,Burdwan Cold Storage #69,Purba Bardhaman,Burdwan,23.1693,87.8826,12014,41,,OGD/WB corridor model (replace with govt CSV),no
+CS-070,Burdwan Cold Storage #70,Purba Bardhaman,Burdwan,23.2118,87.8588,11354,27,,OGD/WB corridor model (replace with govt CSV),no
+CS-071,Burdwan Cold Storage #71,Purba Bardhaman,Burdwan,23.2766,87.9101,9873,29,,OGD/WB corridor model (replace with govt CSV),no
+CS-072,Burdwan Cold Storage #72,Purba Bardhaman,Burdwan,23.2119,87.8495,10355,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-073,Burdwan Cold Storage #73,Purba Bardhaman,Burdwan,23.2856,87.8312,12945,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-074,Burdwan Cold Storage #74,Purba Bardhaman,Burdwan,23.2443,87.8334,11614,35,,OGD/WB corridor model (replace with govt CSV),no
+CS-075,Burdwan Cold Storage #75,Purba Bardhaman,Burdwan,23.1986,87.8842,4249,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-076,Burdwan Cold Storage #76,Purba Bardhaman,Burdwan,23.2196,87.8881,10417,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-077,Burdwan Cold Storage #77,Purba Bardhaman,Burdwan,23.2,87.8197,4260,40,,OGD/WB corridor model (replace with govt CSV),no
+CS-078,Burdwan Cold Storage #78,Purba Bardhaman,Burdwan,23.2794,87.8564,5895,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-079,Asansol Cold Storage #1,Paschim Bardhaman,Asansol,23.7038,86.969,8770,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-080,Asansol Cold Storage #2,Paschim Bardhaman,Asansol,23.6443,86.9195,6294,29,,OGD/WB corridor model (replace with govt CSV),no
+CS-081,Asansol Cold Storage #3,Paschim Bardhaman,Asansol,23.6874,86.9304,12639,28,,OGD/WB corridor model (replace with govt CSV),no
+CS-082,Asansol Cold Storage #4,Paschim Bardhaman,Asansol,23.6784,86.9633,10567,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-083,Asansol Cold Storage #5,Paschim Bardhaman,Asansol,23.706,86.9428,4788,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-084,Asansol Cold Storage #6,Paschim Bardhaman,Asansol,23.615,86.9701,5060,39,,OGD/WB corridor model (replace with govt CSV),no
+CS-085,Asansol Cold Storage #7,Paschim Bardhaman,Asansol,23.6643,86.9649,6454,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-086,Asansol Cold Storage #8,Paschim Bardhaman,Asansol,23.6429,86.912,12283,41,,OGD/WB corridor model (replace with govt CSV),no
+CS-087,Asansol Cold Storage #9,Paschim Bardhaman,Asansol,23.6951,86.945,5701,37,,OGD/WB corridor model (replace with govt CSV),no
+CS-088,Asansol Cold Storage #10,Paschim Bardhaman,Asansol,23.6808,86.9161,7586,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-089,Asansol Cold Storage #11,Paschim Bardhaman,Asansol,23.6214,86.9874,5111,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-090,Asansol Cold Storage #12,Paschim Bardhaman,Asansol,23.7035,87.012,4768,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-091,Asansol Cold Storage #13,Paschim Bardhaman,Asansol,23.6721,86.9357,11517,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-092,Asansol Cold Storage #14,Paschim Bardhaman,Asansol,23.6486,86.9664,11329,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-093,Asansol Cold Storage #15,Paschim Bardhaman,Asansol,23.657,86.9125,6396,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-094,Asansol Cold Storage #16,Paschim Bardhaman,Asansol,23.6189,86.9649,6091,41,,OGD/WB corridor model (replace with govt CSV),no
+CS-095,Asansol Cold Storage #17,Paschim Bardhaman,Asansol,23.6313,86.9686,9190,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-096,Asansol Cold Storage #18,Paschim Bardhaman,Asansol,23.6296,86.9819,5177,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-097,Asansol Cold Storage #19,Paschim Bardhaman,Asansol,23.6876,86.9216,6641,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-098,Asansol Cold Storage #20,Paschim Bardhaman,Asansol,23.6811,86.9442,10589,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-099,Asansol Cold Storage #21,Paschim Bardhaman,Asansol,23.7216,86.9889,5913,40,,OGD/WB corridor model (replace with govt CSV),no
+CS-100,Asansol Cold Storage #22,Paschim Bardhaman,Asansol,23.7039,86.9785,8771,18,,OGD/WB corridor model (replace with govt CSV),no
+CS-101,Asansol Cold Storage #23,Paschim Bardhaman,Asansol,23.706,86.9734,8788,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-102,Asansol Cold Storage #24,Paschim Bardhaman,Asansol,23.6369,86.9271,7235,15,,OGD/WB corridor model (replace with govt CSV),no
+CS-103,Asansol Cold Storage #25,Paschim Bardhaman,Asansol,23.6933,86.9895,8686,39,,OGD/WB corridor model (replace with govt CSV),no
+CS-104,Asansol Cold Storage #26,Paschim Bardhaman,Asansol,23.6735,87.0109,6528,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-105,Asansol Cold Storage #27,Paschim Bardhaman,Asansol,23.7264,86.9532,9951,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-106,Asansol Cold Storage #28,Paschim Bardhaman,Asansol,23.7134,86.9124,11847,21,,OGD/WB corridor model (replace with govt CSV),no
+CS-107,Asansol Cold Storage #29,Paschim Bardhaman,Asansol,23.7019,86.9345,12755,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-108,Asansol Cold Storage #30,Paschim Bardhaman,Asansol,23.7024,86.9053,8759,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-109,Asansol Cold Storage #31,Paschim Bardhaman,Asansol,23.7126,86.8966,6841,37,,OGD/WB corridor model (replace with govt CSV),no
+CS-110,Asansol Cold Storage #32,Paschim Bardhaman,Asansol,23.688,86.9543,10644,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-111,Asansol Cold Storage #33,Paschim Bardhaman,Asansol,23.6273,86.9231,8158,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-112,Asansol Cold Storage #34,Paschim Bardhaman,Asansol,23.7094,86.9764,10815,21,,OGD/WB corridor model (replace with govt CSV),no
+CS-113,Asansol Cold Storage #35,Paschim Bardhaman,Asansol,23.6233,86.9239,6126,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-114,Asansol Cold Storage #36,Paschim Bardhaman,Asansol,23.7258,86.8935,4946,20,,OGD/WB corridor model (replace with govt CSV),no
+CS-115,Asansol Cold Storage #37,Paschim Bardhaman,Asansol,23.637,86.953,4236,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-116,Asansol Cold Storage #38,Paschim Bardhaman,Asansol,23.6836,86.9668,10609,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-117,Asansol Cold Storage #39,Paschim Bardhaman,Asansol,23.6164,86.9796,10071,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-118,Asansol Cold Storage #40,Paschim Bardhaman,Asansol,23.7214,86.9368,8911,32,,OGD/WB corridor model (replace with govt CSV),no
+CS-119,Asansol Cold Storage #41,Paschim Bardhaman,Asansol,23.6944,86.9273,7695,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-120,Asansol Cold Storage #42,Paschim Bardhaman,Asansol,23.636,86.9749,7228,32,,OGD/WB corridor model (replace with govt CSV),no
+CS-121,Asansol Cold Storage #43,Paschim Bardhaman,Asansol,23.6556,86.9062,9385,28,,OGD/WB corridor model (replace with govt CSV),no
+CS-122,Asansol Cold Storage #44,Paschim Bardhaman,Asansol,23.6123,86.9352,4038,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-123,Asansol Cold Storage #45,Paschim Bardhaman,Asansol,23.6591,86.9139,5413,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-124,Asansol Cold Storage #46,Paschim Bardhaman,Asansol,23.6819,86.965,8595,27,,OGD/WB corridor model (replace with govt CSV),no
+CS-125,Asansol Cold Storage #47,Paschim Bardhaman,Asansol,23.7189,86.9258,8891,41,,OGD/WB corridor model (replace with govt CSV),no
+CS-126,Asansol Cold Storage #48,Paschim Bardhaman,Asansol,23.6954,86.9865,5703,35,,OGD/WB corridor model (replace with govt CSV),no
+CS-127,Asansol Cold Storage #49,Paschim Bardhaman,Asansol,23.653,86.9887,9364,18,,OGD/WB corridor model (replace with govt CSV),no
+CS-128,Asansol Cold Storage #50,Paschim Bardhaman,Asansol,23.6468,86.984,8314,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-129,Asansol Cold Storage #51,Paschim Bardhaman,Asansol,23.7,86.9999,11740,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-130,Asansol Cold Storage #52,Paschim Bardhaman,Asansol,23.6369,86.9595,12235,40,,OGD/WB corridor model (replace with govt CSV),no
+CS-131,Chinsurah Cold Storage #1,Hooghly,Chinsurah,22.8492,88.4246,10094,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-132,Chinsurah Cold Storage #2,Hooghly,Chinsurah,22.9475,88.4163,7880,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-133,Chinsurah Cold Storage #3,Hooghly,Chinsurah,22.9254,88.4444,4703,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-134,Chinsurah Cold Storage #4,Hooghly,Chinsurah,22.9194,88.4431,10655,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-135,Chinsurah Cold Storage #5,Hooghly,Chinsurah,22.8681,88.4179,10245,20,,OGD/WB corridor model (replace with govt CSV),no
+CS-136,Chinsurah Cold Storage #6,Hooghly,Chinsurah,22.879,88.4395,5332,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-137,Chinsurah Cold Storage #7,Hooghly,Chinsurah,22.9549,88.3739,5939,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-138,Chinsurah Cold Storage #8,Hooghly,Chinsurah,22.8641,88.3912,10213,28,,OGD/WB corridor model (replace with govt CSV),no
+CS-139,Chinsurah Cold Storage #9,Hooghly,Chinsurah,22.9416,88.4535,10833,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-140,Chinsurah Cold Storage #10,Hooghly,Chinsurah,22.9402,88.4326,10822,41,,OGD/WB corridor model (replace with govt CSV),no
+CS-141,Chinsurah Cold Storage #11,Hooghly,Chinsurah,22.8984,88.443,12487,21,,OGD/WB corridor model (replace with govt CSV),no
+CS-142,Chinsurah Cold Storage #12,Hooghly,Chinsurah,22.8556,88.3884,6145,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-143,Chinsurah Cold Storage #13,Hooghly,Chinsurah,22.893,88.3983,5444,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-144,Chinsurah Cold Storage #14,Hooghly,Chinsurah,22.8599,88.4169,7179,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-145,Chinsurah Cold Storage #15,Hooghly,Chinsurah,22.9605,88.4073,11984,29,,OGD/WB corridor model (replace with govt CSV),no
+CS-146,Chinsurah Cold Storage #16,Hooghly,Chinsurah,22.8509,88.3523,7107,28,,OGD/WB corridor model (replace with govt CSV),no
+CS-147,Chinsurah Cold Storage #17,Hooghly,Chinsurah,22.8879,88.3548,8403,37,,OGD/WB corridor model (replace with govt CSV),no
+CS-148,Chinsurah Cold Storage #18,Hooghly,Chinsurah,22.901,88.3796,12508,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-149,Chinsurah Cold Storage #19,Hooghly,Chinsurah,22.9277,88.3515,10722,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-150,Chinsurah Cold Storage #20,Hooghly,Chinsurah,22.8464,88.4066,11071,20,,OGD/WB corridor model (replace with govt CSV),no
+CS-151,Chinsurah Cold Storage #21,Hooghly,Chinsurah,22.8919,88.3453,11435,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-152,Chinsurah Cold Storage #22,Hooghly,Chinsurah,22.8615,88.3589,11192,39,,OGD/WB corridor model (replace with govt CSV),no
+CS-153,Chinsurah Cold Storage #23,Hooghly,Chinsurah,22.884,88.4615,9372,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-154,Chinsurah Cold Storage #24,Hooghly,Chinsurah,22.8969,88.449,11475,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-155,Chinsurah Cold Storage #25,Hooghly,Chinsurah,22.9138,88.4503,12610,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-156,Chinsurah Cold Storage #26,Hooghly,Chinsurah,22.9501,88.4501,9901,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-157,Chinsurah Cold Storage #27,Hooghly,Chinsurah,22.8954,88.3884,12463,15,,OGD/WB corridor model (replace with govt CSV),no
+CS-158,Chinsurah Cold Storage #28,Hooghly,Chinsurah,22.9134,88.3604,5607,27,,OGD/WB corridor model (replace with govt CSV),no
+CS-159,Chinsurah Cold Storage #29,Hooghly,Chinsurah,22.9141,88.37,6613,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-160,Chinsurah Cold Storage #30,Hooghly,Chinsurah,22.928,88.3493,5724,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-161,Chinsurah Cold Storage #31,Hooghly,Chinsurah,22.9329,88.3533,10763,41,,OGD/WB corridor model (replace with govt CSV),no
+CS-162,Chinsurah Cold Storage #32,Hooghly,Chinsurah,22.9274,88.3446,4719,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-163,Chinsurah Cold Storage #33,Hooghly,Chinsurah,22.9222,88.4466,6678,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-164,Chinsurah Cold Storage #34,Hooghly,Chinsurah,22.9392,88.3792,5814,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-165,Chinsurah Cold Storage #35,Hooghly,Chinsurah,22.9157,88.3588,11626,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-166,Chinsurah Cold Storage #36,Hooghly,Chinsurah,22.9354,88.4179,5783,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-167,Chinsurah Cold Storage #37,Hooghly,Chinsurah,22.9174,88.3861,10639,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-168,Chinsurah Cold Storage #38,Hooghly,Chinsurah,22.8939,88.377,8451,32,,OGD/WB corridor model (replace with govt CSV),no
+CS-169,Chinsurah Cold Storage #39,Hooghly,Chinsurah,22.8551,88.409,11141,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-170,Chinsurah Cold Storage #40,Hooghly,Chinsurah,22.8559,88.3998,10147,27,,OGD/WB corridor model (replace with govt CSV),no
+CS-171,Chinsurah Cold Storage #41,Hooghly,Chinsurah,22.9364,88.352,11791,29,,OGD/WB corridor model (replace with govt CSV),no
+CS-172,Chinsurah Cold Storage #42,Hooghly,Chinsurah,22.8921,88.4444,8437,28,,OGD/WB corridor model (replace with govt CSV),no
+CS-173,Chinsurah Cold Storage #43,Hooghly,Chinsurah,22.936,88.3566,12788,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-174,Chinsurah Cold Storage #44,Hooghly,Chinsurah,22.871,88.4283,11268,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-175,Chinsurah Cold Storage #45,Hooghly,Chinsurah,22.8513,88.3593,7110,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-176,Chinsurah Cold Storage #46,Hooghly,Chinsurah,22.867,88.396,11236,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-177,Chinsurah Cold Storage #47,Hooghly,Chinsurah,22.859,88.4263,7172,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-178,Chinsurah Cold Storage #48,Hooghly,Chinsurah,22.9356,88.4323,6785,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-179,Bankura Cold Storage #1,Bankura,Bankura,23.2235,87.0985,5448,40,,OGD/WB corridor model (replace with govt CSV),no
+CS-180,Bankura Cold Storage #2,Bankura,Bankura,23.1762,87.097,6070,32,,OGD/WB corridor model (replace with govt CSV),no
+CS-181,Bankura Cold Storage #3,Bankura,Bankura,23.1921,87.0971,8197,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-182,Bankura Cold Storage #4,Bankura,Bankura,23.2219,87.102,12435,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-183,Bankura Cold Storage #5,Bankura,Bankura,23.2851,87.0671,5941,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-184,Bankura Cold Storage #6,Bankura,Bankura,23.2003,87.1077,7262,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-185,Bankura Cold Storage #7,Bankura,Bankura,23.1938,87.0904,7210,18,,OGD/WB corridor model (replace with govt CSV),no
+CS-186,Bankura Cold Storage #8,Bankura,Bankura,23.2515,87.1271,12672,35,,OGD/WB corridor model (replace with govt CSV),no
+CS-187,Bankura Cold Storage #9,Bankura,Bankura,23.1798,87.0162,7098,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-188,Bankura Cold Storage #10,Bankura,Bankura,23.2654,87.0887,10783,15,,OGD/WB corridor model (replace with govt CSV),no
+CS-189,Bankura Cold Storage #11,Bankura,Bankura,23.2454,87.0724,5623,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-190,Bankura Cold Storage #12,Bankura,Bankura,23.1836,87.0725,4129,37,,OGD/WB corridor model (replace with govt CSV),no
+CS-191,Bankura Cold Storage #13,Bankura,Bankura,23.2761,87.0911,7869,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-192,Bankura Cold Storage #14,Bankura,Bankura,23.2556,87.1131,5705,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-193,Bankura Cold Storage #15,Bankura,Bankura,23.1751,87.0525,9061,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-194,Bankura Cold Storage #16,Bankura,Bankura,23.2199,87.113,9419,21,,OGD/WB corridor model (replace with govt CSV),no
+CS-195,Bankura Cold Storage #17,Bankura,Bankura,23.2778,87.0106,8882,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-196,Bankura Cold Storage #18,Bankura,Bankura,23.2601,87.0546,7741,35,,OGD/WB corridor model (replace with govt CSV),no
+CS-197,Bankura Cold Storage #19,Bankura,Bankura,23.2183,87.1117,9406,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-198,Bankura Cold Storage #20,Bankura,Bankura,23.2131,87.0081,10365,15,,OGD/WB corridor model (replace with govt CSV),no
+CS-199,Bankura Cold Storage #21,Bankura,Bankura,23.2525,87.1161,7680,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-200,Bankura Cold Storage #22,Bankura,Bankura,23.1696,87.009,7017,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-201,Bankura Cold Storage #23,Bankura,Bankura,23.2374,87.0139,7559,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-202,Bankura Cold Storage #24,Bankura,Bankura,23.208,87.0866,11324,37,,OGD/WB corridor model (replace with govt CSV),no
+CS-203,Bankura Cold Storage #25,Bankura,Bankura,23.1959,87.0727,11227,35,,OGD/WB corridor model (replace with govt CSV),no
+CS-204,Bankura Cold Storage #26,Bankura,Bankura,23.2043,87.1191,7294,20,,OGD/WB corridor model (replace with govt CSV),no
+CS-205,Bankura Cold Storage #27,Bankura,Bankura,23.2342,87.0786,8534,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-206,Bankura Cold Storage #28,Bankura,Bankura,23.2439,87.0749,7611,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-207,Bankura Cold Storage #29,Bankura,Bankura,23.195,87.1089,12220,41,,OGD/WB corridor model (replace with govt CSV),no
+CS-208,Bankura Cold Storage #30,Bankura,Bankura,23.1831,87.1057,7125,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-209,Bankura Cold Storage #31,Bankura,Bankura,23.2653,87.0136,6782,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-210,Bankura Cold Storage #32,Bankura,Bankura,23.1846,87.0099,7137,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-211,Bankura Cold Storage #33,Bankura,Bankura,23.2234,87.09,6447,27,,OGD/WB corridor model (replace with govt CSV),no
+CS-212,Bankura Cold Storage #34,Bankura,Bankura,23.2428,87.1161,6602,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-213,Bankura Cold Storage #35,Bankura,Bankura,23.176,87.0134,11068,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-214,Bankura Cold Storage #36,Bankura,Bankura,23.2713,87.0261,4830,21,,OGD/WB corridor model (replace with govt CSV),no
+CS-215,Bankura Cold Storage #37,Bankura,Bankura,23.2266,87.0084,9473,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-216,Bankura Cold Storage #38,Bankura,Bankura,23.1844,87.0346,11135,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-217,Bankura Cold Storage #39,Bankura,Bankura,23.2366,87.0202,7553,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-218,Bankura Cold Storage #40,Bankura,Bankura,23.1917,87.0166,7194,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-219,Bankura Cold Storage #41,Bankura,Bankura,23.2335,87.1312,11528,28,,OGD/WB corridor model (replace with govt CSV),no
+CS-220,Bankura Cold Storage #42,Bankura,Bankura,23.168,87.0314,10004,20,,OGD/WB corridor model (replace with govt CSV),no
+CS-221,Suri Cold Storage #1,Birbhum,Suri,23.8589,87.5624,5171,41,,OGD/WB corridor model (replace with govt CSV),no
+CS-222,Suri Cold Storage #2,Birbhum,Suri,23.9016,87.4633,9513,20,,OGD/WB corridor model (replace with govt CSV),no
+CS-223,Suri Cold Storage #3,Birbhum,Suri,23.9132,87.4646,8606,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-224,Suri Cold Storage #4,Birbhum,Suri,23.9376,87.5493,6801,21,,OGD/WB corridor model (replace with govt CSV),no
+CS-225,Suri Cold Storage #5,Birbhum,Suri,23.8907,87.4659,8426,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-226,Suri Cold Storage #6,Birbhum,Suri,23.9526,87.5486,11921,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-227,Suri Cold Storage #7,Birbhum,Suri,23.9502,87.4603,7902,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-228,Suri Cold Storage #8,Birbhum,Suri,23.931,87.4972,11748,27,,OGD/WB corridor model (replace with govt CSV),no
+CS-229,Suri Cold Storage #9,Birbhum,Suri,23.8459,87.4817,6067,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-230,Suri Cold Storage #10,Birbhum,Suri,23.9466,87.5327,7873,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-231,Suri Cold Storage #11,Birbhum,Suri,23.9521,87.5485,5917,18,,OGD/WB corridor model (replace with govt CSV),no
+CS-232,Suri Cold Storage #12,Birbhum,Suri,23.927,87.4805,4716,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-233,Suri Cold Storage #13,Birbhum,Suri,23.93,87.5657,4740,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-234,Suri Cold Storage #14,Birbhum,Suri,23.8957,87.5149,11466,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-235,Suri Cold Storage #15,Birbhum,Suri,23.8696,87.5651,8257,21,,OGD/WB corridor model (replace with govt CSV),no
+CS-236,Suri Cold Storage #16,Birbhum,Suri,23.9217,87.5691,5674,37,,OGD/WB corridor model (replace with govt CSV),no
+CS-237,Suri Cold Storage #17,Birbhum,Suri,23.8725,87.5409,4280,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-238,Suri Cold Storage #18,Birbhum,Suri,23.8459,87.5671,4067,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-239,Suri Cold Storage #19,Birbhum,Suri,23.9452,87.4988,7862,28,,OGD/WB corridor model (replace with govt CSV),no
+CS-240,Suri Cold Storage #20,Birbhum,Suri,23.9064,87.5095,11551,41,,OGD/WB corridor model (replace with govt CSV),no
+CS-241,Suri Cold Storage #21,Birbhum,Suri,23.8749,87.4961,5299,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-242,Suri Cold Storage #22,Birbhum,Suri,23.9471,87.4824,5877,21,,OGD/WB corridor model (replace with govt CSV),no
+CS-243,Suri Cold Storage #23,Birbhum,Suri,23.9224,87.5016,5679,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-244,Suri Cold Storage #24,Birbhum,Suri,23.9604,87.4646,11983,35,,OGD/WB corridor model (replace with govt CSV),no
+CS-245,Suri Cold Storage #25,Birbhum,Suri,23.8847,87.5517,7378,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-246,Suri Cold Storage #26,Birbhum,Suri,23.8626,87.5396,8201,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-247,Suri Cold Storage #27,Birbhum,Suri,23.841,87.5292,4028,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-248,Suri Cold Storage #28,Birbhum,Suri,23.894,87.4974,9452,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-249,Suri Cold Storage #29,Birbhum,Suri,23.883,87.5012,12364,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-250,Suri Cold Storage #30,Birbhum,Suri,23.865,87.529,10220,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-251,Suri Cold Storage #31,Birbhum,Suri,23.8464,87.5345,12071,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-252,Suri Cold Storage #32,Birbhum,Suri,23.8739,87.5455,8291,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-253,Suri Cold Storage #33,Birbhum,Suri,23.8504,87.5556,11103,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-254,Suri Cold Storage #34,Birbhum,Suri,23.8945,87.4849,12456,21,,OGD/WB corridor model (replace with govt CSV),no
+CS-255,Suri Cold Storage #35,Birbhum,Suri,23.8702,87.5632,5262,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-256,Suri Cold Storage #36,Birbhum,Suri,23.9106,87.5335,7585,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-257,Suri Cold Storage #37,Birbhum,Suri,23.9219,87.5455,6675,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-258,Suri Cold Storage #38,Birbhum,Suri,23.9317,87.5026,4754,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-259,Berhampore Cold Storage #1,Murshidabad,Berhampore,24.1585,88.2272,7328,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-260,Berhampore Cold Storage #2,Murshidabad,Berhampore,24.1969,88.2313,9635,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-261,Berhampore Cold Storage #3,Murshidabad,Berhampore,24.1706,88.2582,5425,41,,OGD/WB corridor model (replace with govt CSV),no
+CS-262,Berhampore Cold Storage #4,Murshidabad,Berhampore,24.1605,88.3305,11344,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-263,Berhampore Cold Storage #5,Murshidabad,Berhampore,24.1866,88.2156,12553,18,,OGD/WB corridor model (replace with govt CSV),no
+CS-264,Berhampore Cold Storage #6,Murshidabad,Berhampore,24.1401,88.3037,11181,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-265,Berhampore Cold Storage #7,Murshidabad,Berhampore,24.1559,88.3279,8307,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-266,Berhampore Cold Storage #8,Murshidabad,Berhampore,24.1588,88.3094,7330,28,,OGD/WB corridor model (replace with govt CSV),no
+CS-267,Berhampore Cold Storage #9,Murshidabad,Berhampore,24.1604,88.209,11343,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-268,Berhampore Cold Storage #10,Murshidabad,Berhampore,24.133,88.2576,8124,40,,OGD/WB corridor model (replace with govt CSV),no
+CS-269,Berhampore Cold Storage #11,Murshidabad,Berhampore,24.2174,88.3263,10799,28,,OGD/WB corridor model (replace with govt CSV),no
+CS-270,Berhampore Cold Storage #12,Murshidabad,Berhampore,24.2129,88.2437,5763,18,,OGD/WB corridor model (replace with govt CSV),no
+CS-271,Berhampore Cold Storage #13,Murshidabad,Berhampore,24.1698,88.244,11418,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-272,Berhampore Cold Storage #14,Murshidabad,Berhampore,24.2194,88.2561,10815,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-273,Berhampore Cold Storage #15,Murshidabad,Berhampore,24.2138,88.2345,7770,21,,OGD/WB corridor model (replace with govt CSV),no
+CS-274,Berhampore Cold Storage #16,Murshidabad,Berhampore,24.2192,88.2597,12814,40,,OGD/WB corridor model (replace with govt CSV),no
+CS-275,Berhampore Cold Storage #17,Murshidabad,Berhampore,24.1283,88.3271,11086,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-276,Berhampore Cold Storage #18,Murshidabad,Berhampore,24.1324,88.294,8119,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-277,Berhampore Cold Storage #19,Murshidabad,Berhampore,24.1611,88.2446,12349,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-278,Berhampore Cold Storage #20,Murshidabad,Berhampore,24.238,88.2566,9964,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-279,Berhampore Cold Storage #21,Murshidabad,Berhampore,24.1549,88.3039,8299,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-280,Berhampore Cold Storage #22,Murshidabad,Berhampore,24.22,88.2482,10820,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-281,Berhampore Cold Storage #23,Murshidabad,Berhampore,24.1321,88.2133,4117,29,,OGD/WB corridor model (replace with govt CSV),no
+CS-282,Berhampore Cold Storage #24,Murshidabad,Berhampore,24.129,88.3107,12092,40,,OGD/WB corridor model (replace with govt CSV),no
+CS-283,Berhampore Cold Storage #25,Murshidabad,Berhampore,24.1232,88.3229,11046,20,,OGD/WB corridor model (replace with govt CSV),no
+CS-284,Berhampore Cold Storage #26,Murshidabad,Berhampore,24.1411,88.3324,5189,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-285,Berhampore Cold Storage #27,Murshidabad,Berhampore,24.1895,88.2965,11576,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-286,Berhampore Cold Storage #28,Murshidabad,Berhampore,24.1934,88.2687,11607,28,,OGD/WB corridor model (replace with govt CSV),no
+CS-287,Berhampore Cold Storage #29,Murshidabad,Berhampore,24.233,88.3294,6924,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-288,Berhampore Cold Storage #30,Murshidabad,Berhampore,24.2414,88.2561,7991,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-289,Berhampore Cold Storage #31,Murshidabad,Berhampore,24.1796,88.2749,11497,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-290,Berhampore Cold Storage #32,Murshidabad,Berhampore,24.1226,88.2319,10041,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-291,Berhampore Cold Storage #33,Murshidabad,Berhampore,24.179,88.22,10492,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-292,Berhampore Cold Storage #34,Murshidabad,Berhampore,24.2097,88.3306,9738,15,,OGD/WB corridor model (replace with govt CSV),no
+CS-293,Berhampore Cold Storage #35,Murshidabad,Berhampore,24.1241,88.2894,8053,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-294,Berhampore Cold Storage #36,Murshidabad,Berhampore,24.1307,88.3302,10106,35,,OGD/WB corridor model (replace with govt CSV),no
+CS-295,Berhampore Cold Storage #37,Murshidabad,Berhampore,24.2075,88.3044,9720,35,,OGD/WB corridor model (replace with govt CSV),no
+CS-296,Berhampore Cold Storage #38,Murshidabad,Berhampore,24.164,88.2924,6372,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-297,Berhampore Cold Storage #39,Murshidabad,Berhampore,24.1679,88.2275,4403,37,,OGD/WB corridor model (replace with govt CSV),no
+CS-298,Berhampore Cold Storage #40,Murshidabad,Berhampore,24.204,88.3205,12692,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-299,Berhampore Cold Storage #41,Murshidabad,Berhampore,24.1304,88.2581,8103,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-300,Berhampore Cold Storage #42,Murshidabad,Berhampore,24.1468,88.2351,10234,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-301,Berhampore Cold Storage #43,Murshidabad,Berhampore,24.1917,88.2507,10594,20,,OGD/WB corridor model (replace with govt CSV),no
+CS-302,Berhampore Cold Storage #44,Murshidabad,Berhampore,24.2089,88.2652,6731,35,,OGD/WB corridor model (replace with govt CSV),no
+CS-303,Berhampore Cold Storage #45,Murshidabad,Berhampore,24.1399,88.2941,12179,29,,OGD/WB corridor model (replace with govt CSV),no
+CS-304,Berhampore Cold Storage #46,Murshidabad,Berhampore,24.2228,88.2891,4842,27,,OGD/WB corridor model (replace with govt CSV),no
+CS-305,Berhampore Cold Storage #47,Murshidabad,Berhampore,24.216,88.2135,12788,39,,OGD/WB corridor model (replace with govt CSV),no
+CS-306,Berhampore Cold Storage #48,Murshidabad,Berhampore,24.1426,88.2609,4201,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-307,Berhampore Cold Storage #49,Murshidabad,Berhampore,24.1491,88.3229,4253,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-308,Berhampore Cold Storage #50,Murshidabad,Berhampore,24.1909,88.2314,7587,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-309,Berhampore Cold Storage #51,Murshidabad,Berhampore,24.2191,88.269,5813,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-310,Berhampore Cold Storage #52,Murshidabad,Berhampore,24.1656,88.324,12385,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-311,Berhampore Cold Storage #53,Murshidabad,Berhampore,24.2376,88.284,12961,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-312,Berhampore Cold Storage #54,Murshidabad,Berhampore,24.2094,88.2141,8735,28,,OGD/WB corridor model (replace with govt CSV),no
+CS-313,Berhampore Cold Storage #55,Murshidabad,Berhampore,24.2411,88.2947,10989,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-314,English Bazar Cold Storage #1,Malda,English Bazar,25.0198,88.1166,6578,37,,OGD/WB corridor model (replace with govt CSV),no
+CS-315,English Bazar Cold Storage #2,Malda,English Bazar,25.0214,88.1726,9591,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-316,English Bazar Cold Storage #3,Malda,English Bazar,25.0374,88.1467,4719,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-317,English Bazar Cold Storage #4,Malda,English Bazar,25.0215,88.1145,6592,20,,OGD/WB corridor model (replace with govt CSV),no
+CS-318,English Bazar Cold Storage #5,Malda,English Bazar,25.0693,88.0966,10974,28,,OGD/WB corridor model (replace with govt CSV),no
+CS-319,English Bazar Cold Storage #6,Malda,English Bazar,25.06,88.0835,8900,29,,OGD/WB corridor model (replace with govt CSV),no
+CS-320,English Bazar Cold Storage #7,Malda,English Bazar,25.0383,88.0921,7726,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-321,English Bazar Cold Storage #8,Malda,English Bazar,24.9631,88.1345,4125,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-322,English Bazar Cold Storage #9,Malda,English Bazar,24.9595,88.1211,8096,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-323,English Bazar Cold Storage #10,Malda,English Bazar,24.969,88.1261,7172,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-324,English Bazar Cold Storage #11,Malda,English Bazar,25.0366,88.1911,4713,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-325,English Bazar Cold Storage #12,Malda,English Bazar,25.0409,88.1218,10747,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-326,English Bazar Cold Storage #13,Malda,English Bazar,24.9704,88.0894,10183,18,,OGD/WB corridor model (replace with govt CSV),no
+CS-327,English Bazar Cold Storage #14,Malda,English Bazar,24.9671,88.1069,12157,37,,OGD/WB corridor model (replace with govt CSV),no
+CS-328,English Bazar Cold Storage #15,Malda,English Bazar,24.9506,88.1155,4025,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-329,English Bazar Cold Storage #16,Malda,English Bazar,24.9585,88.1472,10088,39,,OGD/WB corridor model (replace with govt CSV),no
+CS-330,English Bazar Cold Storage #17,Malda,English Bazar,25.0065,88.1792,9472,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-331,English Bazar Cold Storage #18,Malda,English Bazar,25.0059,88.0829,6467,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-332,English Bazar Cold Storage #19,Malda,English Bazar,25.061,88.1959,10908,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-333,English Bazar Cold Storage #20,Malda,English Bazar,24.9564,88.103,6071,21,,OGD/WB corridor model (replace with govt CSV),no
+CS-334,English Bazar Cold Storage #21,Malda,English Bazar,25.0589,88.1479,12891,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-335,English Bazar Cold Storage #22,Malda,English Bazar,24.9863,88.0904,10310,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-336,English Bazar Cold Storage #23,Malda,English Bazar,25.0383,88.111,12726,18,,OGD/WB corridor model (replace with govt CSV),no
+CS-337,English Bazar Cold Storage #24,Malda,English Bazar,24.987,88.1428,7316,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-338,English Bazar Cold Storage #25,Malda,English Bazar,25.0155,88.0781,4544,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-339,English Bazar Cold Storage #26,Malda,English Bazar,25.0613,88.1854,5910,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-340,English Bazar Cold Storage #27,Malda,English Bazar,25.0128,88.1654,4522,39,,OGD/WB corridor model (replace with govt CSV),no
+CS-341,English Bazar Cold Storage #28,Malda,English Bazar,25.0194,88.08,6575,35,,OGD/WB corridor model (replace with govt CSV),no
+CS-342,English Bazar Cold Storage #29,Malda,English Bazar,25.0219,88.0911,8595,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-343,English Bazar Cold Storage #30,Malda,English Bazar,25.061,88.1974,4908,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-344,English Bazar Cold Storage #31,Malda,English Bazar,25.0274,88.1658,9639,41,,OGD/WB corridor model (replace with govt CSV),no
+CS-345,English Bazar Cold Storage #32,Malda,English Bazar,25.0098,88.1265,4498,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-346,English Bazar Cold Storage #33,Malda,English Bazar,24.9634,88.0877,10127,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-347,English Bazar Cold Storage #34,Malda,English Bazar,25.0119,88.1314,7515,29,,OGD/WB corridor model (replace with govt CSV),no
+CS-348,English Bazar Cold Storage #35,Malda,English Bazar,24.9949,88.1619,10379,35,,OGD/WB corridor model (replace with govt CSV),no
+CS-349,English Bazar Cold Storage #36,Malda,English Bazar,25.0139,88.098,6531,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-350,English Bazar Cold Storage #37,Malda,English Bazar,24.9598,88.1449,12098,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-351,English Bazar Cold Storage #38,Malda,English Bazar,25.0098,88.0807,12498,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-352,English Bazar Cold Storage #39,Malda,English Bazar,25.0371,88.1911,7717,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-353,English Bazar Cold Storage #40,Malda,English Bazar,25.0104,88.0821,12503,15,,OGD/WB corridor model (replace with govt CSV),no
+CS-354,English Bazar Cold Storage #41,Malda,English Bazar,24.9536,88.1865,12049,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-355,English Bazar Cold Storage #42,Malda,English Bazar,25.0694,88.1241,4975,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-356,English Bazar Cold Storage #43,Malda,English Bazar,25.0428,88.1685,11762,18,,OGD/WB corridor model (replace with govt CSV),no
+CS-357,English Bazar Cold Storage #44,Malda,English Bazar,25.0046,88.116,8457,27,,OGD/WB corridor model (replace with govt CSV),no
+CS-358,Krishnanagar Cold Storage #1,Nadia,Krishnanagar,23.4326,88.4565,6681,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-359,Krishnanagar Cold Storage #2,Nadia,Krishnanagar,23.3634,88.4645,11127,39,,OGD/WB corridor model (replace with govt CSV),no
+CS-360,Krishnanagar Cold Storage #3,Nadia,Krishnanagar,23.4402,88.449,9742,15,,OGD/WB corridor model (replace with govt CSV),no
+CS-361,Krishnanagar Cold Storage #4,Nadia,Krishnanagar,23.3665,88.4319,4152,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-362,Krishnanagar Cold Storage #5,Nadia,Krishnanagar,23.4484,88.5237,9807,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-363,Krishnanagar Cold Storage #6,Nadia,Krishnanagar,23.4709,88.4785,9987,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-364,Krishnanagar Cold Storage #7,Nadia,Krishnanagar,23.4082,88.542,5486,40,,OGD/WB corridor model (replace with govt CSV),no
+CS-365,Krishnanagar Cold Storage #8,Nadia,Krishnanagar,23.3921,88.5494,6357,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-366,Krishnanagar Cold Storage #9,Nadia,Krishnanagar,23.3968,88.4629,12394,39,,OGD/WB corridor model (replace with govt CSV),no
+CS-367,Krishnanagar Cold Storage #10,Nadia,Krishnanagar,23.3561,88.552,6069,29,,OGD/WB corridor model (replace with govt CSV),no
+CS-368,Krishnanagar Cold Storage #11,Nadia,Krishnanagar,23.3919,88.4749,8355,32,,OGD/WB corridor model (replace with govt CSV),no
+CS-369,Krishnanagar Cold Storage #12,Nadia,Krishnanagar,23.4369,88.4515,7715,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-370,Krishnanagar Cold Storage #13,Nadia,Krishnanagar,23.4561,88.481,7869,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-371,Krishnanagar Cold Storage #14,Nadia,Krishnanagar,23.461,88.5316,9908,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-372,Krishnanagar Cold Storage #15,Nadia,Krishnanagar,23.4564,88.4925,12871,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-373,Krishnanagar Cold Storage #16,Nadia,Krishnanagar,23.3773,88.4341,5238,20,,OGD/WB corridor model (replace with govt CSV),no
+CS-374,Krishnanagar Cold Storage #17,Nadia,Krishnanagar,23.3957,88.5474,5386,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-375,Krishnanagar Cold Storage #18,Nadia,Krishnanagar,23.4366,88.5022,4713,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-376,Krishnanagar Cold Storage #19,Nadia,Krishnanagar,23.4234,88.4586,4607,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-377,Krishnanagar Cold Storage #20,Nadia,Krishnanagar,23.3755,88.4475,7224,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-378,Krishnanagar Cold Storage #21,Nadia,Krishnanagar,23.3605,88.4345,5104,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-379,Krishnanagar Cold Storage #22,Nadia,Krishnanagar,23.42,88.4656,10580,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-380,Krishnanagar Cold Storage #23,Nadia,Krishnanagar,23.361,88.5104,5108,27,,OGD/WB corridor model (replace with govt CSV),no
+CS-381,Krishnanagar Cold Storage #24,Nadia,Krishnanagar,23.4475,88.5345,4800,20,,OGD/WB corridor model (replace with govt CSV),no
+CS-382,Krishnanagar Cold Storage #25,Nadia,Krishnanagar,23.366,88.486,11148,40,,OGD/WB corridor model (replace with govt CSV),no
+CS-383,Krishnanagar Cold Storage #26,Nadia,Krishnanagar,23.4584,88.4575,6887,15,,OGD/WB corridor model (replace with govt CSV),no
+CS-384,Krishnanagar Cold Storage #27,Nadia,Krishnanagar,23.3681,88.5343,7165,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-385,Krishnanagar Cold Storage #28,Nadia,Krishnanagar,23.445,88.4969,4780,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-386,Krishnanagar Cold Storage #29,Nadia,Krishnanagar,23.4131,88.467,11525,32,,OGD/WB corridor model (replace with govt CSV),no
+CS-387,Krishnanagar Cold Storage #30,Nadia,Krishnanagar,23.3893,88.5121,4334,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-388,Krishnanagar Cold Storage #31,Nadia,Krishnanagar,23.3939,88.5362,12371,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-389,Krishnanagar Cold Storage #32,Nadia,Krishnanagar,23.3953,88.5497,8382,40,,OGD/WB corridor model (replace with govt CSV),no
+CS-390,Krishnanagar Cold Storage #33,Nadia,Krishnanagar,23.3924,88.4325,5359,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-391,Krishnanagar Cold Storage #34,Nadia,Krishnanagar,23.4567,88.5141,10874,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-392,Krishnanagar Cold Storage #35,Nadia,Krishnanagar,23.413,88.4937,4524,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-393,Krishnanagar Cold Storage #36,Nadia,Krishnanagar,23.4378,88.4549,9722,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-394,Krishnanagar Cold Storage #37,Nadia,Krishnanagar,23.4202,88.4277,9582,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-395,Krishnanagar Cold Storage #38,Nadia,Krishnanagar,23.3649,88.5147,4139,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-396,Krishnanagar Cold Storage #39,Nadia,Krishnanagar,23.351,88.4874,8028,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-397,Krishnanagar Cold Storage #40,Nadia,Krishnanagar,23.3735,88.4886,9208,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-398,Krishnanagar Cold Storage #41,Nadia,Krishnanagar,23.4209,88.4567,11587,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-399,Krishnanagar Cold Storage #42,Nadia,Krishnanagar,23.395,88.5419,12380,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-400,Krishnanagar Cold Storage #43,Nadia,Krishnanagar,23.4346,88.4787,8697,18,,OGD/WB corridor model (replace with govt CSV),no
+CS-401,Krishnanagar Cold Storage #44,Nadia,Krishnanagar,23.3969,88.4586,6395,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-402,Krishnanagar Cold Storage #45,Nadia,Krishnanagar,23.4231,88.4594,4605,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-403,Krishnanagar Cold Storage #46,Nadia,Krishnanagar,23.3545,88.4706,5056,28,,OGD/WB corridor model (replace with govt CSV),no
+CS-404,Barasat Cold Storage #1,North 24 Parganas,Barasat,22.7602,88.5999,6582,21,,OGD/WB corridor model (replace with govt CSV),no
+CS-405,Barasat Cold Storage #2,North 24 Parganas,Barasat,22.7536,88.64,12529,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-406,Barasat Cold Storage #3,North 24 Parganas,Barasat,22.6925,88.6713,8040,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-407,Barasat Cold Storage #4,North 24 Parganas,Barasat,22.7729,88.5924,4683,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-408,Barasat Cold Storage #5,North 24 Parganas,Barasat,22.7291,88.6439,4333,20,,OGD/WB corridor model (replace with govt CSV),no
+CS-409,Barasat Cold Storage #6,North 24 Parganas,Barasat,22.8026,88.6535,5921,37,,OGD/WB corridor model (replace with govt CSV),no
+CS-410,Barasat Cold Storage #7,North 24 Parganas,Barasat,22.7284,88.678,8327,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-411,Barasat Cold Storage #8,North 24 Parganas,Barasat,22.7716,88.5915,12673,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-412,Barasat Cold Storage #9,North 24 Parganas,Barasat,22.7939,88.6096,10851,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-413,Barasat Cold Storage #10,North 24 Parganas,Barasat,22.7926,88.6472,10841,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-414,Barasat Cold Storage #11,North 24 Parganas,Barasat,22.714,88.7055,4212,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-415,Barasat Cold Storage #12,North 24 Parganas,Barasat,22.7593,88.6946,8574,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-416,Barasat Cold Storage #13,North 24 Parganas,Barasat,22.8032,88.6827,12926,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-417,Barasat Cold Storage #14,North 24 Parganas,Barasat,22.7499,88.663,4499,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-418,Barasat Cold Storage #15,North 24 Parganas,Barasat,22.7134,88.5984,5207,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-419,Barasat Cold Storage #16,North 24 Parganas,Barasat,22.7105,88.5975,9184,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-420,Barasat Cold Storage #17,North 24 Parganas,Barasat,22.7655,88.6988,11624,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-421,Barasat Cold Storage #18,North 24 Parganas,Barasat,22.8122,88.6131,12998,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-422,Barasat Cold Storage #19,North 24 Parganas,Barasat,22.7974,88.6303,11879,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-423,Barasat Cold Storage #20,North 24 Parganas,Barasat,22.708,88.6953,11164,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-424,Barasat Cold Storage #21,North 24 Parganas,Barasat,22.7138,88.6693,8210,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-425,Barasat Cold Storage #22,North 24 Parganas,Barasat,22.7075,88.6201,12160,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-426,Barasat Cold Storage #23,North 24 Parganas,Barasat,22.7549,88.6358,7539,40,,OGD/WB corridor model (replace with govt CSV),no
+CS-427,Barasat Cold Storage #24,North 24 Parganas,Barasat,22.7536,88.664,12529,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-428,Barasat Cold Storage #25,North 24 Parganas,Barasat,22.7391,88.6038,11413,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-429,Barasat Cold Storage #26,North 24 Parganas,Barasat,22.8012,88.6909,12910,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-430,Barasat Cold Storage #27,North 24 Parganas,Barasat,22.6894,88.6515,7015,25,,OGD/WB corridor model (replace with govt CSV),no
+CS-431,Barasat Cold Storage #28,North 24 Parganas,Barasat,22.7065,88.6844,11152,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-432,Barasat Cold Storage #29,North 24 Parganas,Barasat,22.784,88.6919,11772,37,,OGD/WB corridor model (replace with govt CSV),no
+CS-433,Barasat Cold Storage #30,North 24 Parganas,Barasat,22.7104,88.6049,10183,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-434,Barasat Cold Storage #31,North 24 Parganas,Barasat,22.7399,88.6773,9419,27,,OGD/WB corridor model (replace with govt CSV),no
+CS-435,Barasat Cold Storage #32,North 24 Parganas,Barasat,22.6989,88.6178,7091,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-436,Barasat Cold Storage #33,North 24 Parganas,Barasat,22.7042,88.6519,5134,18,,OGD/WB corridor model (replace with govt CSV),no
+CS-437,Barasat Cold Storage #34,North 24 Parganas,Barasat,22.766,88.7118,11628,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-438,Barasat Cold Storage #35,North 24 Parganas,Barasat,22.6976,88.6261,5081,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-439,Alipore Cold Storage #1,South 24 Parganas,Alipore,22.3151,88.5009,8221,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-440,Alipore Cold Storage #2,South 24 Parganas,Alipore,22.2888,88.4996,11010,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-441,Alipore Cold Storage #3,South 24 Parganas,Alipore,22.3909,88.412,4827,29,,OGD/WB corridor model (replace with govt CSV),no
+CS-442,Alipore Cold Storage #4,South 24 Parganas,Alipore,22.4078,88.4325,11962,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-443,Alipore Cold Storage #5,South 24 Parganas,Alipore,22.4046,88.4166,5937,18,,OGD/WB corridor model (replace with govt CSV),no
+CS-444,Alipore Cold Storage #6,South 24 Parganas,Alipore,22.3868,88.3948,12794,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-445,Alipore Cold Storage #7,South 24 Parganas,Alipore,22.3723,88.4109,10678,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-446,Alipore Cold Storage #8,South 24 Parganas,Alipore,22.2946,88.4805,5057,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-447,Alipore Cold Storage #9,South 24 Parganas,Alipore,22.347,88.4329,5476,39,,OGD/WB corridor model (replace with govt CSV),no
+CS-448,Alipore Cold Storage #10,South 24 Parganas,Alipore,22.3236,88.4958,10289,40,,OGD/WB corridor model (replace with govt CSV),no
+CS-449,Alipore Cold Storage #11,South 24 Parganas,Alipore,22.384,88.3898,8772,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-450,Alipore Cold Storage #12,South 24 Parganas,Alipore,22.3771,88.4723,12717,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-451,Alipore Cold Storage #13,South 24 Parganas,Alipore,22.3805,88.3964,6744,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-452,Alipore Cold Storage #14,South 24 Parganas,Alipore,22.305,88.444,5140,24,,OGD/WB corridor model (replace with govt CSV),no
+CS-453,Alipore Cold Storage #15,South 24 Parganas,Alipore,22.4115,88.4916,12992,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-454,Alipore Cold Storage #16,South 24 Parganas,Alipore,22.2891,88.4078,12013,43,,OGD/WB corridor model (replace with govt CSV),no
+CS-455,Alipore Cold Storage #17,South 24 Parganas,Alipore,22.2918,88.3896,8034,35,,OGD/WB corridor model (replace with govt CSV),no
+CS-456,Alipore Cold Storage #18,South 24 Parganas,Alipore,22.3916,88.3989,11833,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-457,Alipore Cold Storage #19,South 24 Parganas,Alipore,22.3465,88.4094,6472,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-458,Alipore Cold Storage #20,South 24 Parganas,Alipore,22.3189,88.4565,5251,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-459,Alipore Cold Storage #21,South 24 Parganas,Alipore,22.3593,88.4304,11574,18,,OGD/WB corridor model (replace with govt CSV),no
+CS-460,Alipore Cold Storage #22,South 24 Parganas,Alipore,22.3451,88.4836,11461,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-461,Alipore Cold Storage #23,South 24 Parganas,Alipore,22.387,88.4474,11796,42,,OGD/WB corridor model (replace with govt CSV),no
+CS-462,Alipore Cold Storage #24,South 24 Parganas,Alipore,22.3481,88.4735,7485,40,,OGD/WB corridor model (replace with govt CSV),no
+CS-463,Alipore Cold Storage #25,South 24 Parganas,Alipore,22.3823,88.4255,9758,32,,OGD/WB corridor model (replace with govt CSV),no
+CS-464,Alipore Cold Storage #26,South 24 Parganas,Alipore,22.3991,88.4248,10893,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-465,Alipore Cold Storage #27,South 24 Parganas,Alipore,22.3518,88.463,8514,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-466,Alipore Cold Storage #28,South 24 Parganas,Alipore,22.3466,88.4575,4473,35,,OGD/WB corridor model (replace with govt CSV),no
+CS-467,Alipore Cold Storage #29,South 24 Parganas,Alipore,22.333,88.465,6364,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-468,Alipore Cold Storage #30,South 24 Parganas,Alipore,22.2943,88.4271,10054,44,,OGD/WB corridor model (replace with govt CSV),no
+CS-469,Alipore Cold Storage #31,South 24 Parganas,Alipore,22.3051,88.4412,5141,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-470,Alipore Cold Storage #32,South 24 Parganas,Alipore,22.3905,88.3876,5824,22,,OGD/WB corridor model (replace with govt CSV),no
+CS-471,Jalpaiguri Cold Storage #1,Jalpaiguri,Jalpaiguri,26.5359,88.6715,12627,26,,OGD/WB corridor model (replace with govt CSV),no
+CS-472,Jalpaiguri Cold Storage #2,Jalpaiguri,Jalpaiguri,26.5125,88.7639,8440,29,,OGD/WB corridor model (replace with govt CSV),no
+CS-473,Jalpaiguri Cold Storage #3,Jalpaiguri,Jalpaiguri,26.5259,88.7163,6547,16,,OGD/WB corridor model (replace with govt CSV),no
+CS-474,Jalpaiguri Cold Storage #4,Jalpaiguri,Jalpaiguri,26.5678,88.7675,12882,37,,OGD/WB corridor model (replace with govt CSV),no
+CS-475,Jalpaiguri Cold Storage #5,Jalpaiguri,Jalpaiguri,26.4943,88.6596,5294,36,,OGD/WB corridor model (replace with govt CSV),no
+CS-476,Jalpaiguri Cold Storage #6,Jalpaiguri,Jalpaiguri,26.4707,88.7779,9106,20,,OGD/WB corridor model (replace with govt CSV),no
+CS-477,Jalpaiguri Cold Storage #7,Jalpaiguri,Jalpaiguri,26.4825,88.7657,6200,30,,OGD/WB corridor model (replace with govt CSV),no
+CS-478,Jalpaiguri Cold Storage #8,Jalpaiguri,Jalpaiguri,26.5776,88.7685,9961,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-479,Jalpaiguri Cold Storage #9,Jalpaiguri,Jalpaiguri,26.4962,88.737,11310,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-480,Jalpaiguri Cold Storage #10,Jalpaiguri,Jalpaiguri,26.5089,88.6991,6411,28,,OGD/WB corridor model (replace with govt CSV),no
+CS-481,Jalpaiguri Cold Storage #11,Jalpaiguri,Jalpaiguri,26.5602,88.7029,6822,27,,OGD/WB corridor model (replace with govt CSV),no
+CS-482,Jalpaiguri Cold Storage #12,Jalpaiguri,Jalpaiguri,26.4651,88.7049,9061,34,,OGD/WB corridor model (replace with govt CSV),no
+CS-483,Jalpaiguri Cold Storage #13,Jalpaiguri,Jalpaiguri,26.5635,88.7134,11848,33,,OGD/WB corridor model (replace with govt CSV),no
+CS-484,Jalpaiguri Cold Storage #14,Jalpaiguri,Jalpaiguri,26.5433,88.6658,12686,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-485,Jalpaiguri Cold Storage #15,Jalpaiguri,Jalpaiguri,26.5371,88.7164,12637,40,,OGD/WB corridor model (replace with govt CSV),no
+CS-486,Jalpaiguri Cold Storage #16,Jalpaiguri,Jalpaiguri,26.5016,88.6669,9353,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-487,Jalpaiguri Cold Storage #17,Jalpaiguri,Jalpaiguri,26.5335,88.7595,4608,29,,OGD/WB corridor model (replace with govt CSV),no
+CS-488,Jalpaiguri Cold Storage #18,Jalpaiguri,Jalpaiguri,26.582,88.6806,11996,17,,OGD/WB corridor model (replace with govt CSV),no
+CS-489,Jalpaiguri Cold Storage #19,Jalpaiguri,Jalpaiguri,26.5047,88.6856,9378,38,,OGD/WB corridor model (replace with govt CSV),no
+CS-490,Jalpaiguri Cold Storage #20,Jalpaiguri,Jalpaiguri,26.5373,88.7101,12638,21,,OGD/WB corridor model (replace with govt CSV),no
+CS-491,Jalpaiguri Cold Storage #21,Jalpaiguri,Jalpaiguri,26.556,88.7318,12788,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-492,Jalpaiguri Cold Storage #22,Jalpaiguri,Jalpaiguri,26.5626,88.6843,9841,23,,OGD/WB corridor model (replace with govt CSV),no
+CS-493,Jalpaiguri Cold Storage #23,Jalpaiguri,Jalpaiguri,26.551,88.7316,8748,19,,OGD/WB corridor model (replace with govt CSV),no
+CS-494,Jalpaiguri Cold Storage #24,Jalpaiguri,Jalpaiguri,26.5241,88.7799,10533,31,,OGD/WB corridor model (replace with govt CSV),no
+CS-495,Jalpaiguri Cold Storage #25,Jalpaiguri,Jalpaiguri,26.5555,88.7654,6784,27,,OGD/WB corridor model (replace with govt CSV),no
+CS-496,Jalpaiguri Cold Storage #26,Jalpaiguri,Jalpaiguri,26.4966,88.6767,5313,23,,OGD/WB corridor model (replace with govt CSV),no

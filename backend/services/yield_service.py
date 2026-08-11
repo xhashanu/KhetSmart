@@ -1,10 +1,10 @@
 from dataclasses import dataclass
+from typing import Optional
 
 from sqlalchemy.orm import Session
 
 from models import YieldSnapshot
-from services.yield_predictor import YieldForecast, predict_yield as predict_yield_mock
-from config import DEMO_MODE
+from services.yield_predictor import YieldForecast
 
 
 @dataclass
@@ -22,7 +22,7 @@ class YieldForecastDTO:
     recorded_at: str | None
 
 
-def get_latest_yield(db: Session, region: str = "Damodar River Basin") -> YieldForecastDTO:
+def get_latest_yield(db: Session, region: str = "Damodar River Basin") -> Optional[YieldForecastDTO]:
     snap = (
         db.query(YieldSnapshot)
         .filter(YieldSnapshot.region == region)
@@ -43,21 +43,8 @@ def get_latest_yield(db: Session, region: str = "Damodar River Basin") -> YieldF
             data_source="database",
             recorded_at=snap.recorded_at.isoformat() if snap.recorded_at else None,
         )
-    # Fallback only if DB empty
-    mock: YieldForecast = predict_yield_mock(region)
-    return YieldForecastDTO(
-        region=mock.region,
-        ndvi_index=mock.ndvi_index,
-        predicted_yield_million_quintals=mock.predicted_yield_million_quintals,
-        glut_risk_pct=mock.glut_risk_pct,
-        weeks_to_harvest=mock.weeks_to_harvest,
-        satellite_source=mock.satellite_source + " (fallback)",
-        lulc_potato_acres=mock.lulc_potato_acres,
-        alert_level=mock.alert_level,
-        insight=mock.insight,
-        data_source="fallback_mock",
-        recorded_at=None,
-    )
+    # No fallback: return None when database has no yield snapshot.
+    return None
 
 
 def to_legacy_forecast(dto: YieldForecastDTO) -> YieldForecast:

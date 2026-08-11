@@ -2,12 +2,15 @@
 
 from __future__ import annotations
 
+import logging
 import math
 import os
 import time
-import httpx
 
 from config import OSRM_BASE_URL, USE_OSRM
+from services.external_api import fetch_json
+
+logger = logging.getLogger(__name__)
 
 _CACHE: dict[str, tuple[float, str, float]] = {}
 _CACHE_TTL_SEC = 3600
@@ -32,20 +35,24 @@ def _fetch_osrm_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float 
         f"{OSRM_BASE_URL.rstrip('/')}/route/v1/driving/"
         f"{lon1},{lat1};{lon2},{lat2}"
     )
-    try:
-        with httpx.Client(timeout=8.0) as client:
-            r = client.get(url, params={"overview": "false"})
-        if r.status_code != 200:
-            return None
-        routes = r.json().get("routes") or []
-        if not routes:
-            return None
-        meters = routes[0].get("distance")
-        if meters is None:
-            return None
-        return float(meters) / 1000.0
-    except Exception:
+    status, payload, err = fetch_json(
+        "osrm",
+        "GET",
+        url,
+        params={"overview": "false"},
+        timeout=8.0,
+        max_attempts=2,
+    )
+    if status != 200 or payload is None:
+        logger.warning("OSRM failed (%s), falling back to haversine", err)
         return None
+    routes = payload.get("routes") or []
+    if not routes:
+        return None
+    meters = routes[0].get("distance")
+    if meters is None:
+        return None
+    return float(meters) / 1000.0
 
 
 def driving_distance_km(

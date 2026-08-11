@@ -17,6 +17,17 @@ REGION = "Damodar River Basin"
 DEFAULT_LULC_ACRES = 128_400
 
 
+def _resolve_weather(
+    farmer_lat: float | None = None,
+    farmer_lng: float | None = None,
+) -> dict:
+    if farmer_lat is not None and farmer_lng is not None:
+        from services.weather_engine import fetch_farmer_weather
+
+        return fetch_farmer_weather(farmer_lat, farmer_lng)
+    return fetch_corridor_weather()
+
+
 def storage_pressure(db: Session) -> dict:
     avg_util = float(db.query(func.avg(ColdStorage.utilization_pct)).scalar() or 70)
     critical = db.query(ColdStorage).filter(ColdStorage.utilization_pct >= 85).count()
@@ -118,9 +129,11 @@ def build_environment_layers(
     db: Session,
     last_csv_ndvi: float | None = None,
     fetch_satellite: bool = True,
+    farmer_lat: float | None = None,
+    farmer_lng: float | None = None,
 ) -> dict:
     pressure = storage_pressure(db)
-    weather = fetch_corridor_weather()
+    weather = _resolve_weather(farmer_lat, farmer_lng)
     moisture = fetch_era5_soil_moisture()
     soil = fetch_corridor_soil()
     mandi = corridor_mandi_stats(db)
@@ -209,9 +222,15 @@ def build_yield_payload(
     last_csv_ndvi: float | None = None,
     fetch_satellite: bool = True,
     persist_environment: bool = True,
+    farmer_lat: float | None = None,
+    farmer_lng: float | None = None,
 ) -> dict:
     payload = build_environment_layers(
-        db, last_csv_ndvi=last_csv_ndvi, fetch_satellite=fetch_satellite
+        db,
+        last_csv_ndvi=last_csv_ndvi,
+        fetch_satellite=fetch_satellite,
+        farmer_lat=farmer_lat,
+        farmer_lng=farmer_lng,
     )
     if persist_environment:
         save_environment(
@@ -229,7 +248,13 @@ def build_yield_payload(
     return payload
 
 
-def live_forecast_layers(db: Session, snapshot_ndvi: float) -> dict:
+def live_forecast_layers(
+    db: Session,
+    snapshot_ndvi: float,
+    *,
+    farmer_lat: float | None = None,
+    farmer_lng: float | None = None,
+) -> dict:
     """Fast API path: cached satellite indices + live weather/soil/mandi/storage."""
     cached = load_environment() or {}
     veg = cached.get("vegetation") or {}
@@ -240,7 +265,7 @@ def live_forecast_layers(db: Session, snapshot_ndvi: float) -> dict:
         ndvi = snapshot_ndvi
 
     pressure = storage_pressure(db)
-    weather = fetch_corridor_weather()
+    weather = _resolve_weather(farmer_lat, farmer_lng)
     moisture = fetch_era5_soil_moisture()
     soil = fetch_corridor_soil()
     mandi = corridor_mandi_stats(db)

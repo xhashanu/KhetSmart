@@ -1,0 +1,54 @@
+[
+  {
+    "id": "auc-malda-01",
+    "mandi_name": "Malda APMC",
+    "district": "Malda",
+    "crop": "Potato",
+    "quantity_quintals": 120,
+    "grade": "Jyoti · Grade A",
+    "start_price_per_quintal": 520,
+    "current_bid_per_quintal": 548,
+    "bidders": 6,
+    "ends_in_hours": 18,
+    "status": "live"
+  },
+  {
+    "id": "auc-burdwan-02",
+    "mandi_name": "Burdwan Hub Mandi",
+    "district": "Purba Bardhaman",
+    "crop": "Potato",
+    "quantity_quintals": 200,
+    "grade": "Table · mixed",
+    "start_price_per_quintal": 495,
+    "current_bid_per_quintal": 512,
+    "bidders": 4,
+    "ends_in_hours": 42,
+    "status": "live"
+  },
+  {
+    "id": "auc-kolkata-03",
+    "mandi_name": "Kolkata Wholesale Yard",
+    "district": "Kolkata",
+    "crop": "Potato",
+    "quantity_quintals": 80,
+    "grade": "Chipsona · processing",
+    "start_price_per_quintal": 480,
+    "current_bid_per_quintal": 501,
+    "bidders": 9,
+    "ends_in_hours": 8,
+    "status": "live"
+  },
+  {
+    "id": "auc-bankura-04",
+    "mandi_name": "Bankura Krishak Bazaar",
+    "district": "Bankura",
+    "crop": "Potato",
+    "quantity_quintals": 65,
+    "grade": "Jyoti",
+    "start_price_per_quintal": 470,
+    "current_bid_per_quintal": 470,
+    "bidders": 2,
+    "ends_in_hours": 72,
+    "status": "upcoming"
+  }
+]

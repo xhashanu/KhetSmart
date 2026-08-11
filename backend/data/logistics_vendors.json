@@ -1,0 +1,124 @@
+[
+  {
+    "id": "lv-hooghly-01",
+    "name": "Hooghly Agri Transport Co-op",
+    "district": "Hooghly",
+    "lat": 22.5958,
+    "lng": 88.3521,
+    "phone": "+91 98765 43210",
+    "rating": 4.7,
+    "services": ["Farm gate pickup", "Cold storage delivery", "GPS tracking"],
+    "price_per_50_qtl_base": 4800,
+    "vehicles": [
+      { "type": "Tractor-trailer (2-axle)", "capacity_quintals": 50, "available": 3, "plate": "WB-19-H-4521" },
+      { "type": "Tractor-trailer (2-axle)", "capacity_quintals": 50, "available": 1, "plate": "WB-19-H-4522" },
+      { "type": "Mini truck (Tata Ace)", "capacity_quintals": 20, "available": 2, "plate": "WB-34-A-1102" }
+    ]
+  },
+  {
+    "id": "lv-burdwan-01",
+    "name": "Bardhaman Potato Hauliers",
+    "district": "Purba Bardhaman",
+    "lat": 23.2324,
+    "lng": 87.8615,
+    "phone": "+91 98312 77890",
+    "rating": 4.5,
+    "services": ["Corridor runs", "Night dispatch", "GRN-ready paperwork"],
+    "price_per_50_qtl_base": 4500,
+    "vehicles": [
+      { "type": "Tractor-trailer (2-axle)", "capacity_quintals": 50, "available": 4, "plate": "WB-41-B-8834" },
+      { "type": "6-wheel truck", "capacity_quintals": 75, "available": 1, "plate": "WB-41-B-8835" }
+    ]
+  },
+  {
+    "id": "lv-malda-01",
+    "name": "Malda Cold-Chain Movers",
+    "district": "Malda",
+    "lat": 25.0108,
+    "lng": 88.1402,
+    "phone": "+91 90021 33445",
+    "rating": 4.4,
+    "services": ["Long-haul to cold storage", "Multi-drop", "Insulated tarp"],
+    "price_per_50_qtl_base": 5200,
+    "vehicles": [
+      { "type": "10-wheel truck", "capacity_quintals": 100, "available": 2, "plate": "WB-73-M-2201" },
+      { "type": "Tractor-trailer (2-axle)", "capacity_quintals": 50, "available": 2, "plate": "WB-73-M-2202" }
+    ]
+  },
+  {
+    "id": "lv-nadia-01",
+    "name": "Nadia Farm Gate Logistics",
+    "district": "Nadia",
+    "lat": 23.4,
+    "lng": 88.5,
+    "phone": "+91 62901 55678",
+    "rating": 4.6,
+    "services": ["Same-day pickup", "Village mandi link", "SMS ETA"],
+    "price_per_50_qtl_base": 4600,
+    "vehicles": [
+      { "type": "Tractor-trailer (2-axle)", "capacity_quintals": 50, "available": 2, "plate": "WB-52-N-3310" },
+      { "type": "Pickup (Bolero)", "capacity_quintals": 15, "available": 3, "plate": "WB-52-N-3311" }
+    ]
+  },
+  {
+    "id": "lv-bankura-01",
+    "name": "Bankura Rural Carriers Union",
+    "district": "Bankura",
+    "lat": 23.232,
+    "lng": 87.069,
+    "phone": "+91 94740 11223",
+    "rating": 4.3,
+    "services": ["Hilly routes", "Shared load", "Cashless UPI"],
+    "price_per_50_qtl_base": 5100,
+    "vehicles": [
+      { "type": "6-wheel truck", "capacity_quintals": 75, "available": 1, "plate": "WB-22-K-9012" },
+      { "type": "Tractor-trailer (2-axle)", "capacity_quintals": 50, "available": 1, "plate": "WB-22-K-9013" }
+    ]
+  },
+  {
+    "id": "lv-kolkata-01",
+    "name": "Kolkata Agri Fleet Partners",
+    "district": "Kolkata",
+    "lat": 22.5726,
+    "lng": 88.3639,
+    "phone": "+91 80170 99001",
+    "rating": 4.8,
+    "services": ["Hub-and-spoke", "Reefer-ready trailers", "24×7 dispatch"],
+    "price_per_50_qtl_base": 5500,
+    "vehicles": [
+      { "type": "10-wheel truck", "capacity_quintals": 100, "available": 3, "plate": "WB-01-K-7001" },
+      { "type": "Tractor-trailer (2-axle)", "capacity_quintals": 50, "available": 5, "plate": "WB-01-K-7002" },
+      { "type": "Mini truck (Tata Ace)", "capacity_quintals": 20, "available": 4, "plate": "WB-01-K-7003" }
+    ]
+  },
+  {
+    "id": "lv-murshidabad-01",
+    "name": "Murshidabad Corridor Transport",
+    "district": "Murshidabad",
+    "lat": 24.175,
+    "lng": 88.28,
+    "phone": "+91 97320 44556",
+    "rating": 4.2,
+    "services": ["English Bazar runs", "Mandi pickup", "Load insurance"],
+    "price_per_50_qtl_base": 4900,
+    "vehicles": [
+      { "type": "Tractor-trailer (2-axle)", "capacity_quintals": 50, "available": 2, "plate": "WB-57-M-4410" },
+      { "type": "6-wheel truck", "capacity_quintals": 75, "available": 1, "plate": "WB-57-M-4411" }
+    ]
+  },
+  {
+    "id": "lv-darjeeling-foothills",
+    "name": "Siliguri Foothills Haulage",
+    "district": "Darjeeling",
+    "lat": 26.727,
+    "lng": 88.395,
+    "phone": "+91 89007 22334",
+    "rating": 4.5,
+    "services": ["North Bengal corridor", "Border highway permit", "Cold chain handoff"],
+    "price_per_50_qtl_base": 5400,
+    "vehicles": [
+      { "type": "10-wheel truck", "capacity_quintals": 100, "available": 1, "plate": "WB-73-D-5501" },
+      { "type": "Tractor-trailer (2-axle)", "capacity_quintals": 50, "available": 2, "plate": "WB-73-D-5502" }
+    ]
+  }
+]

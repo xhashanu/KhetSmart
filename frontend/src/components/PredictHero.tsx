@@ -2,16 +2,39 @@ import { useState } from "react";
 import type { YieldForecast } from "../api";
 import { GlutGauge } from "./GlutGauge";
 
+import type { AppLanguage } from "../hooks/useAppSettings";
+import { glutLabelBnEn, tPredict } from "../i18n/farmerSimple";
+
 type Props = {
   data: YieldForecast;
   sourceLabel: string;
+  simple?: boolean;
+  language?: AppLanguage;
 };
 
-export function PredictHero({ data, sourceLabel }: Props) {
+export function PredictHero({ data, sourceLabel, simple = false, language = "bn" }: Props) {
   const [showFull, setShowFull] = useState(false);
   const insight = data.insight;
   const long = insight.length > 140;
   const short = long ? `${insight.slice(0, 137)}…` : insight;
+  const tp = tPredict(language);
+  const glutWord = glutLabelBnEn(language, data.alert_level);
+
+  if (simple) {
+    return (
+      <section className="predict-hero predict-hero--simple">
+        <div className="predict-hero__top">
+          <div className="predict-hero__copy">
+            <h2 className="predict-hero__title-simple">{tp.title}</h2>
+            <p className="predict-hero__region-simple">
+              {tp.glut}: <strong>{data.glut_risk_pct}%</strong> ({glutWord})
+            </p>
+          </div>
+          <GlutGauge value={data.glut_risk_pct} alertLevel={data.alert_level} />
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section className="predict-hero">

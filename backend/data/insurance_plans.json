@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ins-crop-hail",
+    "name_en": "Crop weather shield",
+    "name_bn": "ফসল আবহাওয়া বীমা",
+    "name_hi": "फसल मौसम बीमा",
+    "type": "crop",
+    "premium_per_50_qtl_inr": 420,
+    "coverage_inr": 50000,
+    "provider": "West Bengal Crop Insure (demo)",
+    "phone": "+91 98300 11220",
+    "highlights_bn": ["বৃষ্টি ও শিলাবৃষ্টি", "ফসল ক্ষতি"],
+    "highlights_en": ["Rain & hail", "Crop loss cover"],
+    "highlights_hi": ["बारिश और ओलावृष्टि", "फसल नुकसान"]
+  },
+  {
+    "id": "ins-storage-fire",
+    "name_en": "Cold storage protect",
+    "name_bn": "কোল্ড স্টোরেজ বীমা",
+    "name_hi": "कोल्ड स्टोरेज बीमा",
+    "type": "storage",
+    "premium_per_50_qtl_inr": 380,
+    "coverage_inr": 80000,
+    "provider": "Corridor Storage Mutual (demo)",
+    "phone": "+91 98765 44001",
+    "highlights_bn": ["আগুন ও বিদ্যুৎ", "স্টোরেজে থাকা আলু"],
+    "highlights_en": ["Fire & power cut", "Potatoes in storage"],
+    "highlights_hi": ["आग और बिजली कट", "स्टोरेज में आलू"]
+  },
+  {
+    "id": "ins-transit",
+    "name_en": "Truck transit cover",
+    "name_bn": "ট্রাক পরিবহন বীমা",
+    "name_hi": "ट्रक परिवहन बीमा",
+    "type": "transit",
+    "premium_per_50_qtl_inr": 290,
+    "coverage_inr": 40000,
+    "provider": "Highway Agri Shield (demo)",
+    "phone": "+91 80170 55990",
+    "highlights_bn": ["রাস্তায় দুর্ঘটনা", "খামার থেকে স্টোরেজ"],
+    "highlights_en": ["Road accident", "Farm to cold storage"],
+    "highlights_hi": ["सड़क दुर्घटना", "खेत से कोल्ड स्टोरेज"]
+  }
+]

@@ -41,7 +41,8 @@ FIELDS = [
 
 
 def _util(sid: str) -> int:
-    return 45 + (int(hashlib.md5(sid.encode()).hexdigest()[:4], 16) % 46)
+    h = int(hashlib.md5(sid.encode()).hexdigest()[:4], 16)
+    return 15 + (h % 30)
 
 
 def build_rows() -> list[dict]:

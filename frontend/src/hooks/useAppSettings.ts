@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 
-export type AppLanguage = "en" | "bn";
+export type AppLanguage = "en" | "bn" | "hi";
 export type AppFontSize = "sm" | "md" | "lg";
 
 const LANG_KEY = "khetsmart_lang";
@@ -14,17 +14,19 @@ const FONT_SCALES: Record<AppFontSize, string> = {
 
 function readLang(): AppLanguage {
   const v = localStorage.getItem(LANG_KEY);
-  return v === "bn" ? "bn" : "en";
+  if (v === "en" || v === "bn" || v === "hi") return v;
+  return "bn";
 }
 
 function readFont(): AppFontSize {
   const v = localStorage.getItem(FONT_KEY);
-  if (v === "sm" || v === "lg") return v;
-  return "md";
+  if (v === "sm" || v === "md") return v;
+  return "lg";
 }
 
 function applySettings(lang: AppLanguage, fontSize: AppFontSize) {
-  document.documentElement.lang = lang === "bn" ? "bn" : "en";
+  document.documentElement.lang =
+    lang === "bn" ? "bn" : lang === "hi" ? "hi" : "en";
   document.documentElement.style.setProperty(
     "--app-font-scale",
     FONT_SCALES[fontSize]

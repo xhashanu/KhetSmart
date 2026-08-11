@@ -26,7 +26,7 @@ DISTRICT_SEED = [
 
 def _utilization(storage_id: str) -> int:
     h = int(hashlib.md5(storage_id.encode()).hexdigest()[:4], 16)
-    return 45 + (h % 46)
+    return 15 + (h % 30)
 
 
 def seed_storages(db: Session) -> int:
